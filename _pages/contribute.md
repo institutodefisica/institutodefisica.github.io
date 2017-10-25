@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contribute
+categories: Posgrados
 permalink: /contribute/
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Example"
 date:   2014-09-09 22:37:00 +05:30
-categories: example
+categories: post
 author: pranavrajs
 github_repo_username: pranavrajs
 github_repo : swift

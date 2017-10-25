@@ -3,10 +3,10 @@
   <channel>
     <title>Posgrados Instituto de Física</title>
     <description>Universidad de Antioquia</description>
-    <link>http://gfif.udea.edu.co/swift/</link>
-    <atom:link href="http://gfif.udea.edu.co/swift/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Oct 2017 22:44:37 -0500</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2017 22:44:37 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Oct 2017 23:53:08 -0500</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2017 23:53:08 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -52,16 +52,16 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>http://gfif.udea.edu.co/swift/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://gfif.udea.edu.co/swift/blog/2014/09/09/example</guid>
+        <link>/post/2014/09/09/example</link>
+        <guid isPermaLink="true">/post/2014/09/09/example</guid>
         
         
-        <category>example</category>
+        <category>post</category>
         
       </item>
     
       <item>
-        <title>Example</title>
+        <title>Biofísica</title>
         <description>&lt;p&gt;This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -103,16 +103,16 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>http://gfif.udea.edu.co/swift/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://gfif.udea.edu.co/swift/blog/2014/09/09/example</guid>
+        <link>/post/2014/09/09/example</link>
+        <guid isPermaLink="true">/post/2014/09/09/example</guid>
         
         
-        <category>example</category>
+        <category>Posgrados</category>
         
       </item>
     
       <item>
-        <title>Example</title>
+        <title>Física</title>
         <description>&lt;p&gt;This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -154,16 +154,16 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>http://gfif.udea.edu.co/swift/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://gfif.udea.edu.co/swift/blog/2014/09/09/example</guid>
+        <link>/post/2014/09/09/example</link>
+        <guid isPermaLink="true">/post/2014/09/09/example</guid>
         
         
-        <category>example</category>
+        <category>Pregrados</category>
         
       </item>
     
       <item>
-        <title>Example</title>
+        <title>Profesores</title>
         <description>&lt;p&gt;This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -205,16 +205,16 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>http://gfif.udea.edu.co/swift/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://gfif.udea.edu.co/swift/blog/2014/09/09/example</guid>
+        <link>/post/2014/09/09/example</link>
+        <guid isPermaLink="true">/post/2014/09/09/example</guid>
         
         
-        <category>example</category>
+        <category>Personal</category>
         
       </item>
     
       <item>
-        <title>Example</title>
+        <title>Posgrado</title>
         <description>&lt;p&gt;This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog&lt;/p&gt;
 
 &lt;!-- more --&gt;
@@ -256,11 +256,11 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>http://gfif.udea.edu.co/swift/blog/2014/09/09/example</link>
-        <guid isPermaLink="true">http://gfif.udea.edu.co/swift/blog/2014/09/09/example</guid>
+        <link>/post/2014/09/09/example</link>
+        <guid isPermaLink="true">/post/2014/09/09/example</guid>
         
         
-        <category>example</category>
+        <category>Posgrado</category>
         
       </item>
     

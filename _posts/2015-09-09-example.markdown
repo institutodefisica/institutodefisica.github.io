@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Example"
+title:  "Profesores"
 date:   2014-09-09 22:37:00 +05:30
-categories: example
+categories: Personal
 author: pranavrajs
 github_repo_username: pranavrajs
 github_repo : swift

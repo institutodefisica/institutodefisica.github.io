@@ -2,8 +2,14 @@
 title: Posgrados Instituto de Física
 description:  Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
-baseurl: /swift
-url: "http://gfif.udea.edu.co" # the base hostname & protocol for your site
+#baseurl: 
+#url: "http://gfif.udea.edu.co" # the base hostname & protocol for your site
+
+#########################
+#### PAGE's Folder ######
+######################### 
+include: ["_pages"] # Folder included to allow Jekyll look inside
+
 #favicon
 favicon: /favicon.png
 
@@ -17,15 +23,15 @@ github_username:  pranavrajs
 linkedin_username: pranavrajs
 
 #google analytics
-google_analytics_id : UA-53386152-2
+google_analytics_id : UA
 #gplus
-gplus_username: 101893920934936418705
+gplus_username: 1
 
 #fb_username
 fb_username: pranav.tayberrycreative
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
+permalink: /post/:year/:month/:day/:title
 # Build settings
 markdown: kramdown
 

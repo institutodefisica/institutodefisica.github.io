@@ -22,8 +22,14 @@
 
     <div class="col-md-12">
       <div class="row">
-        {% include sidebar.html %}
-        {% include main_page.html %}
+        <div class="col-md-1"></div>
+          <div class="col-md-3">
+            {% include sidebar.html %}
+          </div>
+          <div class="col-md-7">
+            {{ content }}
+          </div>
+          <div class="col-md-1"></div>
       </div>
     </div>
     <div class="col-md-12 share-div">

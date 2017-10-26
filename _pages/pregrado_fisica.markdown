@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contribute
-categories: Posgrados
-permalink: /contribute/
+title: Física
+categories: [pregrado]
+permalink: /pregado/fisica
 ---
 
 

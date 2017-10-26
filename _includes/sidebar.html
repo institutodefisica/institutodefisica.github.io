@@ -27,16 +27,93 @@
                 {% assign pages_list = nil %}
                 {% assign group = nil %}
               </ul>
-            {% endfor %} -->
+            {% endfor %} -->   
+         
 
-            {% for page in site.pages %}
-              {% if page.title %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-              {% endif %}
-            {% endfor %}
+            <!-- Pregrado -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Pregrado</h3>
+              </div>
+                <!--  {% for pag in site.pages %}
+                    {% if pag.categories contains "posgrados" %}
+                      {{ pag.categories}}                    
+                    {% endif %}
+                {% endfor %}
+ -->
+              <div class="panel-body">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "pregrado" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>              
+            </div>
 
-            {% for categorie in site.page.categories %} 
-                {{ categorie }}
-            {% endfor %}
+            <!-- Posgrado -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Posgrado</h3>
+              </div>
+              <div class="panel-body">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "posgrado" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
+            <!-- Personal -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Personal</h3>
+              </div>
+              <div class="panel-body">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "personal" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
+            <!-- Cursos -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Cursos</h3>
+              </div>
+              <div class="panel-body">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "curso" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+          
+            <!-- Servicios -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Servicios</h3>
+              </div>
+              <div class="panel-body">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "servicio" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
 
             <!-- End Sidebar -->

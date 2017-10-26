@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Física
-categories: Posgrados
-tag: sidebar
-permalink: /contribute/
+title: Coordinadores
+categories: [personal]
+permalink: /personal/coordinadores
 ---
 
 

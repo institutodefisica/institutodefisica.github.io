@@ -10,6 +10,13 @@ email: posgrados@gfif.udea.edu.co
 ######################### 
 include: ["_pages"] # Folder included to allow Jekyll look inside
 
+#########################
+### Sidebar Category ####
+######################### 
+
+categories: [pregrado, posgrado, personal, curso, servicio]
+
+
 #favicon
 favicon: /favicon.png
 

@@ -3,11 +3,11 @@
   <channel>
     <title>Posgrados Instituto de Física</title>
     <description>Universidad de Antioquia</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Oct 2017 22:46:19 -0500</pubDate>
-    <lastBuildDate>Wed, 25 Oct 2017 22:46:19 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Oct 2017 17:15:53 -0500</pubDate>
+    <lastBuildDate>Fri, 27 Oct 2017 17:15:53 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Example</title>
@@ -52,8 +52,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>/post/2014/09/09/example</link>
-        <guid isPermaLink="true">/post/2014/09/09/example</guid>
+        <link>http://localhost:4000/post/2014/09/09/example</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2014/09/09/example</guid>
         
         
         <category>post</category>
@@ -103,8 +103,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>/post/2014/09/09/example</link>
-        <guid isPermaLink="true">/post/2014/09/09/example</guid>
+        <link>http://localhost:4000/post/2014/09/09/example</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2014/09/09/example</guid>
         
         
         <category>Posgrados</category>
@@ -154,8 +154,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>/post/2014/09/09/example</link>
-        <guid isPermaLink="true">/post/2014/09/09/example</guid>
+        <link>http://localhost:4000/post/2014/09/09/example</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2014/09/09/example</guid>
         
         
         <category>Pregrados</category>
@@ -205,8 +205,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>/post/2014/09/09/example</link>
-        <guid isPermaLink="true">/post/2014/09/09/example</guid>
+        <link>http://localhost:4000/post/2014/09/09/example</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2014/09/09/example</guid>
         
         
         <category>Personal</category>
@@ -256,8 +256,8 @@
 &lt;p&gt;&lt;img src=&quot;http://media.vector4free.com/normal/flat-banner-vectors.jpg&quot; alt=&quot;ThisIsADemoPhoto&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 12:07:00 -0500</pubDate>
-        <link>/post/2014/09/09/example</link>
-        <guid isPermaLink="true">/post/2014/09/09/example</guid>
+        <link>http://localhost:4000/post/2014/09/09/example</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2014/09/09/example</guid>
         
         
         <category>Posgrado</category>

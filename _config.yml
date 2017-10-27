@@ -18,16 +18,16 @@ categories: [pregrado, posgrado, personal, curso, servicio]
 
 
 #favicon
-favicon: /favicon.png
+favicon: ./favicon.png
 
 #feed
-feedburner_username: maangalabs
+#feedburner_username: maangalabs
 #twitter
-twitter_username: pranavrajs
-github_username:  pranavrajs
+twitter_username: PosgradosUdeA
+#github_username:  pranavrajs
 
 #linkedin
-linkedin_username: pranavrajs
+#linkedin_username: pranavrajs
 
 #google analytics
 google_analytics_id : UA
@@ -35,7 +35,7 @@ google_analytics_id : UA
 gplus_username: 1
 
 #fb_username
-fb_username: pranav.tayberrycreative
+fb_username: PosgradosUdeAntioquia
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
 permalink: /post/:year/:month/:day/:title
@@ -43,15 +43,13 @@ permalink: /post/:year/:month/:day/:title
 markdown: kramdown
 
 #Disqus configuration
-disqus_short_name: maangalabscom
-disqus_show_comment_count: true
+#disqus_short_name: maangalabscom
+#disqus_show_comment_count: true
 
 #Can be used for multiple author blogs ! Add name to post For more visit the sample
 authors:
-  pranavrajs:
-    display_name: Pranav Raj S
-    email: pranavrajs@gmail.com
-    fb: pranav.tayberrycreative
-    linkedin: pranavrajs
-    twitter: pranavrajs
-    github: pranavrajs
+  Posgrados Instituto de Física:
+    display_name: Facultad de Ciencias Exactas y Naturales
+    email: posgrados@gfif.udea.edu.co
+    fb: PosgradosUdeAntioquia
+    twitter: PosgradosUdeA

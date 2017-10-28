@@ -121,20 +121,22 @@
 }
 
 .footer {
-  background: #222222;
+  //background: #222222;
+  background: $navbar-color;
   margin-top: 10px;
   ul {
     margin-left: 0px;
     padding-left: 0px;
     li a:hover {
       //text-decoration: underline;
-      color: #000;
+      background-color: $category-color;
     }
   }
 }
 
 .end_footer {
-  background: #222222;
+  //background: #222222;
+  background: $navbar-color;
 }
 
 .footer {

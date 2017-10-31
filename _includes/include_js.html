@@ -30,3 +30,33 @@
         border-radius: 4px;
       }
     </style>
+/*Jumbotron images*/
+<script>
+var numberOfSlides = 4; 
+var ext = "jpg";
+var fileName = "images/header";
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function setSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  if (n > numberOfSlides) {slideIndex = 1}    
+  if (n < 1) {slideIndex = numberOfSlides}
+  var file = fileName+slideIndex+"."+ext;
+  console.log(file);
+  $('.slides').css('background',' url('+file+') no-repeat center center');
+}
+
+setInterval(() => {
+  plusSlides(1);
+},4400);
+
+</script>
+

@@ -51,3 +51,18 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.slides {
+	height: 285px !important;
+}
+
+
+.blog-theme-class {
+	margin-top: 0% !important;
+    padding-bottom: 0.1% !important;
+    padding: 0% !important; 
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: inherit !important;
+}

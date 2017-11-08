@@ -5792,3 +5792,6 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 
 .navbar-fixed-top, .navbar-fixed-bottom {
   position: inherit !important; }
+
+.logo-udea {
+  width: 90%; }

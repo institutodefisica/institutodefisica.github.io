@@ -8,8 +8,7 @@ email: posgrados@gfif.udea.edu.co
 ##################
 #### HEROKU ######
 ################## 
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'TODO.md']
 
 
 #########################

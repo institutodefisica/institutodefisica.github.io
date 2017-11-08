@@ -18,17 +18,34 @@
   <body>
     <div class="container">    
              <div class="col-md-12 navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-header">
+
+      <div class="col-md-3">
+        <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"> Inicio </a>
+          <div class="logo-udea">
+          <a href="/"><img class="logo-udea" src="/escudo-udea-small.png"/> </a>
+          </div>
+        </div>
       </div>
-      <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <div class="col-md-9">
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
-<!--          
+        </ul>       
+        <ul class="nav navbar-nav navbar-right left-syms">
+        <li><a href="" target="_blank">Admisiones</a></li>
+        <li><a href="" target="_blank">Indicadores</a></li>
+        <li><a href="" target="_blank">Conctacto</a>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!--          
             
           
             
@@ -96,17 +113,15 @@
             
             </ul>
           </li>
- -->        </ul>
-       
-        <ul class="nav navbar-nav navbar-right left-syms">
+
+          </li>
           <li><a href="https://facebook.com/PosgradosUdeAntioquia" target="_blank"><i class="fa fa-facebook-square"></i> <span>Facebook</span></a></li>
           <li><a href="//twitter.com/PosgradosUdeA" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
           <li><a href="http://localhost:4000/atom.xml" target="_blank"><i class="fa fa-rss"></i> <span>RSS Feed</span></a></li>
-        </ul>
-      </div>
-    </div>
+ -->  
 
-        <div class="col-md-12 blog-theme-class">
+
+        <div class="col-md-12">
                 <div class="slides"></div>            
         </div>    
         <div class="col-md-12">
@@ -502,41 +517,7 @@
               </div>
           </div>
         </div>
-        <div class="col-md-12 share-div">
-            <!-- <div class="col-md-1"></div> -->
-            <div class="col-md-12">
-              
-<div class="fb_share">
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=354997024639145&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-share-button" data-layout="button_count"></div>
-</div>
 
-
-
-<div class="twitter_share">
-	<a href="https://twitter.com/share" class="twitter-share-button" data-via="PosgradosUdeA" data-hashtags="sailsjs">Tweet</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-
-
-
-
-
-<div class="g_share">
-	<script src="https://apis.google.com/js/platform.js" async defer></script>
-	<div class="g-plus" data-action="share" data-annotation="bubble"></div>
-</div>
-
-            </div>
-            <!-- <div class="col-md-1"></div> -->
-        </div>
         <div class="col-md-12">
         <!-- Footer -->
             <div class="row footer">

@@ -2,6 +2,7 @@
 
 + [x] Añadir un slideshow de fotos en el jumbotron  
 + [] Cambiar el estilo y los colores a colores institucionales
+  * Se añadió logo institucional con el nombre de 'Instituto de Física'
   * Se añadió un favicon con el escudo de la Universidad
   * Se implementaron variables SASS para manipulación de colores del tema, que cambian la apariencia global
 + [~] Formatear correctamente el jumbotron para que las fotos se escalen al tamaño del jumbotron(bootstrap)  

@@ -1,15 +1,32 @@
     <div class="col-md-12 navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-header">
+
+      <div class="col-md-3">
+        <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/"> Inicio </a>
+          <div class="logo-udea">
+          <a href="{{ site.baseurl }}/"><img class="logo-udea" src="{{absolute_url}}/escudo-udea-small.png"/> </a>
+          </div>
+        </div>
       </div>
-      <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <div class="col-md-9">
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
-<!--          {% for page in site.pages %}
+        </ul>       
+        <ul class="nav navbar-nav navbar-right left-syms">
+        <li><a href="" target="_blank">Admisiones</a></li>
+        <li><a href="" target="_blank">Indicadores</a></li>
+        <li><a href="" target="_blank">Conctacto</a>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!--          {% for page in site.pages %}
             {% if page.title %}
               <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
@@ -25,12 +42,10 @@
             {% endfor %}
             </ul>
           </li>
- -->        </ul>
-       
-        <ul class="nav navbar-nav navbar-right left-syms">
+
+          </li>
           <li><a href="https://facebook.com/{{site.fb_username}}" target="_blank"><i class="fa fa-facebook-square"></i> <span>Facebook</span></a></li>
           <li><a href="//twitter.com/{{site.twitter_username}}" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li>
           <li><a href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fa fa-rss"></i> <span>RSS Feed</span></a></li>
-        </ul>
-      </div>
-    </div>
+ -->  
+

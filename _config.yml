@@ -5,6 +5,13 @@ email: posgrados@gfif.udea.edu.co
 #baseurl: 
 #url: "http://gfif.udea.edu.co" # the base hostname & protocol for your site
 
+##################
+#### HEROKU ######
+################## 
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+
 #########################
 #### PAGE's Folder ######
 ######################### 

@@ -26,19 +26,7 @@ categories: [pregrado, posgrado, personal, curso, servicio]
 #favicon
 favicon: ./favicon.png
 
-#feed
-#feedburner_username: maangalabs
-#twitter
 twitter_username: PosgradosUdeA
-#github_username:  pranavrajs
-
-#linkedin
-#linkedin_username: pranavrajs
-
-#google analytics
-google_analytics_id : UA
-#gplus
-gplus_username: 1
 
 #fb_username
 fb_username: PosgradosUdeAntioquia

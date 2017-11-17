@@ -68,5 +68,22 @@ $on-laptop:        800px;
 }
 
 .logo-udea{
-    width: 90%;
+    width: 100%;
+}
+
+.container {
+    background: #ececec;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 80% !important;
+}
+
+.panel {
+    margin-bottom: 10px !important;
+}
+
+.sidebar-text{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
 }

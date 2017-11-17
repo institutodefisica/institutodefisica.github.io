@@ -5,7 +5,7 @@
     <div class="container">    
          {% include header.html %}
         <div class="col-md-12">
-                <div class="slides"></div>            
+              <div class="slides"></div>            
         </div>    
         <div class="col-md-12">
           <div class="row">
@@ -13,7 +13,9 @@
                 {% include sidebar.html %}
               </div>
               <div class="col-md-9">
-                {{ content }}
+                <div class="well">
+                  {{ content }}               
+                </div>
               </div>
           </div>
         </div>

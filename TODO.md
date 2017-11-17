@@ -12,4 +12,4 @@
   * Colocar por ejemplo `slides=7` para que se presenten las imagenes `header#.jpg` donde # va de 1 a `slides`  
 + [] Encontrar un método dinámico de generación de targets
 + [x] Mejorar el layout del sidebar, los `ul` no deberían tener _bullets_(viñetas?)
-+ [] 
++ [] Generar documentación de cómo publicas posts y pages

@@ -3,10 +3,7 @@ layout: post
 title:  "Física"
 date:   2014-09-09 22:37:00 +05:30
 categories: Pregrados
-author: pranavrajs
-github_repo_username: pranavrajs
-github_repo : swift
-comments: true
+author: posgradosFisicaUdea
 ---
 
 This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog

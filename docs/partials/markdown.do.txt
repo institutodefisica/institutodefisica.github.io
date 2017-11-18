@@ -1,0 +1,16 @@
+========= Markdown =========
+label{sec:markdown}
+
+Markdown es una herramienta que permite convertir texto plano a HTML facilitando
+el proceso de edición de sitios web. Permite emplear una sintaxis en texto
+plano, comprensible que será procesado en el HTML correspondiente.
+
+======= Elementos básicos de sintaxis en Markdown =======
+
+===== Encabezados (Headers) =====
+===== Párrafos y saltos de línea =====
+===== Listas(viñetas) =====
+===== Imagenes =====
+===== Enlaces y URLs =====
+===== Bloques (block quotes) =====
+===== Código fuente =====

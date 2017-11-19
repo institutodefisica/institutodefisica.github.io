@@ -13,8 +13,8 @@ collections:
 title: Posgrados Instituto de Física
 description:  Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
-baseurl: https://maldicionchina.github.io/home/
-url: "https://maldicionchina.github.io/home/" # the base hostname & protocol for your site
+baseurl: "https://maldicionchina.github.io/home"
+url: "https://maldicionchina.github.io/home" # the base hostname & protocol for your site
 
 ##################
 #### HEROKU ######

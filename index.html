@@ -12,7 +12,7 @@ index: true
     {% endif %}</p>
               {% if post.content contains '<!-- more -->' %}
                 <p>{{ post.content | split:'<!-- more -->' | first }}
-                  <a href="{{ post.url }}"class="btn btn-primary btn-sm">Ver más</a>
+                  <a href="{{ post.url | prepend: site.baseurl }}"class="btn btn-primary btn-sm">Ver más</a>
                 </p>
                 <hr>
               {% else %}

@@ -181,5 +181,5 @@ se ajusta automáticamente y, si la línea es muy larga, puede salirse más all�
 de las márgenes de la página.
 
 ======= Para saber más... =======
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
++ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
++ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  

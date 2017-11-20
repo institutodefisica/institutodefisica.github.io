@@ -1,8 +1,13 @@
 #all: guia.do.txt
-all: | guia.md README.md guia.pdf
+all: | index.html guia.md README.md guia.pdf
 	$(guia.md)
 	$(README.md)
 	$(guia.pdf)
+
+index.html: guia.do.txt
+	$(guia.md)
+	doconce format html $^
+	mv guia.html index.html
 
 guia.md: guia.do.txt $(shell find partials -type f -regex ".*\.\do\.txt") 
 	doconce format pandoc $^

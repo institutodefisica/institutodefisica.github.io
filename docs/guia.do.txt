@@ -9,4 +9,4 @@ TOC: on
 # #include "partials/introduccion.do.txt"
 # #include "./partials/estructura.do.txt"
 # #include "./partials/markdown.do.txt"
-[https://jekyllrb.com](https://jekyllrb.com)
+#[https://jekyllrb.com](https://jekyllrb.com)

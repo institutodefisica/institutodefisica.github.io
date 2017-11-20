@@ -13,4 +13,4 @@ guia.pdf: guia.md
 
 README.md: guia.do.txt
 	$(guia.md)
-	cp guia.md README.md
+	cp -f guia.md README.md

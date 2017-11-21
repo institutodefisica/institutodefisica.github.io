@@ -31,10 +31,6 @@ por el generador de sitios estáticos [Jekyll](https://jekyllrb.com) para
 generar
 [la página web del Instituto de Física de la Universidad de Antioquia](https://fisica.udea.edu.co).
 
-# Estructura del sitio
-<div id="sec:jekyll"></div>
-Árbol de directorios
-
 # Markdown
 <div id="sec:markdown"></div>
 
@@ -228,7 +224,57 @@ se ajusta automáticamente y, si la línea es muy larga, puede salirse más all�
 de las márgenes de la página.
 
 ## Para saber más...
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
++ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
++ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+# Estructura del sitio
+
+## Jekyll
+<div id="sec:jekyll"></div>
+
+[Jekyll](https://jekyllrb.com) es un generador de sitios estáticos que permite
+construir un sitio web estático mediante la conversión de contenidos en texto
+plano con un formato especial llamado `Markdown`.
+Los contenidos que van a ser convertidos deben estar almacenados bajo una
+jerarquía de directorios predefinida, y cada vez que se introduce un cambio en
+la estructura de directorios mediante la adición o edición de contenidos, el
+sitio debe ser construido de nuevo.
+
+## Árbol de directorios
+
+Un árbol de directorios en Jekyll tiene la forma,  
+
+```
+atom.xml
+_config.yml
+css/
+docs/
+escudo-udea.png
+escudo-udea-small.png
+favicon.png
+files/
+Gemfile
+Gemfile.lock
+images
+_includes/
+index.html
+js/
+_layouts/
+LICENSE
+_pages/
+_posts/
+README.md
+_sass/
+_site/
+sitemap.xml
+```
+
+De interés para la actualización de contenidos son los directorios `_pages` y
+`_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
+contenidos que serán servidos en la página, a saber, imágenes y archivos.
+
+En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
+un enlace a un archivo desde el directorio `files`. La inclusión de imágenes en
+markdown se logra de manera similar.
+
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

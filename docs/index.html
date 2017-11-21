@@ -47,18 +47,20 @@ div { text-align: justify; text-justify: inter-word; }
                'table_of_contents',
                'table_of_contents'),
               ('Introducción', 0, 'sec:introduccion', 'sec:introduccion'),
-              ('Estructura del sitio', 0, 'sec:jekyll', 'sec:jekyll'),
               ('Markdown', 0, 'sec:markdown', 'sec:markdown'),
-              ('Elementos básicos de sintaxis en Markdown', 1, None, '___sec3'),
-              ('Encabezados (Headers)', 2, None, '___sec4'),
-              ('Párrafos y saltos de línea', 2, None, '___sec5'),
-              ('Énfasis', 2, None, '___sec6'),
-              ('Listas(viñetas)', 2, None, '___sec7'),
-              ('Enlaces y URLs', 2, None, '___sec8'),
-              ('Imagenes', 2, None, '___sec9'),
-              ('Bloques (block quotes)', 2, None, '___sec10'),
-              ('Código fuente', 2, None, '___sec11'),
-              ('Para saber más...', 1, None, '___sec12')]}
+              ('Elementos básicos de sintaxis en Markdown', 1, None, '___sec2'),
+              ('Encabezados (Headers)', 2, None, '___sec3'),
+              ('Párrafos y saltos de línea', 2, None, '___sec4'),
+              ('Énfasis', 2, None, '___sec5'),
+              ('Listas(viñetas)', 2, None, '___sec6'),
+              ('Enlaces y URLs', 2, None, '___sec7'),
+              ('Imagenes', 2, None, '___sec8'),
+              ('Bloques (block quotes)', 2, None, '___sec9'),
+              ('Código fuente', 2, None, '___sec10'),
+              ('Para saber más...', 1, None, '___sec11'),
+              ('Estructura del sitio', 0, None, '___sec12'),
+              ('Jekyll', 1, 'sec:jekyll', 'sec:jekyll'),
+              ('Árbol de directorios', 1, None, '___sec14')]}
 end of tocinfo -->
 
 <body>
@@ -97,18 +99,20 @@ end of tocinfo -->
 
 <p>
 <a href="#sec:introduccion"> Introducci&#243;n </a><br>
-<a href="#sec:jekyll"> Estructura del sitio </a><br>
 <a href="#sec:markdown"> Markdown </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec3"> Elementos b&#225;sicos de sintaxis en Markdown </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> Encabezados (Headers) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> P&#225;rrafos y saltos de l&#237;nea </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> &#201;nfasis </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Listas(vi&#241;etas) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Enlaces y URLs </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Imagenes </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> Bloques (block quotes) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec11"> C&#243;digo fuente </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec12"> Para saber m&#225;s... </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec2"> Elementos b&#225;sicos de sintaxis en Markdown </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec3"> Encabezados (Headers) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> P&#225;rrafos y saltos de l&#237;nea </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> &#201;nfasis </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> Listas(vi&#241;etas) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Enlaces y URLs </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Imagenes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Bloques (block quotes) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> C&#243;digo fuente </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec11"> Para saber m&#225;s... </a><br>
+<a href="#___sec12"> Estructura del sitio </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#sec:jekyll"> Jekyll </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec14"> &#193;rbol de directorios </a><br>
 </p>
 <p>
 <!-- Adding chapters from external fields -->
@@ -141,11 +145,6 @@ generar
 
 <p>
 
-<center><h1 id="sec:jekyll">Estructura del sitio</h1></center> <hr>
-&#193;rbol de directorios
-
-<p>
-
 <center><h1 id="sec:markdown">Markdown</h1></center> <hr>
 
 <p>
@@ -153,12 +152,12 @@ Markdown es una herramienta que permite convertir texto plano a HTML facilitando
 el proceso de edici&#243;n de sitios web dada la simplicidad de su sintaxis,
 permitiendo que los contenidos sean m&#225;s comprensibles y prescindiendo del HTML
 
-<h1 id="___sec3">Elementos b&#225;sicos de sintaxis en Markdown </h1>
+<h1 id="___sec2">Elementos b&#225;sicos de sintaxis en Markdown </h1>
 Markdown posee un conjunto simplificado de instrucciones para dar formato a los
 textos. A continuaci&#243;n se presentan los elementos b&#225;sicos de sintaxis Mardown
 necesarios para la creaci&#243;n y edici&#243;n de contenidos en Jekyll.
 
-<h2 id="___sec4">Encabezados (Headers) </h2>
+<h2 id="___sec3">Encabezados (Headers) </h2>
 Los encabezados se utilizan para a&#241;adir t&#237;tulos y subt&#237;tulos en el texto. Para
 a&#241;adir un t&#237;tulo principal se utiliza el s&#237;mbolo <code>#</code> seguido del t&#237;tulo
 correspondiente, por ejemplo,
@@ -183,7 +182,7 @@ adicional por cada grado en la jerarqu&#237;a de contenidos. Por ejemplo,
 ###### Encabezado 6 
 </pre></div>
 
-<h2 id="___sec5">P&#225;rrafos y saltos de l&#237;nea </h2>
+<h2 id="___sec4">P&#225;rrafos y saltos de l&#237;nea </h2>
 
 <p>
 Un p&#225;rrafo es una o m&#225;s l&#237;neas consecutivas de texto separadas por una o m&#225;s 
@@ -202,7 +201,7 @@ Para inducir un salto de l&#237;nea (<code>&lt;br/&gt;</code> en HTML) se deben 
 caracteres de espacio al finalizar la l&#237;nea, de otro modo el texto ser&#225; unido
 con el p&#225;rrafo siguiente.
 
-<h2 id="___sec6">&#201;nfasis </h2>
+<h2 id="___sec5">&#201;nfasis </h2>
 
 <p>
 Los tres tipos de &#233;nfasis soportados por Markdown son
@@ -217,7 +216,7 @@ Los tres tipos de &#233;nfasis soportados por Markdown son
 Ambos formatos se pueden combinar <code>*logrando **combinar** estilos*</code>: *logrando 
 **combinar** estilos*
 
-<h2 id="___sec7">Listas(vi&#241;etas) </h2>
+<h2 id="___sec6">Listas(vi&#241;etas) </h2>
 Para a&#241;adir listas, basta con utilizar consistentemente los caracteres <code>*</code> o 
 <code>-</code>. Tambi&#233;n se pueden a&#241;adir listas anidadas conservando una indentaci&#243;n de 
 dos caracteres respecto a la lista padre u origen. Al final de cada &#237;tem de 
@@ -267,7 +266,7 @@ Que se traduce en,
  3. numerada  
  4. respetando dos espacios al final de cada &#237;tem
 
-<h2 id="___sec8">Enlaces y URLs </h2>
+<h2 id="___sec7">Enlaces y URLs </h2>
 
 <p>
 Para introducir enlaces o hiperv&#237;nculos basta con introducir la URL
@@ -283,7 +282,7 @@ entre par&#233;ntesis precedida de un texto indicativo, por ejemplo
 Que se traduce en, [Enlace a google](http://www.google.com) y otro a
 [Universidad de Antioquia](http://www.udea.edu.co)
 
-<h2 id="___sec9">Imagenes </h2>
+<h2 id="___sec8">Imagenes </h2>
 
 <p>
 La inserci&#243;n de im&#225;genes se logra utilizando la sintaxis de URL antecedida de 
@@ -295,7 +294,7 @@ un s&#237;mbolo de admiraci&#243;n <code>!</code>, y apuntando la ruta a la ubic
 <div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>![Descripción de Imagen](ruta_a_la_imagen en disco)
 </pre></div>
 
-<h2 id="___sec10">Bloques (block quotes) </h2>
+<h2 id="___sec9">Bloques (block quotes) </h2>
 Es posible utilizar un formato especial para citas. Por ejemplo,
 
 <p>
@@ -311,7 +310,7 @@ Produce la cita,
 > Alicia, en qu&#233; se parece un cuervo a un escritorio?  
 > --El sobrerero loco en <em>Alicia en el pa&#237;s de las maravillas</em>
 
-<h2 id="___sec11">C&#243;digo fuente </h2>
+<h2 id="___sec10">C&#243;digo fuente </h2>
 Es posible escribir palabras cortas de c&#243;digo fuente si se escribe entre
 dos s&#237;mbolos de comilla inversa  \`, as&#237;
 
@@ -357,9 +356,65 @@ Hay que tener precauci&#243;n con el entorno de c&#243;digo fuente, pues el anch
 se ajusta autom&#225;ticamente y, si la l&#237;nea es muy larga, puede salirse m&#225;s all&#225; 
 de las m&#225;rgenes de la p&#225;gina.
 
-<h1 id="___sec12">Para saber m&#225;s... </h1>
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+<h1 id="___sec11">Para saber m&#225;s... </h1>
++ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
++ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+
+<center><h1 id="___sec12">Estructura del sitio </h1></center> <hr>
+
+<h1 id="sec:jekyll">Jekyll</h1>
+
+<p>
+[Jekyll](https://jekyllrb.com) es un generador de sitios est&#225;ticos que permite
+construir un sitio web est&#225;tico mediante la conversi&#243;n de contenidos en texto
+plano con un formato especial llamado <code>Markdown</code>.
+Los contenidos que van a ser convertidos deben estar almacenados bajo una
+jerarqu&#237;a de directorios predefinida, y cada vez que se introduce un cambio en
+la estructura de directorios mediante la adici&#243;n o edici&#243;n de contenidos, el
+sitio debe ser construido de nuevo.
+
+<h1 id="___sec14">&#193;rbol de directorios </h1>
+
+<p>
+Un &#225;rbol de directorios en Jekyll tiene la forma,
+
+<p>
+```
+atom.xml
+_config.yml
+css/
+docs/
+escudo-udea.png
+escudo-udea-small.png
+favicon.png
+files/
+Gemfile
+Gemfile.lock
+images
+_includes/
+index.html
+js/
+_layouts/
+LICENSE
+_pages/
+_posts/
+README.md
+_sass/
+_site/
+sitemap.xml
+```
+
+<p>
+De inter&#233;s para la actualizaci&#243;n de contenidos son los directorios <code>_pages</code> y
+<code>_posts</code>. Adicionalmente los directorios <code>images</code> y <code>files</code> sirven para disponer
+contenidos que ser&#225;n servidos en la p&#225;gina, a saber, im&#225;genes y archivos.
+
+<p>
+En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
+un enlace a un archivo desde el directorio <code>files</code>. La inclusi&#243;n de im&#225;genes en
+markdown se logra de manera similar.
+
+<p>
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 
 <!-- ------------------- end of main content --------------- -->

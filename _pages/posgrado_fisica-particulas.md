@@ -1,5 +1,5 @@
 ---
-title: Física - Partículas
+title: Maestría
 permalink: "/posgrado/fisica-particulas"
 layout: page
 categories:

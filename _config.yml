@@ -8,3 +8,55 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+# Site settings
+title: Posgrados Instituto de Física
+description:  Universidad de Antioquia
+email: posgrados@gfif.udea.edu.co
+#baseurl: "/home"
+baseurl: "/home"
+#url: "127.0.0.1:4000" # the base hostname & protocol for your site
+url: "https://maldicionchina.github.io" # the base hostname & protocol for your site
+
+##################
+#### HEROKU ######
+################## 
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'TODO.md']
+
+
+#########################
+#### PAGE's Folder ######
+######################### 
+include: ["_pages"] # Folder included to allow Jekyll look inside
+
+#########################
+### Sidebar Category ####
+######################### 
+
+categories: [pregrado, posgrado, personal, curso, servicio]
+
+
+#favicon
+favicon: ./favicon.png
+
+twitter_username: PosgradosUdeA
+
+#fb_username
+fb_username: PosgradosUdeAntioquia
+
+#permalink /blog/2014/11/11/this-is-a-sample-post
+permalink: post/:year/:month/:day/:title
+# Build settings
+markdown: kramdown
+
+#Disqus configuration
+#disqus_short_name: maangalabscom
+#disqus_show_comment_count: true
+
+#Can be used for multiple author blogs ! Add name to post For more visit the sample
+authors:
+  Posgrados Instituto de Física:
+    display_name: Facultad de Ciencias Exactas y Naturales
+    email: posgrados@gfif.udea.edu.co
+    fb: PosgradosUdeAntioquia
+    twitter: PosgradosUdeA

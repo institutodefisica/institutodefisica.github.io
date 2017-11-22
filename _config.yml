@@ -10,7 +10,7 @@ collections:
     output: true
 description: Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
-baseurl: "/home"
+baseurl: ""
 url: https://institutodefisica.github.io
 exclude:
 - config.ru

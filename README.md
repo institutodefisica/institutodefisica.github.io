@@ -19,5 +19,3 @@ Este repositorio contiene el código fuente para el sitio [http://fisica.udea.ed
 ### Guía rápida
 
 ## 
-
-![ThisIsADemoPhoto](/images/swift.png)

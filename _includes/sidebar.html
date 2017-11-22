@@ -1,0 +1,119 @@
+            <!-- SideBar -->
+            <ul class="tag-box inline">
+<!--             {% assign tags_list = site.categories %}  
+              {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %} 
+                  <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
+                {% endfor %}
+              {% else %}
+                {% for tag in tags_list %} 
+                  <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+                {% endfor %}
+              {% endif %}
+            {% assign tags_list = nil %} -->
+            </ul>
+
+<!--             {% for tag in site.categories %} 
+              <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+              <ul class="post-list">
+                {% assign pages_list = tag[1] %}  
+                {% for post in pages_list %}
+                  {% if post.title != null %}
+                  {% if group == null or group == post.group %}
+                  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+                  {% endif %}
+                  {% endif %}
+                {% endfor %}
+                {% assign pages_list = nil %}
+                {% assign group = nil %}
+              </ul>
+            {% endfor %} -->   
+         
+
+            <!-- Pregrado -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Pregrado</h3>
+              </div>
+                <!--  {% for pag in site.pages %}
+                    {% if pag.categories contains "posgrados" %}
+                      {{ pag.categories}}                    
+                    {% endif %}
+                {% endfor %}
+ -->
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "pregrado" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>              
+            </div>
+
+            <!-- Posgrado -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Posgrado</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "posgrado" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
+            <!-- Personal -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Personal</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "personal" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
+            <!-- Cursos -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Cursos</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "curso" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+          
+            <!-- Servicios -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Servicios</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "servicio" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
+            <!-- End Sidebar -->

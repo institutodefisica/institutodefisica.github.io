@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">    
+         {% include header.html %}
+        <!-- <div class="col-md-12">
+              <div class="slides"></div>            
+        </div>  -->   
+        <div class="col-md-12">
+          <div class="row">
+              <div class="col-md-3">
+                {% include sidebar.html %}
+              </div>
+              <div class="col-md-9">
+                <div class="well">
+                  {{ content }}               
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+        {% include footer.html %}
+        </div>
+        <div class="col-md-12">
+        {% include endfooter.html %}
+        </div>
+        {% include include_js.html %}
+    </div>
+  </body>
+</html>

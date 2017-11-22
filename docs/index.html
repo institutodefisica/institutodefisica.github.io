@@ -1,0 +1,426 @@
+<!--
+Automatically generated HTML file from DocOnce source
+(https://github.com/hplgit/doconce/)
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/hplgit/doconce/" />
+<meta name="description" content="Guía para añadir contenidos">
+
+<title>Guía para añadir contenidos</title>
+
+
+<style type="text/css">
+/* blueish style */
+
+/* Color definitions:  http://www.december.com/html/spec/color0.html
+   CSS examples:       http://www.w3schools.com/css/css_examples.asp */
+
+body {
+  margin-top: 1.0em;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, FreeSans, san-serif;
+  color: #000000;
+}
+h1 { font-size: 1.8em; color: #1e36ce; }
+h2 { font-size: 1.6em; color: #1e36ce; }
+h3 { font-size: 1.4em; color: #1e36ce; }
+a { color: #1e36ce; text-decoration:none; }
+tt { font-family: "Courier New", Courier; }
+/* pre style removed because it will interfer with pygments */
+p { text-indent: 0px; }
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+p.caption { width: 80%; font-style: normal; text-align: left; }
+hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+
+div { text-align: justify; text-justify: inter-word; }
+</style>
+
+
+</head>
+
+<!-- tocinfo
+{'highest level': 0,
+ 'sections': [('Table of contents',
+               0,
+               'table_of_contents',
+               'table_of_contents'),
+              ('Introducción', 0, 'sec:introduccion', 'sec:introduccion'),
+              ('Markdown', 0, 'sec:markdown', 'sec:markdown'),
+              ('Elementos básicos de sintaxis en Markdown', 1, None, '___sec2'),
+              ('Encabezados (Headers)', 2, None, '___sec3'),
+              ('Párrafos y saltos de línea', 2, None, '___sec4'),
+              ('Énfasis', 2, None, '___sec5'),
+              ('Listas(viñetas)', 2, None, '___sec6'),
+              ('Enlaces y URLs', 2, None, '___sec7'),
+              ('Imagenes', 2, None, '___sec8'),
+              ('Bloques (block quotes)', 2, None, '___sec9'),
+              ('Código fuente', 2, None, '___sec10'),
+              ('Para saber más...', 1, None, '___sec11'),
+              ('Estructura del sitio', 0, None, '___sec12'),
+              ('Jekyll', 1, 'sec:jekyll', 'sec:jekyll'),
+              ('Árbol de directorios', 1, None, '___sec14')]}
+end of tocinfo -->
+
+<body>
+
+    
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<center><h1>Gu&#237;a para a&#241;adir contenidos</h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): [Instituto de F&#237;sica](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co), [MaldicionChina](https://github.com/MaldicionChina), and [Daniel-M](https://github.com/Daniel-M) -->
+
+<center>
+<b>[Instituto de F&#237;sica](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co)</b> 
+</center>
+
+<center>
+<b>[MaldicionChina](https://github.com/MaldicionChina)</b> 
+</center>
+
+<center>
+<b>[Daniel-M](https://github.com/Daniel-M)</b> 
+</center>
+
+<p>
+<!-- institution(s) -->
+
+<br>
+<p>
+<center><h4>November, 2017</h4></center> <!-- date -->
+<br>
+
+<h1 id="table_of_contents">Table of contents</h2>
+
+<p>
+<a href="#sec:introduccion"> Introducci&#243;n </a><br>
+<a href="#sec:markdown"> Markdown </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec2"> Elementos b&#225;sicos de sintaxis en Markdown </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec3"> Encabezados (Headers) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> P&#225;rrafos y saltos de l&#237;nea </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> &#201;nfasis </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> Listas(vi&#241;etas) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Enlaces y URLs </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Imagenes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Bloques (block quotes) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> C&#243;digo fuente </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec11"> Para saber m&#225;s... </a><br>
+<a href="#___sec12"> Estructura del sitio </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#sec:jekyll"> Jekyll </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec14"> &#193;rbol de directorios </a><br>
+</p>
+<p>
+<!-- Adding chapters from external fields -->
+
+<center><h1 id="sec:introduccion">Introducci&#243;n</h1></center> <hr>
+
+<p>
+Producir p&#225;ginas web de calidad con aspecto visual agradable y <em>responsive</em>
+no es una tarea sencilla, siendo un requisito la escritura de extensas l&#237;neas
+de c&#243;digo HTML acompa&#241;adas adem&#225;s de la definici&#243;n de estilos CSS y scripts de
+JavaScript que permitan una interacci&#243;n amigable con el usuario.
+
+<p>
+Para una entidad como el Instituto de F&#237;sica de la Universidad de Antioquia
+donde la generaci&#243;n y actualizaci&#243;n r&#225;pida de contenidos es clave para la
+publicaci&#243;n r&#225;pida de convocatorias, noticias, columnas de opini&#243;n, cursos 
+de extensi&#243;n, y dem&#225;s procesos de comunicaci&#243;n del instituto, se hace necesaria
+la implementaci&#243;n de sistemas que reduzcan las dificultades asociadas a la 
+preparaci&#243;n y presentaci&#243;n de dichos contenidos en una p&#225;gina web.
+Para tal fin existen programas que permiten convertir texto simple a p&#225;ginas 
+web est&#225;ticas, mediante un conjunto reducido de instrucciones y una plantilla
+predefinida con los estilos CSS, JavaScripts, y HTML m&#237;nimo necesarios.
+
+<p>
+En el presente documento se describen elementos b&#225;sicos de sint&#225;xis en 
+<code>Markdown</code>, un lenguaje de marcado minimalista el cual puede ser procesado
+por el generador de sitios est&#225;ticos [Jekyll](https://jekyllrb.com) para
+generar
+[la p&#225;gina web del Instituto de F&#237;sica de la Universidad de Antioquia](https://fisica.udea.edu.co).
+
+<p>
+
+<center><h1 id="sec:markdown">Markdown</h1></center> <hr>
+
+<p>
+Markdown es una herramienta que permite convertir texto plano a HTML facilitando
+el proceso de edici&#243;n de sitios web dada la simplicidad de su sintaxis,
+permitiendo que los contenidos sean m&#225;s comprensibles y prescindiendo del HTML
+
+<h1 id="___sec2">Elementos b&#225;sicos de sintaxis en Markdown </h1>
+Markdown posee un conjunto simplificado de instrucciones para dar formato a los
+textos. A continuaci&#243;n se presentan los elementos b&#225;sicos de sintaxis Mardown
+necesarios para la creaci&#243;n y edici&#243;n de contenidos en Jekyll.
+
+<h2 id="___sec3">Encabezados (Headers) </h2>
+Los encabezados se utilizan para a&#241;adir t&#237;tulos y subt&#237;tulos en el texto. Para
+a&#241;adir un t&#237;tulo principal se utiliza el s&#237;mbolo <code>#</code> seguido del t&#237;tulo
+correspondiente, por ejemplo,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span># Título pricipal
+</pre></div>
+<p>
+Los subt&#237;tulos y t&#237;tulos de las secciones se obtienen a&#241;adiendo un s&#237;mbolo <code>#</code>
+adicional por cada grado en la jerarqu&#237;a de contenidos. Por ejemplo,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span># Encabezado 1 
+## Encabezado 2
+### Encabezado 3 
+#### Encabezado 4 
+##### Encabezado 5 
+###### Encabezado 6 
+</pre></div>
+
+<h2 id="___sec4">P&#225;rrafos y saltos de l&#237;nea </h2>
+
+<p>
+Un p&#225;rrafo es una o m&#225;s l&#237;neas consecutivas de texto separadas por una o m&#225;s 
+l&#237;neas en blanco. El p&#225;rrafo no debe llevar indentaci&#243;n. Por ejemplo,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Esto es un párrafo en markdown
+así contenga un salgo de línea  
+
+Por otro lado, la línea en blanco separa este párrafo del párrafo anterior.
+</pre></div>
+<p>
+Para inducir un salto de l&#237;nea (<code>&lt;br/&gt;</code> en HTML) se deben dejar expl&#237;citos dos
+caracteres de espacio al finalizar la l&#237;nea, de otro modo el texto ser&#225; unido
+con el p&#225;rrafo siguiente.
+
+<h2 id="___sec5">&#201;nfasis </h2>
+
+<p>
+Los tres tipos de &#233;nfasis soportados por Markdown son
+
+<p>
++ Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: <code>**negrita**</code>
+,o dos guiones bajos <code>__as&#237;__</code>
++ Texto en <em>italica</em>, el cual se escribe rodeado de un asterisco: <code>*italica*</code>
+,o un gui&#243;n bajo <code>_as&#237;_</code>
+
+<p>
+Ambos formatos se pueden combinar <code>*logrando **combinar** estilos*</code>: *logrando 
+**combinar** estilos*
+
+<h2 id="___sec6">Listas(vi&#241;etas) </h2>
+Para a&#241;adir listas, basta con utilizar consistentemente los caracteres <code>*</code> o 
+<code>-</code>. Tambi&#233;n se pueden a&#241;adir listas anidadas conservando una indentaci&#243;n de 
+dos caracteres respecto a la lista padre u origen. Al final de cada &#237;tem de 
+la lisa lista deben a&#241;adirse dos caracteres de espacio para indicar un salto de
+l&#237;nea. Las listas numeradas se construyen de manera similar, utilizando los 
+n&#250;meros correspondientes a cada &#237;tem tal como se ilustra a continuaci&#243;n,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span> * Este es un elemento de una lista  
+ * Este también.
+   Este contenido se añade al mismo elemento anterior
+   pues no está terminado en doble espacio.  
+
+ - Esta es una lista independiente de la anterior  
+ - También puedo tener sublistas  
+   - esta lista anidada se construye con dos espacios de indentanción  
+   - la indentación se hace con base en la lista padre   
+   - recuerda añadir dos espacios al finalizar cada elemento de lista  
+
+
+ 1. También es posible  
+ 2. tener una lista  
+ 3. numerada 
+ 4. respetando dos espacios al final de cada ítem  
+</pre></div>
+<p>
+Que se traduce en,
+
+<ul>
+ <li> Este es un elemento de una lista</li>  
+ <li> Este tambi&#233;n.
+   Este contenido se a&#241;ade al mismo elemento anterior
+   pues no est&#225; terminado en doble espacio.</li>  
+</ul>
+
+ + Esta es una lista independiente de la anterior  
+ + Tambi&#233;n puedo tener sublistas  
+   + esta lista anidada se construye con dos espacios de indentanci&#243;n  
+   + la indentaci&#243;n se hace con base en la lista padre   
+   + recuerda a&#241;adir dos espacios al finalizar cada elemento de lista
+
+<p>
+ 1. Tambi&#233;n es posible  
+ 2. tener una lista  
+ 3. numerada  
+ 4. respetando dos espacios al final de cada &#237;tem
+
+<h2 id="___sec7">Enlaces y URLs </h2>
+
+<p>
+Para introducir enlaces o hiperv&#237;nculos basta con introducir la URL
+entre par&#233;ntesis precedida de un texto indicativo, por ejemplo
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>[Enlace a google](http://www.google.com) y otro a
+[Universidad de Antioquia](http://www.udea.edu.co)
+</pre></div>
+<p>
+Que se traduce en, [Enlace a google](http://www.google.com) y otro a
+[Universidad de Antioquia](http://www.udea.edu.co)
+
+<h2 id="___sec8">Imagenes </h2>
+
+<p>
+La inserci&#243;n de im&#225;genes se logra utilizando la sintaxis de URL antecedida de 
+un s&#237;mbolo de admiraci&#243;n <code>!</code>, y apuntando la ruta a la ubicaci&#243;n de la imagen,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>![Descripción de Imagen](ruta_a_la_imagen en disco)
+</pre></div>
+
+<h2 id="___sec9">Bloques (block quotes) </h2>
+Es posible utilizar un formato especial para citas. Por ejemplo,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>&gt; Alicia, en qué se parece un cuervo a un escritorio?  
+&gt; --El sobrerero loco en *Alicia en el país de las maravillas*
+</pre></div>
+<p>
+Produce la cita,
+
+<p>
+> Alicia, en qu&#233; se parece un cuervo a un escritorio?  
+> --El sobrerero loco en <em>Alicia en el pa&#237;s de las maravillas</em>
+
+<h2 id="___sec10">C&#243;digo fuente </h2>
+Es posible escribir palabras cortas de c&#243;digo fuente si se escribe entre
+dos s&#237;mbolos de comilla inversa  \`, as&#237;
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Esta es una línea donde se ilustra `código` que será
+ejecutado en la `terminal`
+</pre></div>
+<p>
+Se traduce como: "Esta es una l&#237;nea donde se ilustra <code>c&#243;digo</code> que ser&#225;
+ejecutado en la `terminal`".
+
+<p>
+Tambi&#233;n puede escribirse bloques de c&#243;digo fuente m&#225;s largos 
+si se introducen entre tres caracteres de comilla inversa  \`, as&#237;:
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>```
+Bloque de código fuente...
+.
+.
+.
+No tiene límite de líneas
+```
+</pre></div>
+<p>
+Que es procesado en las l&#237;neas,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Bloque de código fuente...
+.
+.
+.
+No tiene límite de líneas
+</pre></div>
+<p>
+Hay que tener precauci&#243;n con el entorno de c&#243;digo fuente, pues el ancho no 
+se ajusta autom&#225;ticamente y, si la l&#237;nea es muy larga, puede salirse m&#225;s all&#225; 
+de las m&#225;rgenes de la p&#225;gina.
+
+<h1 id="___sec11">Para saber m&#225;s... </h1>
++ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
++ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+
+<center><h1 id="___sec12">Estructura del sitio </h1></center> <hr>
+
+<h1 id="sec:jekyll">Jekyll</h1>
+
+<p>
+[Jekyll](https://jekyllrb.com) es un generador de sitios est&#225;ticos que permite
+construir un sitio web est&#225;tico mediante la conversi&#243;n de contenidos en texto
+plano con un formato especial llamado <code>Markdown</code>.
+Los contenidos que van a ser convertidos deben estar almacenados bajo una
+jerarqu&#237;a de directorios predefinida, y cada vez que se introduce un cambio en
+la estructura de directorios mediante la adici&#243;n o edici&#243;n de contenidos, el
+sitio debe ser construido de nuevo.
+
+<h1 id="___sec14">&#193;rbol de directorios </h1>
+
+<p>
+Un &#225;rbol de directorios en Jekyll tiene la forma,
+
+<p>
+```
+atom.xml
+_config.yml
+css/
+docs/
+escudo-udea.png
+escudo-udea-small.png
+favicon.png
+files/
+Gemfile
+Gemfile.lock
+images
+_includes/
+index.html
+js/
+_layouts/
+LICENSE
+_pages/
+_posts/
+README.md
+_sass/
+_site/
+sitemap.xml
+```
+
+<p>
+De inter&#233;s para la actualizaci&#243;n de contenidos son los directorios <code>_pages</code> y
+<code>_posts</code>. Adicionalmente los directorios <code>images</code> y <code>files</code> sirven para disponer
+contenidos que ser&#225;n servidos en la p&#225;gina, a saber, im&#225;genes y archivos.
+
+<p>
+En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
+un enlace a un archivo desde el directorio <code>files</code>. La inclusi&#243;n de im&#225;genes en
+markdown se logra de manera similar.
+
+<p>
+<!-- [https://jekyllrb.com](https://jekyllrb.com) -->
+
+<!-- ------------------- end of main content --------------- -->
+
+
+</body>
+</html>
+    
+

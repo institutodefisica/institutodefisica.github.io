@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Computo alto desempeño
-categories: [curso]
-permalink: /curso/computo-alto-desempeno
+permalink: "/curso/computo-alto-desempeno"
+layout: page
+categories:
+- curso
 ---
 
 Page is under construction and i'll be adding more details soon.

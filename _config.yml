@@ -11,29 +11,24 @@ collections:
 description: Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
 baseurl: "/home"
-#url: "127.0.0.1:4000" # the base hostname & protocol for your site
-url: "https://institutodefisica.github.io" # the base hostname & protocol for your site
-
-##################
-#### HEROKU ######
-################## 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'TODO.md']
-
-
-#########################
-#### PAGE's Folder ######
-######################### 
-include: ["_pages"] # Folder included to allow Jekyll look inside
-
-#########################
-### Sidebar Category ####
-######################### 
-
-categories: [pregrado, posgrado, personal, curso, servicio]
-
-
-#favicon
-favicon: ./favicon.png
+url: https://institutodefisica.github.io
+exclude:
+- config.ru
+- Gemfile
+- Gemfile.lock
+- vendor
+- Procfile
+- Rakefile
+- TODO.md
+include:
+- _pages
+categories:
+- pregrado
+- posgrado
+- personal
+- curso
+- servicio
+favicon: "./favicon.png"
 twitter_username: PosgradosUdeA
 fb_username: PosgradosUdeAntioquia
 permalink: post/:year/:month/:day/:title

@@ -102,10 +102,10 @@ Que se traduce en,
    * recuerda añadir dos espacios al finalizar cada elemento de lista  
 
 
- 1. También es posible  
- 2. tener una lista  
- 3. numerada  
- 4. respetando dos espacios al final de cada ítem  
+1. También es posible   
+2. tener una lista   
+3. numerada   
+4. respetando dos espacios al final de cada ítem   
 
 
 ===== Enlaces y URLs =====

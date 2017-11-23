@@ -28,7 +28,7 @@ categories:
 - personal
 - curso
 - servicio
-favicon: "./favicon.png"
+favicon: "/images/favicon.png"
 twitter_username: PosgradosUdeA
 fb_username: PosgradosUdeAntioquia
 permalink: post/:year/:month/:day/:title

@@ -154,7 +154,10 @@ generar
 <p>
 Markdown es una herramienta que permite convertir texto plano a HTML facilitando
 el proceso de edici&#243;n de sitios web dada la simplicidad de su sintaxis,
-permitiendo que los contenidos sean m&#225;s comprensibles y prescindiendo del HTML
+permitiendo que los contenidos sean m&#225;s comprensibles y prescindiendo del HTML.
+Los archivos de markdown pueden llevar la extensi&#243;n <code>markdown</code>, <code>mdown</code> o <code>md</code>,
+sin embargo, se recomienda utilizar <code>md</code> para una mejor legibilidad y nombres
+de archivo m&#225;s cortos.
 
 <h1 id="___sec2">Elementos b&#225;sicos de sintaxis en Markdown </h1>
 Markdown posee un conjunto simplificado de instrucciones para dar formato a los
@@ -211,20 +214,12 @@ con el p&#225;rrafo siguiente.
 Los tres tipos de &#233;nfasis soportados por Markdown son
 
 <ul>
-<li> Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: <code>**negrita**</code></li>
+<li> Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: <code>**negrita**</code>,o dos guiones bajos <code>__as&#237;__</code>.</li>   
+<li> Texto en <em>italica</em>, el cual se escribe rodeado de un asterisco: <code>*italica*</code>,o un gui&#243;n bajo <code>_as&#237;_</code>.</li>   
 </ul>
 
-,o dos guiones bajos <code>__as&#237;__</code>
-
-<ul>
-<li> Texto en <em>italica</em>, el cual se escribe rodeado de un asterisco: <code>*italica*</code></li>
-</ul>
-
-,o un gui&#243;n bajo <code>_as&#237;_</code>
-
-<p>
-Ambos formatos se pueden combinar <code>*logrando **combinar** estilos*</code>: *logrando 
-**combinar** estilos*
+Ambos formatos se pueden combinar: <code>*logrando **combinar** estilos*</code>: *logrando 
+**combinar** estilos*.
 
 <h2 id="___sec6">Listas(vi&#241;etas) </h2>
 Para a&#241;adir listas, basta con utilizar consistentemente los caracteres <code>*</code> o 
@@ -273,10 +268,10 @@ Que se traduce en,
 
 </ul>
 
- 1. Tambi&#233;n es posible  
- 2. tener una lista  
- 3. numerada  
- 4. respetando dos espacios al final de cada &#237;tem
+1. Tambi&#233;n es posible   
+2. tener una lista   
+3. numerada   
+4. respetando dos espacios al final de cada &#237;tem
 
 <h2 id="___sec7">Enlaces y URLs </h2>
 
@@ -291,8 +286,8 @@ entre par&#233;ntesis precedida de un texto indicativo, por ejemplo
 [Universidad de Antioquia](http://www.udea.edu.co)
 </pre></div>
 <p>
-Que se traduce en, [Enlace a google](http://www.google.com) y otro a
-[Universidad de Antioquia](http://www.udea.edu.co)
+Que se traduce en, <a href="http://www.google.com" target="_self">Enlace a google</a> y otro a
+<a href="http://www.udea.edu.co" target="_self">Universidad de Antioquia</a>
 
 <h2 id="___sec8">Im&#225;genes </h2>
 
@@ -401,12 +396,7 @@ Un &#225;rbol de directorios en Jekyll tiene la estructura,
 _config.yml
 css/
 docs/
-escudo-udea.png
-escudo-udea-small.png
-favicon.png
 files/
-Gemfile
-Gemfile.lock
 images
 _includes/
 index.html

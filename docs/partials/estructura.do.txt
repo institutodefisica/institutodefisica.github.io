@@ -20,12 +20,7 @@ atom.xml
 _config.yml
 css/
 docs/
-escudo-udea.png
-escudo-udea-small.png
-favicon.png
 files/
-Gemfile
-Gemfile.lock
 images
 _includes/
 index.html

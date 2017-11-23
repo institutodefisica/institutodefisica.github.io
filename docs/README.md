@@ -36,7 +36,11 @@ generar
 
 Markdown es una herramienta que permite convertir texto plano a HTML facilitando
 el proceso de edición de sitios web dada la simplicidad de su sintaxis,
-permitiendo que los contenidos sean más comprensibles y prescindiendo del HTML
+permitiendo que los contenidos sean más comprensibles y prescindiendo del HTML.
+Los archivos de markdown pueden llevar la extensión `markdown`, `mdown` o `md`,
+sin embargo, se recomienda utilizar `md` para una mejor legibilidad y nombres
+de archivo más cortos.
+
 
 ## Elementos básicos de sintaxis en Markdown
 Markdown posee un conjunto simplificado de instrucciones para dar formato a los
@@ -87,15 +91,11 @@ con el párrafo siguiente.
 
 Los tres tipos de énfasis soportados por Markdown son
 
-* Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`
+* Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`,o dos guiones bajos `__así__`.   
+* Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`,o un guión bajo `_así_`.   
 
-,o dos guiones bajos `__así__`
-* Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`
-
-,o un guión bajo `_así_`
-
-Ambos formatos se pueden combinar `*logrando **combinar** estilos*`: *logrando 
-**combinar** estilos*
+Ambos formatos se pueden combinar: `*logrando **combinar** estilos*`: *logrando 
+**combinar** estilos*.
 
 ### Listas(viñetas)
 Para añadir listas, basta con utilizar consistentemente los caracteres `*` o 
@@ -138,10 +138,10 @@ Que se traduce en,
    * recuerda añadir dos espacios al finalizar cada elemento de lista  
 
 
- 1. También es posible  
- 2. tener una lista  
- 3. numerada  
- 4. respetando dos espacios al final de cada ítem  
+1. También es posible   
+2. tener una lista   
+3. numerada   
+4. respetando dos espacios al final de cada ítem   
 
 
 ### Enlaces y URLs
@@ -156,7 +156,7 @@ entre paréntesis precedida de un texto indicativo, por ejemplo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Que se traduce en, [Enlace a google](http://www.google.com) y otro a
-[Universidad de Antioquia](http://www.udea.edu.co) 
+[Universidad de Antioquia](http://www.udea.edu.co)  
 
 ### Imágenes
 
@@ -251,12 +251,7 @@ atom.xml
 _config.yml
 css/
 docs/
-escudo-udea.png
-escudo-udea-small.png
-favicon.png
 files/
-Gemfile
-Gemfile.lock
 images
 _includes/
 index.html

@@ -5,7 +5,7 @@
                   <div class="row">
                     <div class="col-md-3">
                       <h4>Publicaciones Recientes</h4>
-                        <ul>
+                      <ul class="list-footer">
                         {% for post in site.posts limit:4 %}
                           <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                         {% endfor %}

@@ -3,7 +3,11 @@ label{sec:markdown}
 
 Markdown es una herramienta que permite convertir texto plano a HTML facilitando
 el proceso de edición de sitios web dada la simplicidad de su sintaxis,
-permitiendo que los contenidos sean más comprensibles y prescindiendo del HTML
+permitiendo que los contenidos sean más comprensibles y prescindiendo del HTML.
+Los archivos de markdown pueden llevar la extensión `markdown`, `mdown` o `md`,
+sin embargo, se recomienda utilizar `md` para una mejor legibilidad y nombres
+de archivo más cortos.
+
 
 ======= Elementos básicos de sintaxis en Markdown =======
 Markdown posee un conjunto simplificado de instrucciones para dar formato a los
@@ -51,13 +55,11 @@ con el párrafo siguiente.
 
 Los tres tipos de énfasis soportados por Markdown son
 
-+ Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`
-,o dos guiones bajos `__así__`
-+ Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`
-,o un guión bajo `_así_`
+* Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`,o dos guiones bajos `__así__`.   
+* Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`,o un guión bajo `_así_`.   
 
-Ambos formatos se pueden combinar `*logrando **combinar** estilos*`: *logrando 
-**combinar** estilos*
+Ambos formatos se pueden combinar: `*logrando **combinar** estilos*`: *logrando 
+**combinar** estilos*.
 
 ===== Listas(viñetas) =====
 Para añadir listas, basta con utilizar consistentemente los caracteres `*` o 
@@ -93,11 +95,11 @@ Que se traduce en,
    Este contenido se añade al mismo elemento anterior
    pues no está terminado en doble espacio.  
 
- + Esta es una lista independiente de la anterior  
- + También puedo tener sublistas  
-   + esta lista anidada se construye con dos espacios de indentanción  
-   + la indentación se hace con base en la lista padre   
-   + recuerda añadir dos espacios al finalizar cada elemento de lista  
+ * Esta es una lista independiente de la anterior  
+ * También puedo tener sublistas  
+   * esta lista anidada se construye con dos espacios de indentanción  
+   * la indentación se hace con base en la lista padre   
+   * recuerda añadir dos espacios al finalizar cada elemento de lista  
 
 
  1. También es posible  
@@ -116,10 +118,10 @@ entre paréntesis precedida de un texto indicativo, por ejemplo
 [Universidad de Antioquia](http://www.udea.edu.co)
 !ec
 
-Que se traduce en, [Enlace a google](http://www.google.com) y otro a
-[Universidad de Antioquia](http://www.udea.edu.co) 
+Que se traduce en, "Enlace a google" : "http://www.google.com" y otro a
+"Universidad de Antioquia" : "http://www.udea.edu.co"  
 
-===== Imagenes =====
+===== Imágenes =====
 
 La inserción de imágenes se logra utilizando la sintaxis de URL antecedida de 
 un símbolo de admiración `!`, y apuntando la ruta a la ubicación de la imagen,
@@ -181,5 +183,5 @@ se ajusta automáticamente y, si la línea es muy larga, puede salirse más all�
 de las márgenes de la página.
 
 ======= Para saber más... =======
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+* "URL" : "https://daringfireball.net/projects/markdown/syntax"  
+* "URL" : "https://guides.github.com/features/mastering-markdown/"  

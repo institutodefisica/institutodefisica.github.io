@@ -1,7 +1,7 @@
 TITLE: Guía para añadir contenidos
-AUTHOR: [Instituto de Física](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co)  
-AUTHOR: [MaldicionChina](https://github.com/MaldicionChina)  
-AUTHOR: [Daniel-M](https://github.com/Daniel-M)  
+AUTHOR: "Instituto de Física" : "https://fisica.udea.edu.co" - "Universidad de Antioquia" : "https://www.udea.edu.co"  
+AUTHOR: "MaldicionChina" : "https://github.com/MaldicionChina"   
+AUTHOR: "Daniel-M" : "https://github.com/Daniel-M"  
 DATE: November, 2017
 TOC: on
 

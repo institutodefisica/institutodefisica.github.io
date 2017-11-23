@@ -87,9 +87,11 @@ con el párrafo siguiente.
 
 Los tres tipos de énfasis soportados por Markdown son
 
-+ Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`
+* Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: `**negrita**`
+
 ,o dos guiones bajos `__así__`
-+ Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`
+* Texto en *italica*, el cual se escribe rodeado de un asterisco: `*italica*`
+
 ,o un guión bajo `_así_`
 
 Ambos formatos se pueden combinar `*logrando **combinar** estilos*`: *logrando 
@@ -129,12 +131,11 @@ Que se traduce en,
  * Este también.
    Este contenido se añade al mismo elemento anterior
    pues no está terminado en doble espacio.  
-
- + Esta es una lista independiente de la anterior  
- + También puedo tener sublistas  
-   + esta lista anidada se construye con dos espacios de indentanción  
-   + la indentación se hace con base en la lista padre   
-   + recuerda añadir dos espacios al finalizar cada elemento de lista  
+ * Esta es una lista independiente de la anterior  
+ * También puedo tener sublistas  
+   * esta lista anidada se construye con dos espacios de indentanción  
+   * la indentación se hace con base en la lista padre   
+   * recuerda añadir dos espacios al finalizar cada elemento de lista  
 
 
  1. También es posible  
@@ -157,7 +158,7 @@ entre paréntesis precedida de un texto indicativo, por ejemplo
 Que se traduce en, [Enlace a google](http://www.google.com) y otro a
 [Universidad de Antioquia](http://www.udea.edu.co) 
 
-### Imagenes
+### Imágenes
 
 La inserción de imágenes se logra utilizando la sintaxis de URL antecedida de 
 un símbolo de admiración `!`, y apuntando la ruta a la ubicación de la imagen,
@@ -224,8 +225,9 @@ se ajusta automáticamente y, si la línea es muy larga, puede salirse más all�
 de las márgenes de la página.
 
 ## Para saber más...
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+* <https://daringfireball.net/projects/markdown/syntax>  
+* <https://guides.github.com/features/mastering-markdown/>  
+
 # Estructura del sitio
 
 ## Jekyll
@@ -241,9 +243,10 @@ sitio debe ser construido de nuevo.
 
 ## Árbol de directorios
 
-Un árbol de directorios en Jekyll tiene la forma,  
+Un árbol de directorios en Jekyll tiene la estructura,  
 
-```
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 atom.xml
 _config.yml
 css/
@@ -266,15 +269,63 @@ README.md
 _sass/
 _site/
 sitemap.xml
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 De interés para la actualización de contenidos son los directorios `_pages` y
 `_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
 contenidos que serán servidos en la página, a saber, imágenes y archivos.
 
+### Sirviendo imágenes
+Para colocar imágenes en las páginas, debe seguirse las instrucciones de la
+sección [Markdown](#sec:markdown) sobre markdown. Las imágenes que se deseen mostrar
+como contenido en alguna debe estar almacenada bajo el directorio `images/`
+y ser enlazada desde allí como 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![Descripción_de_la_imagen](images/nombre_de_archivo)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+También es posible tener subdirectorios dentro de `images/`, para servir 
+imágenes cómo:
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![Descripción_de_la_imagen](images/directorio1/directorio2/nombre_de_archivo)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+También es posible servir imágenes desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma `![nombre del enlace](url_a_archivo)`.
+Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
 En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
-un enlace a un archivo desde el directorio `files`. La inclusión de imágenes en
-markdown se logra de manera similar.
+un enlace a una imagen desde un enlace externo.
+
+
+### Sirviendo archivos
+
+Para servir archivos como enlaces de descarga en las páginas, debe seguirse las
+instrucciones de la sección [Markdown](#sec:markdown) sobre markdown y enlaces a URLs.
+Los archivos que se desean servir deben ir almacenados bajo el directorio
+`files/`. También es posible disponer de subdirectorios anidados siempre y
+cuando cada archivo se enlace de forma adecuada, por ejemplo,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Enlace de archivo](files/directorio1/directorio2/nombre_de_archivo)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+De esta manera se pueden servir PDF sobre convocatorias, resoluciones,
+requisitos de admisión, y en general, cualquier archivo (PDF, ofimática,
+archivos comprimidos).
+También es posible servir archivos desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma `[nombre del enlace](url_a_archivo)`.
+Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
+
+En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
+un enlace a un archivo desde el directorio `files`.
+
 
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

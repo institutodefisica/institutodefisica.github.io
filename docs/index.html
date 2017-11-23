@@ -54,13 +54,15 @@ div { text-align: justify; text-justify: inter-word; }
               ('Énfasis', 2, None, '___sec5'),
               ('Listas(viñetas)', 2, None, '___sec6'),
               ('Enlaces y URLs', 2, None, '___sec7'),
-              ('Imagenes', 2, None, '___sec8'),
+              ('Imágenes', 2, None, '___sec8'),
               ('Bloques (block quotes)', 2, None, '___sec9'),
               ('Código fuente', 2, None, '___sec10'),
               ('Para saber más...', 1, None, '___sec11'),
               ('Estructura del sitio', 0, None, '___sec12'),
               ('Jekyll', 1, 'sec:jekyll', 'sec:jekyll'),
-              ('Árbol de directorios', 1, None, '___sec14')]}
+              ('Árbol de directorios', 1, None, '___sec14'),
+              ('Sirviendo imágenes', 2, None, '___sec15'),
+              ('Sirviendo archivos', 2, None, '___sec16')]}
 end of tocinfo -->
 
 <body>
@@ -73,18 +75,18 @@ end of tocinfo -->
 <center><h1>Gu&#237;a para a&#241;adir contenidos</h1></center>  <!-- document title -->
 
 <p>
-<!-- author(s): [Instituto de F&#237;sica](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co), [MaldicionChina](https://github.com/MaldicionChina), and [Daniel-M](https://github.com/Daniel-M) -->
+<!-- author(s): <a href="https://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a>, <a href="https://github.com/MaldicionChina" target="_self">MaldicionChina</a>, and <a href="https://github.com/Daniel-M" target="_self">Daniel-M</a> -->
 
 <center>
-<b>[Instituto de F&#237;sica](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co)</b> 
+<b><a href="https://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a></b> 
 </center>
 
 <center>
-<b>[MaldicionChina](https://github.com/MaldicionChina)</b> 
+<b><a href="https://github.com/MaldicionChina" target="_self">MaldicionChina</a></b> 
 </center>
 
 <center>
-<b>[Daniel-M](https://github.com/Daniel-M)</b> 
+<b><a href="https://github.com/Daniel-M" target="_self">Daniel-M</a></b> 
 </center>
 
 <p>
@@ -106,13 +108,15 @@ end of tocinfo -->
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> &#201;nfasis </a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> Listas(vi&#241;etas) </a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Enlaces y URLs </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Imagenes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Im&#225;genes </a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Bloques (block quotes) </a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> C&#243;digo fuente </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#___sec11"> Para saber m&#225;s... </a><br>
 <a href="#___sec12"> Estructura del sitio </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#sec:jekyll"> Jekyll </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#___sec14"> &#193;rbol de directorios </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec15"> Sirviendo im&#225;genes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec16"> Sirviendo archivos </a><br>
 </p>
 <p>
 <!-- Adding chapters from external fields -->
@@ -139,9 +143,9 @@ predefinida con los estilos CSS, JavaScripts, y HTML m&#237;nimo necesarios.
 <p>
 En el presente documento se describen elementos b&#225;sicos de sint&#225;xis en 
 <code>Markdown</code>, un lenguaje de marcado minimalista el cual puede ser procesado
-por el generador de sitios est&#225;ticos [Jekyll](https://jekyllrb.com) para
+por el generador de sitios est&#225;ticos <a href="https://jekyllrb.com" target="_self">Jekyll</a> para
 generar
-[la p&#225;gina web del Instituto de F&#237;sica de la Universidad de Antioquia](https://fisica.udea.edu.co).
+<a href="https://fisica.udea.edu.co" target="_self">la p&#225;gina web del Instituto de F&#237;sica de la Universidad de Antioquia</a>.
 
 <p>
 
@@ -206,10 +210,16 @@ con el p&#225;rrafo siguiente.
 <p>
 Los tres tipos de &#233;nfasis soportados por Markdown son
 
-<p>
-+ Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: <code>**negrita**</code>
+<ul>
+<li> Texto en **negrita**, el cual se escribe rodeado de dos asteriscos: <code>**negrita**</code></li>
+</ul>
+
 ,o dos guiones bajos <code>__as&#237;__</code>
-+ Texto en <em>italica</em>, el cual se escribe rodeado de un asterisco: <code>*italica*</code>
+
+<ul>
+<li> Texto en <em>italica</em>, el cual se escribe rodeado de un asterisco: <code>*italica*</code></li>
+</ul>
+
 ,o un gui&#243;n bajo <code>_as&#237;_</code>
 
 <p>
@@ -252,15 +262,17 @@ Que se traduce en,
  <li> Este tambi&#233;n.
    Este contenido se a&#241;ade al mismo elemento anterior
    pues no est&#225; terminado en doble espacio.</li>  
+ <li> Esta es una lista independiente de la anterior</li>  
+ <li> Tambi&#233;n puedo tener sublistas</li>  
+
+<ul>
+   <li> esta lista anidada se construye con dos espacios de indentanci&#243;n</li>  
+   <li> la indentaci&#243;n se hace con base en la lista padre</li>   
+   <li> recuerda a&#241;adir dos espacios al finalizar cada elemento de lista</li>  
 </ul>
 
- + Esta es una lista independiente de la anterior  
- + Tambi&#233;n puedo tener sublistas  
-   + esta lista anidada se construye con dos espacios de indentanci&#243;n  
-   + la indentaci&#243;n se hace con base en la lista padre   
-   + recuerda a&#241;adir dos espacios al finalizar cada elemento de lista
+</ul>
 
-<p>
  1. Tambi&#233;n es posible  
  2. tener una lista  
  3. numerada  
@@ -282,7 +294,7 @@ entre par&#233;ntesis precedida de un texto indicativo, por ejemplo
 Que se traduce en, [Enlace a google](http://www.google.com) y otro a
 [Universidad de Antioquia](http://www.udea.edu.co)
 
-<h2 id="___sec8">Imagenes </h2>
+<h2 id="___sec8">Im&#225;genes </h2>
 
 <p>
 La inserci&#243;n de im&#225;genes se logra utilizando la sintaxis de URL antecedida de 
@@ -357,15 +369,19 @@ se ajusta autom&#225;ticamente y, si la l&#237;nea es muy larga, puede salirse m
 de las m&#225;rgenes de la p&#225;gina.
 
 <h1 id="___sec11">Para saber m&#225;s... </h1>
-+ [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)  
-+ [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+
+<ul>
+<li> <a href="https://daringfireball.net/projects/markdown/syntax" target="_self"><tt>https://daringfireball.net/projects/markdown/syntax</tt></a></li>  
+<li> <a href="https://guides.github.com/features/mastering-markdown/" target="_self"><tt>https://guides.github.com/features/mastering-markdown/</tt></a></li>  
+</ul>
+
 
 <center><h1 id="___sec12">Estructura del sitio </h1></center> <hr>
 
 <h1 id="sec:jekyll">Jekyll</h1>
 
 <p>
-[Jekyll](https://jekyllrb.com) es un generador de sitios est&#225;ticos que permite
+<a href="https://jekyllrb.com" target="_self">Jekyll</a> es un generador de sitios est&#225;ticos que permite
 construir un sitio web est&#225;tico mediante la conversi&#243;n de contenidos en texto
 plano con un formato especial llamado <code>Markdown</code>.
 Los contenidos que van a ser convertidos deben estar almacenados bajo una
@@ -376,11 +392,12 @@ sitio debe ser construido de nuevo.
 <h1 id="___sec14">&#193;rbol de directorios </h1>
 
 <p>
-Un &#225;rbol de directorios en Jekyll tiene la forma,
+Un &#225;rbol de directorios en Jekyll tiene la estructura,
 
 <p>
-```
-atom.xml
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>atom.xml
 _config.yml
 css/
 docs/
@@ -402,17 +419,66 @@ README.md
 _sass/
 _site/
 sitemap.xml
-```
-
+</pre></div>
 <p>
 De inter&#233;s para la actualizaci&#243;n de contenidos son los directorios <code>_pages</code> y
 <code>_posts</code>. Adicionalmente los directorios <code>images</code> y <code>files</code> sirven para disponer
 contenidos que ser&#225;n servidos en la p&#225;gina, a saber, im&#225;genes y archivos.
 
+<h2 id="___sec15">Sirviendo im&#225;genes </h2>
+Para colocar im&#225;genes en las p&#225;ginas, debe seguirse las instrucciones de la
+secci&#243;n <a href="#sec:markdown">Markdown</a> sobre markdown. Las im&#225;genes que se deseen mostrar
+como contenido en alguna debe estar almacenada bajo el directorio <code>images/</code>
+y ser enlazada desde all&#237; como
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>![Descripción_de_la_imagen](images/nombre_de_archivo)
+</pre></div>
+<p>
+Tambi&#233;n es posible tener subdirectorios dentro de <code>images/</code>, para servir 
+im&#225;genes c&#243;mo:
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>![Descripción_de_la_imagen](images/directorio1/directorio2/nombre_de_archivo)
+</pre></div>
+<p>
+Tambi&#233;n es posible servir im&#225;genes desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma <code>![nombre del enlace](url_a_archivo)</code>.
+As&#237; pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
+En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
+un enlace a una imagen desde un enlace externo.
+
+<h2 id="___sec16">Sirviendo archivos </h2>
+
+<p>
+Para servir archivos como enlaces de descarga en las p&#225;ginas, debe seguirse las
+instrucciones de la secci&#243;n <a href="#sec:markdown">Markdown</a> sobre markdown y enlaces a URLs.
+Los archivos que se desean servir deben ir almacenados bajo el directorio
+<code>files/</code>. Tambi&#233;n es posible disponer de subdirectorios anidados siempre y
+cuando cada archivo se enlace de forma adecuada, por ejemplo,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>[Enlace de archivo](files/directorio1/directorio2/nombre_de_archivo)
+</pre></div>
+<p>
+De esta manera se pueden servir PDF sobre convocatorias, resoluciones,
+requisitos de admisi&#243;n, y en general, cualquier archivo (PDF, ofim&#225;tica,
+archivos comprimidos).
+Tambi&#233;n es posible servir archivos desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma <code>[nombre del enlace](url_a_archivo)</code>.
+As&#237; pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
+
 <p>
 En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
-un enlace a un archivo desde el directorio <code>files</code>. La inclusi&#243;n de im&#225;genes en
-markdown se logra de manera similar.
+un enlace a un archivo desde el directorio <code>files</code>.
 
 <p>
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->

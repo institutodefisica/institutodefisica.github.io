@@ -18,7 +18,7 @@ predefinida con los estilos CSS, JavaScripts, y HTML mínimo necesarios.
 
 En el presente documento se describen elementos básicos de sintáxis en 
 `Markdown`, un lenguaje de marcado minimalista el cual puede ser procesado
-por el generador de sitios estáticos [Jekyll](https://jekyllrb.com) para
+por el generador de sitios estáticos "Jekyll": "https://jekyllrb.com" para
 generar
-[la página web del Instituto de Física de la Universidad de Antioquia](https://fisica.udea.edu.co).
+"la página web del Instituto de Física de la Universidad de Antioquia" : "https://fisica.udea.edu.co".
 

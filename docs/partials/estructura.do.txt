@@ -3,7 +3,7 @@
 ======= Jekyll =======
 label{sec:jekyll}
 
-[Jekyll](https://jekyllrb.com) es un generador de sitios estáticos que permite
+"Jekyll": "https://jekyllrb.com" es un generador de sitios estáticos que permite
 construir un sitio web estático mediante la conversión de contenidos en texto
 plano con un formato especial llamado `Markdown`.
 Los contenidos que van a ser convertidos deben estar almacenados bajo una
@@ -13,9 +13,9 @@ sitio debe ser construido de nuevo.
 
 ======= Árbol de directorios =======
 
-Un árbol de directorios en Jekyll tiene la forma,  
+Un árbol de directorios en Jekyll tiene la estructura,  
 
-```
+!bc
 atom.xml
 _config.yml
 css/
@@ -38,13 +38,59 @@ README.md
 _sass/
 _site/
 sitemap.xml
-```
+!ec
+
 
 De interés para la actualización de contenidos son los directorios `_pages` y
 `_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
 contenidos que serán servidos en la página, a saber, imágenes y archivos.
 
+===== Sirviendo imágenes =====
+Para colocar imágenes en las páginas, debe seguirse las instrucciones de la
+sección ref{sec:markdown} sobre markdown. Las imágenes que se deseen mostrar
+como contenido en alguna debe estar almacenada bajo el directorio `images/`
+y ser enlazada desde allí como 
+
+!bc
+![Descripción_de_la_imagen](images/nombre_de_archivo)
+!ec
+
+También es posible tener subdirectorios dentro de `images/`, para servir 
+imágenes cómo:
+
+!bc
+![Descripción_de_la_imagen](images/directorio1/directorio2/nombre_de_archivo)
+!ec
+
+También es posible servir imágenes desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma `![nombre del enlace](url_a_archivo)`.
+Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
 En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
-un enlace a un archivo desde el directorio `files`. La inclusión de imágenes en
-markdown se logra de manera similar.
+un enlace a una imagen desde un enlace externo.
+
+
+===== Sirviendo archivos =====
+
+Para servir archivos como enlaces de descarga en las páginas, debe seguirse las
+instrucciones de la sección ref{sec:markdown} sobre markdown y enlaces a URLs.
+Los archivos que se desean servir deben ir almacenados bajo el directorio
+`files/`. También es posible disponer de subdirectorios anidados siempre y
+cuando cada archivo se enlace de forma adecuada, por ejemplo,
+
+!bc
+[Enlace de archivo](files/directorio1/directorio2/nombre_de_archivo)
+!ec
+
+De esta manera se pueden servir PDF sobre convocatorias, resoluciones,
+requisitos de admisión, y en general, cualquier archivo (PDF, ofimática,
+archivos comprimidos).
+También es posible servir archivos desde enlaces externos siempre y cuando 
+se provea la URL al archivo en la forma `[nombre del enlace](url_a_archivo)`.
+Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
+como Google Drive u Dropbox.
+
+En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
+un enlace a un archivo desde el directorio `files`.
+
 

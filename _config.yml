@@ -11,7 +11,10 @@ collections:
 description: Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
 baseurl: ""
-url: https://institutodefisica.github.io
+admision: "/admision"
+indicador: "/indicador"
+contacto: "/contacto"
+url: ""
 exclude:
 - config.ru
 - Gemfile

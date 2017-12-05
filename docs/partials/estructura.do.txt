@@ -40,6 +40,62 @@ De interés para la actualización de contenidos son los directorios `_pages` y
 `_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
 contenidos que serán servidos en la página, a saber, imágenes y archivos.
 
+===== Creado Posts =====
+
+Los posts son publicaciones que contienen información como comunicados, noticias 
+u otra información de interés para la comunidad. Para la creacíón de estas piezas 
+informativas es necesario seguir los siguientes pasos:
+
+ * Crear un archivo en la carpeta _pages y nombrarlo con la siguiente convención 
+ AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada 
+ la carpeta donde se encuentran los posts.
+ * En el archivo creado poner la siguiente cabecera, la cual le indica al 
+ administrador de páginas estáticas el nombre (tittle), fecha de publicación(date), 
+ la categoria (categories),  y la plantilla que va usar la publicación (layout).
+ * Luego de poner la cabecera se puede crear el contenido de acuerdo a los estilos 
+ Markdown presentandos al inicio de este documento.
+
+ ---
+title: Posgrado
+date: 2015-09-09 17:07:00 Z
+categories:
+- Posgrado
+layout: post
+author: posgradosFisicaUdea
+---
+
+===== Creando Pages / Sidebar =====
+
+En la barra lateral se encuentran publicaciones llamadas Pages, que se caracterizan 
+por encontrase en una categoria como Pregrado, Posgrado, Personal, Cursos o Servicios,
+y tener un link de fácil acceso como '''http://fisica.udea.edu.co/pregado/fisica''', 
+para realizar una publicación de este tipo es necesario seguir los siguientes pasos.
+
+ * Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convención 
+ CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la 
+ carpeta donde se encuentran los Pages
+ * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador 
+ de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde 
+ se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
+
+---
+title: Física
+permalink: "/pregado/fisica"
+layout: page
+categories:
+- pregrado
+---
+
+ * Luego de poner la cabecera se puede crear el contenido de acuerdo a los estilos 
+ Markdown presentandos al inicio de este documento.
+
+===== Modificar barra superior =====
+
+En la barra superior derecha se encuentran links que permiten rápido acceso 
+información de interés. La modificación del contenido de esos accesos se 
+realiza en los archivos que tienen como prefijo la palabra cabecera_. 
+Estos links son estáticos, es decir no se pueden agregar o quitar.... TODO
+
 ===== Sirviendo imágenes =====
 Para colocar imágenes en las páginas, debe seguirse las instrucciones de la
 sección ref{sec:markdown} sobre markdown. Las imágenes que se deseen mostrar

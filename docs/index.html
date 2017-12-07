@@ -47,22 +47,37 @@ div { text-align: justify; text-justify: inter-word; }
                'table_of_contents',
                'table_of_contents'),
               ('Introducción', 0, 'sec:introduccion', 'sec:introduccion'),
+              ('Estructura de este documento', 1, None, '___sec1'),
               ('Markdown', 0, 'sec:markdown', 'sec:markdown'),
-              ('Elementos básicos de sintaxis en Markdown', 1, None, '___sec2'),
-              ('Encabezados (Headers)', 2, None, '___sec3'),
-              ('Párrafos y saltos de línea', 2, None, '___sec4'),
-              ('Énfasis', 2, None, '___sec5'),
-              ('Listas(viñetas)', 2, None, '___sec6'),
-              ('Enlaces y URLs', 2, None, '___sec7'),
-              ('Imágenes', 2, None, '___sec8'),
-              ('Bloques (block quotes)', 2, None, '___sec9'),
-              ('Código fuente', 2, None, '___sec10'),
-              ('Para saber más...', 1, None, '___sec11'),
-              ('Estructura del sitio', 0, None, '___sec12'),
+              ('Elementos básicos de sintaxis en Markdown', 1, None, '___sec3'),
+              ('Encabezados (Headers)', 2, None, '___sec4'),
+              ('Párrafos y saltos de línea', 2, None, '___sec5'),
+              ('Énfasis', 2, None, '___sec6'),
+              ('Listas(viñetas)', 2, None, '___sec7'),
+              ('Enlaces y URLs', 2, None, '___sec8'),
+              ('Imágenes', 2, None, '___sec9'),
+              ('Bloques (block quotes)', 2, None, '___sec10'),
+              ('Código fuente', 2, None, '___sec11'),
+              ('Para saber más...', 1, None, '___sec12'),
+              ('Estructura del sitio', 0, None, '___sec13'),
               ('Jekyll', 1, 'sec:jekyll', 'sec:jekyll'),
-              ('Árbol de directorios', 1, None, '___sec14'),
-              ('Sirviendo imágenes', 2, None, '___sec15'),
-              ('Sirviendo archivos', 2, None, '___sec16')]}
+              ('Árbol de directorios', 1, None, '___sec15'),
+              ('Creado Posts', 2, None, '___sec16'),
+              ('Creando Pages / Sidebar', 2, None, '___sec17'),
+              ('Modificar barra superior', 2, None, '___sec18'),
+              ('Sirviendo imágenes', 2, None, '___sec19'),
+              ('Sirviendo archivos', 2, None, '___sec20'),
+              ('Cabecera YAML', 0, 'sec:yaml', 'sec:yaml'),
+              ('Variables YAML', 1, None, '___sec22'),
+              ('layout', 3, None, '___sec23'),
+              ('title', 3, None, '___sec24'),
+              ('permalink', 3, None, '___sec25'),
+              ('date', 3, None, '___sec26'),
+              ('categories', 3, None, '___sec27'),
+              ('Forma de la cabecera YAML', 1, None, '___sec28'),
+              ('Ejemplo de contenidos', 0, None, '___sec29'),
+              ('Con `layout: post`', 1, None, '___sec30'),
+              ('Con `layout: page`', 1, None, '___sec31')]}
 end of tocinfo -->
 
 <body>
@@ -75,10 +90,10 @@ end of tocinfo -->
 <center><h1>Gu&#237;a para a&#241;adir contenidos</h1></center>  <!-- document title -->
 
 <p>
-<!-- author(s): <a href="https://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a>, <a href="https://github.com/MaldicionChina" target="_self">MaldicionChina</a>, and <a href="https://github.com/Daniel-M" target="_self">Daniel-M</a> -->
+<!-- author(s): <a href="http://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a>, <a href="https://github.com/MaldicionChina" target="_self">MaldicionChina</a>, and <a href="https://github.com/Daniel-M" target="_self">Daniel-M</a> -->
 
 <center>
-<b><a href="https://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a></b> 
+<b><a href="http://fisica.udea.edu.co" target="_self">Instituto de F&#237;sica</a> - <a href="https://www.udea.edu.co" target="_self">Universidad de Antioquia</a></b> 
 </center>
 
 <center>
@@ -101,22 +116,32 @@ end of tocinfo -->
 
 <p>
 <a href="#sec:introduccion"> Introducci&#243;n </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec1"> Estructura de este documento </a><br>
 <a href="#sec:markdown"> Markdown </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec2"> Elementos b&#225;sicos de sintaxis en Markdown </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec3"> Encabezados (Headers) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> P&#225;rrafos y saltos de l&#237;nea </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> &#201;nfasis </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> Listas(vi&#241;etas) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Enlaces y URLs </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Im&#225;genes </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Bloques (block quotes) </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> C&#243;digo fuente </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec11"> Para saber m&#225;s... </a><br>
-<a href="#___sec12"> Estructura del sitio </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec3"> Elementos b&#225;sicos de sintaxis en Markdown </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec4"> Encabezados (Headers) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec5"> P&#225;rrafos y saltos de l&#237;nea </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec6"> &#201;nfasis </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec7"> Listas(vi&#241;etas) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec8"> Enlaces y URLs </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec9"> Im&#225;genes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> Bloques (block quotes) </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec11"> C&#243;digo fuente </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec12"> Para saber m&#225;s... </a><br>
+<a href="#___sec13"> Estructura del sitio </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#sec:jekyll"> Jekyll </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec14"> &#193;rbol de directorios </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec15"> Sirviendo im&#225;genes </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec16"> Sirviendo archivos </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec15"> &#193;rbol de directorios </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec16"> Creado Posts </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec17"> Creando Pages / Sidebar </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec18"> Modificar barra superior </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec19"> Sirviendo im&#225;genes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec20"> Sirviendo archivos </a><br>
+<a href="#sec:yaml"> Cabecera YAML </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec22"> Variables YAML </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec28"> Forma de la cabecera YAML </a><br>
+<a href="#___sec29"> Ejemplo de contenidos </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec30"> Con <code>layout: post</code> </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec31"> Con <code>layout: page</code> </a><br>
 </p>
 <p>
 <!-- Adding chapters from external fields -->
@@ -145,7 +170,13 @@ En el presente documento se describen elementos b&#225;sicos de sint&#225;xis en
 <code>Markdown</code>, un lenguaje de marcado minimalista el cual puede ser procesado
 por el generador de sitios est&#225;ticos <a href="https://jekyllrb.com" target="_self">Jekyll</a> para
 generar
-<a href="https://fisica.udea.edu.co" target="_self">la p&#225;gina web del Instituto de F&#237;sica de la Universidad de Antioquia</a>.
+<a href="http://fisica.udea.edu.co" target="_self">la p&#225;gina web del Instituto de F&#237;sica de la Universidad de Antioquia</a>.
+Recomendamos que la gu&#237;a sea le&#237;da en su totalidad antes de a&#241;adir contenidos.
+
+<h1 id="___sec1">Estructura de este documento </h1>
+La primera secci&#243;n <a href="#sec:markdown">Markdown</a>, presenta los elementos de sintaxis
+markdown necesarios para a&#241;adir contenidos de manera eficaz.
+La secci&#243;n <a href="#sec:yaml">Cabecera YAML</a>, ilustra la cabecera que debe emplearse en los contenidos
 
 <p>
 
@@ -159,12 +190,12 @@ Los archivos de markdown pueden llevar la extensi&#243;n <code>markdown</code>, 
 sin embargo, se recomienda utilizar <code>md</code> para una mejor legibilidad y nombres
 de archivo m&#225;s cortos.
 
-<h1 id="___sec2">Elementos b&#225;sicos de sintaxis en Markdown </h1>
+<h1 id="___sec3">Elementos b&#225;sicos de sintaxis en Markdown </h1>
 Markdown posee un conjunto simplificado de instrucciones para dar formato a los
 textos. A continuaci&#243;n se presentan los elementos b&#225;sicos de sintaxis Mardown
 necesarios para la creaci&#243;n y edici&#243;n de contenidos en Jekyll.
 
-<h2 id="___sec3">Encabezados (Headers) </h2>
+<h2 id="___sec4">Encabezados (Headers) </h2>
 Los encabezados se utilizan para a&#241;adir t&#237;tulos y subt&#237;tulos en el texto. Para
 a&#241;adir un t&#237;tulo principal se utiliza el s&#237;mbolo <code>#</code> seguido del t&#237;tulo
 correspondiente, por ejemplo,
@@ -189,7 +220,7 @@ adicional por cada grado en la jerarqu&#237;a de contenidos. Por ejemplo,
 ###### Encabezado 6 
 </pre></div>
 
-<h2 id="___sec4">P&#225;rrafos y saltos de l&#237;nea </h2>
+<h2 id="___sec5">P&#225;rrafos y saltos de l&#237;nea </h2>
 
 <p>
 Un p&#225;rrafo es una o m&#225;s l&#237;neas consecutivas de texto separadas por una o m&#225;s 
@@ -208,7 +239,7 @@ Para inducir un salto de l&#237;nea (<code>&lt;br/&gt;</code> en HTML) se deben 
 caracteres de espacio al finalizar la l&#237;nea, de otro modo el texto ser&#225; unido
 con el p&#225;rrafo siguiente.
 
-<h2 id="___sec5">&#201;nfasis </h2>
+<h2 id="___sec6">&#201;nfasis </h2>
 
 <p>
 Los tres tipos de &#233;nfasis soportados por Markdown son
@@ -221,7 +252,7 @@ Los tres tipos de &#233;nfasis soportados por Markdown son
 Ambos formatos se pueden combinar: <code>*logrando **combinar** estilos*</code>: *logrando 
 **combinar** estilos*.
 
-<h2 id="___sec6">Listas(vi&#241;etas) </h2>
+<h2 id="___sec7">Listas(vi&#241;etas) </h2>
 Para a&#241;adir listas, basta con utilizar consistentemente los caracteres <code>*</code> o 
 <code>-</code>. Tambi&#233;n se pueden a&#241;adir listas anidadas conservando una indentaci&#243;n de 
 dos caracteres respecto a la lista padre u origen. Al final de cada &#237;tem de 
@@ -273,7 +304,7 @@ Que se traduce en,
 3. numerada   
 4. respetando dos espacios al final de cada &#237;tem
 
-<h2 id="___sec7">Enlaces y URLs </h2>
+<h2 id="___sec8">Enlaces y URLs </h2>
 
 <p>
 Para introducir enlaces o hiperv&#237;nculos basta con introducir la URL
@@ -289,7 +320,7 @@ entre par&#233;ntesis precedida de un texto indicativo, por ejemplo
 Que se traduce en, <a href="http://www.google.com" target="_self">Enlace a google</a> y otro a
 <a href="http://www.udea.edu.co" target="_self">Universidad de Antioquia</a>
 
-<h2 id="___sec8">Im&#225;genes </h2>
+<h2 id="___sec9">Im&#225;genes </h2>
 
 <p>
 La inserci&#243;n de im&#225;genes se logra utilizando la sintaxis de URL antecedida de 
@@ -301,7 +332,7 @@ un s&#237;mbolo de admiraci&#243;n <code>!</code>, y apuntando la ruta a la ubic
 <div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>![Descripción de Imagen](ruta_a_la_imagen en disco)
 </pre></div>
 
-<h2 id="___sec9">Bloques (block quotes) </h2>
+<h2 id="___sec10">Bloques (block quotes) </h2>
 Es posible utilizar un formato especial para citas. Por ejemplo,
 
 <p>
@@ -317,7 +348,7 @@ Produce la cita,
 > Alicia, en qu&#233; se parece un cuervo a un escritorio?  
 > --El sobrerero loco en <em>Alicia en el pa&#237;s de las maravillas</em>
 
-<h2 id="___sec10">C&#243;digo fuente </h2>
+<h2 id="___sec11">C&#243;digo fuente </h2>
 Es posible escribir palabras cortas de c&#243;digo fuente si se escribe entre
 dos s&#237;mbolos de comilla inversa  \`, as&#237;
 
@@ -363,7 +394,7 @@ Hay que tener precauci&#243;n con el entorno de c&#243;digo fuente, pues el anch
 se ajusta autom&#225;ticamente y, si la l&#237;nea es muy larga, puede salirse m&#225;s all&#225; 
 de las m&#225;rgenes de la p&#225;gina.
 
-<h1 id="___sec11">Para saber m&#225;s... </h1>
+<h1 id="___sec12">Para saber m&#225;s... </h1>
 
 <ul>
 <li> <a href="https://daringfireball.net/projects/markdown/syntax" target="_self"><tt>https://daringfireball.net/projects/markdown/syntax</tt></a></li>  
@@ -371,7 +402,7 @@ de las m&#225;rgenes de la p&#225;gina.
 </ul>
 
 
-<center><h1 id="___sec12">Estructura del sitio </h1></center> <hr>
+<center><h1 id="___sec13">Estructura del sitio </h1></center> <hr>
 
 <h1 id="sec:jekyll">Jekyll</h1>
 
@@ -384,7 +415,7 @@ jerarqu&#237;a de directorios predefinida, y cada vez que se introduce un cambio
 la estructura de directorios mediante la adici&#243;n o edici&#243;n de contenidos, el
 sitio debe ser construido de nuevo.
 
-<h1 id="___sec14">&#193;rbol de directorios </h1>
+<h1 id="___sec15">&#193;rbol de directorios </h1>
 
 <p>
 Un &#225;rbol de directorios en Jekyll tiene la estructura,
@@ -415,7 +446,83 @@ De inter&#233;s para la actualizaci&#243;n de contenidos son los directorios <co
 <code>_posts</code>. Adicionalmente los directorios <code>images</code> y <code>files</code> sirven para disponer
 contenidos que ser&#225;n servidos en la p&#225;gina, a saber, im&#225;genes y archivos.
 
-<h2 id="___sec15">Sirviendo im&#225;genes </h2>
+<h2 id="___sec16">Creado Posts </h2>
+
+<p>
+Los posts son publicaciones que contienen informaci&#243;n como comunicados, noticias,
+
+<ol>
+<li> informaci&#243;n de inter&#233;s para la comunidad. Para la creaci&#243;n de estas piezas</li> 
+</ol>
+
+informativas es necesario seguir los siguientes pasos:  
+
+<ul>
+<li> Crear un archivo en la carpeta <code>_pages</code> y nombrarlo con la siguiente convenci&#243;n A&#209;O-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, adem&#225;s de garantizar la organizaci&#243;n cronol&#243;gica de las publicaciones.</li>   
+<li> El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (<code>title</code>), fecha de publicaci&#243;n(<code>date</code>), la categoria (<code>categories</code>) a la cual pertenece la publicaci&#243;n, as&#237; como la plantilla (<code>layout</code>) que ser&#225; utilizada para construir la p&#225;gina. El autor se define en <code>author</code> y puede llevar el nombre <code>admin</code> o <code>PostgradosFisicaUdeA</code>.</li>  
+<li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>   
+</ul>
+
+Un ejemplo de cabecera YAML para una publicaci&#243;n tipo <code>post</code>, en la categor&#237;a
+<code>posgrado</code>, con fecha y hora <code>2015-09-09 17:07:00</code>, t&#237;tulo <code>Posgrado</code> editada
+por <code>PosgradosFisicaUdeA</code>.
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+title: Posgrado
+date: 2015-09-09 17:07:00
+layout: post
+author: PostgradosFisicaUdeA
+categories:
+- posgrado  
+---
+
+# Posgrado
+
+## Motivación
+El postgrado...
+</pre></div>
+
+<h2 id="___sec17">Creando Pages / Sidebar </h2>
+
+<p>
+En la barra lateral se listan las publicaciones tipo <code>pages</code>, que se
+caracterizan por encontrase en una categoria como <code>pregrado</code>, <code>posgrado</code>,
+<code>personal</code>, <code>curso</code> o <code>servicio</code>, y tener un link de f&#225;cil acceso como
+<a href="http://fisica.udea.edu.co/pregado/fisica" target="_self"><tt>http://fisica.udea.edu.co/pregado/fisica</tt></a>. Para realizar una
+publicaci&#243;n de este tipo es necesario seguir los siguientes pasos,  
+
+<ul>
+ <li> Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convenci&#243;n CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages</li>
+ <li> En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicaci&#243;n (permalink), y la plantilla que va usar la publicaci&#243;n (layout).</li>
+ <li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>  
+</ul>
+
+Por ejemplo, una p&#225;gina (<code>page</code>) tendr&#237;a una cabecera YAML de la forma,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+title: Física
+permalink: &quot;/pregado/fisica&quot;
+layout: page
+categories:
+- pregrado
+---
+</pre></div>
+
+<h2 id="___sec18">Modificar barra superior </h2>
+
+<p>
+En la barra superior derecha se encuentran links que permiten r&#225;pido acceso 
+informaci&#243;n de inter&#233;s. La modificaci&#243;n del contenido de esos accesos se 
+realiza en los archivos que tienen como prefijo la palabra cabecera_. 
+Estos links son est&#225;ticos, es decir no se pueden agregar o quitar.... TODO
+
+<h2 id="___sec19">Sirviendo im&#225;genes </h2>
 Para colocar im&#225;genes en las p&#225;ginas, debe seguirse las instrucciones de la
 secci&#243;n <a href="#sec:markdown">Markdown</a> sobre markdown. Las im&#225;genes que se deseen mostrar
 como contenido en alguna debe estar almacenada bajo el directorio <code>images/</code>
@@ -443,7 +550,7 @@ como Google Drive u Dropbox.
 En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
 un enlace a una imagen desde un enlace externo.
 
-<h2 id="___sec16">Sirviendo archivos </h2>
+<h2 id="___sec20">Sirviendo archivos </h2>
 
 <p>
 Para servir archivos como enlaces de descarga en las p&#225;ginas, debe seguirse las
@@ -470,6 +577,195 @@ como Google Drive u Dropbox.
 En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
 un enlace a un archivo desde el directorio <code>files</code>.
 
+<p>
+
+<center><h1 id="sec:yaml">Cabecera YAML</h1></center> <hr>
+
+<p>
+La secci&#243;n <a href="#sec:markdown">Markdown</a> present&#243; elementos de sintaxis b&#225;sico para a&#241;adir 
+contenidos a las p&#225;ginas, sin embargo, para que un archivo markdown sea inclu&#237;do
+por <a href="https://jekyllrb.com" target="_self">Jekyll</a> en el sitio web est&#225;tico final, &#233;ste debe
+iniciar con una cabecera especial que indique a jekyll la forma en que este 
+archivo debe ser procesado. La ausencia de esta cabecera en el archivo markdown
+har&#225; que <a href="https://jekyllrb.com" target="_self">Jekyll</a> lo ignore de forma autom&#225;tica
+
+<h1 id="___sec22">Variables YAML </h1>
+
+<h3 id="___sec23">layout </h3>
+
+<p>
+El layout determina la apariencia y relevancia que tendr&#225;n los contenidos.
+Esta plantilla soporta dos tipos de layouts,
+
+<ul>
+<li> <code>page</code> para contenidos no fechados como informaci&#243;n general sobre el instituto</li>
+</ul>
+
+sus programas acad&#233;micos, directorio de personal, servicios de extensi&#243;n, etc.
+Estos se enlazan en la barra lateral de navegaci&#243;n de la p&#225;gina.  
+
+<ul>
+<li> <code>post</code> para contenidos fechados, como noticias, comunicados, convocatorias,</li> 
+</ul>
+
+contenido de cursos, y en general contenidos que no se modificar&#225;n una vez
+publicados.
+
+<h3 id="___sec24">title </h3>
+
+<p>
+T&#237;tulo de la p&#225;gina. Esto es requerido por <a href="https://jekyllrb.com" target="_self">Jekyll</a> para un adecuado 
+renderizado del t&#237;tulo en la plantilla del sitio.
+
+<h3 id="___sec25">permalink </h3>
+
+<p>
+Se utiliza para cambiar la ruta por defecto de <code>http://fisica.udea.edu.co/post/:year/:month/:day/:title</code> 
+a <code>http://fisica.udea.edu.co/permalink_ingresado</code>. La ruta del permalink debe 
+ser de la forma <code>campo1/campo2/...</code>, por ejemplo <code>resultados/convocatoria123</code>
+enlazar&#225; el contenido a <code>http://fisica.udea.edu.co/resultados/convocatoria123</code>
+
+<h3 id="___sec26">date </h3>
+
+<p>
+Fecha de la publicaci&#243;n. El formato de la fecha es <code>AAAA-MM-DD HH:MM:SS</code>. El 
+sitio esta configurado para utilizar la zona horaria "America/Bogota" as&#237; 
+que se especifica la hora y fecha Colombianas.
+
+<h3 id="___sec27">categories </h3>
+
+<p>
+Se asigna una categor&#237;a a publicaciones de layout <code>page</code>, la cual puede ser 
+cualquiera de las siguientes categor&#237;as, o combinaciones de ellas,
+
+<ul>
+<li> <code>pregrado</code></li>
+<li> <code>posgrado</code></li>
+<li> <code>personal</code></li>
+<li> <code>curso</code></li>
+<li> <code>servicio</code></li>
+</ul>
+
+Estas categor&#237;as permiten acceder a los contenidos desde la barra de navegaci&#243;n
+a la izquierda.
+
+<h1 id="___sec28">Forma de la cabecera YAML </h1>
+
+<p>
+Una cabecera YAML para una convocatoria puede tener la forma,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+layout: post
+title: Convocatoria 123
+date: 2018-01-15 06:00:00
+categories:
+-posgrado
+---
+</pre></div>
+<p>
+Por su parte, es posible tener una p&#225;gina para un curso de alto desempe&#241;o
+mediante el YAML,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+title: Computo alto desempeño
+permalink: &quot;/curso/computo-alto-desempeno&quot;
+layout: page
+categories:
+- curso
+---
+</pre></div>
+<p>
+
+<center><h1 id="___sec29">Ejemplo de contenidos </h1></center> <hr>
+
+<h1 id="___sec30">Con <code>layout: post</code> </h1>
+Una de las p&#225;ginas de ejemplo est&#225; constru&#237;da de la siguiente manera,
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+title: Ejemplo
+date: 2017-09-09 17:07:00 
+layout: post
+author: PosgradosFisicaUdeA
+categories:
+- post
+---
+
+Esta es una publicación de ejemplo para ilustrar las características del sitio
+[Postgrados Física](https://fisica.udea.edu.co).  
+Descargue la guía [aquí](/files/guia.pdf)
+
+&lt;!-- more --&gt;
+
+**Markdown Basico**  
+
+El siguiente texto,  
+
+```
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.
+
+ * lorem
+ * ipsum
+
+1. dolor
+2. sit
+
+```
+
+Se renderiza como,  
+
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.  
+
+ * lorem  
+ * ipsum  
+
+1. dolor  
+2. sit  
+
+**Citación o _Blockquote_**
+
+Como dijo Benjamin Franklin, 
+
+&gt; &quot;They who can give up essential liberty to obtain a little temporary safety,
+&gt;  deserve neither liberty nor safety.&quot;
+&gt; 
+&gt; _Benjamin Franklin_
+</pre></div>
+<p>
+Con el permalink por defecto, esta publicaci&#243;n estar&#225; enlazada a la ruta
+<a href="http://fisica.udea.edu.co/post/2017/09/09/Ejemplo" target="_self"><tt>http://fisica.udea.edu.co/post/2017/09/09/Ejemplo</tt></a>.
+
+<h1 id="___sec31">Con <code>layout: page</code> </h1>
+
+<p>
+Con el layout page podemos enlazar un permalink a la ruta
+<a href="http://fisica.udea.edu.co/posgrado/fisica-doctorado" target="_self"><tt>http://fisica.udea.edu.co/posgrado/fisica-doctorado</tt></a>
+
+<p>
+
+<!-- code=text typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
+title: Doctorado
+permalink: &quot;/posgrado/fisica-doctorado&quot;
+layout: page
+categories:
+- posgrado
+---
+
+## Datos Generales
+
+El programa de doctorado en física...
+</pre></div>
 <p>
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

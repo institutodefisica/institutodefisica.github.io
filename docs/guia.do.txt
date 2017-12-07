@@ -1,5 +1,5 @@
 TITLE: Guía para añadir contenidos
-AUTHOR: "Instituto de Física" : "https://fisica.udea.edu.co" - "Universidad de Antioquia" : "https://www.udea.edu.co"  
+AUTHOR: "Instituto de Física" : "http://fisica.udea.edu.co" - "Universidad de Antioquia" : "https://www.udea.edu.co"  
 AUTHOR: "MaldicionChina" : "https://github.com/MaldicionChina"   
 AUTHOR: "Daniel-M" : "https://github.com/Daniel-M"  
 DATE: November, 2017
@@ -9,4 +9,6 @@ TOC: on
 # #include "./partials/introduccion.do.txt"
 # #include "./partials/markdown.do.txt"
 # #include "./partials/estructura.do.txt"
+# #include "./partials/yaml.do.txt"
+# #include "./partials/post_ejemplo.do.txt"
 #[https://jekyllrb.com](https://jekyllrb.com)

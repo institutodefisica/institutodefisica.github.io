@@ -1,0 +1,84 @@
+========= Cabecera YAML =========
+label{sec:yaml}
+
+La sección ref{sec:markdown} presentó elementos de sintaxis básico para añadir 
+contenidos a las páginas, sin embargo, para que un archivo markdown sea incluído
+por "Jekyll" : "https://jekyllrb.com" en el sitio web estático final, éste debe
+iniciar con una cabecera especial que indique a jekyll la forma en que este 
+archivo debe ser procesado. La ausencia de esta cabecera en el archivo markdown
+hará que "Jekyll" : "https://jekyllrb.com" lo ignore de forma automática
+
+======= Variables YAML =======
+
+=== layout ===
+
+El layout determina la apariencia y relevancia que tendrán los contenidos.
+Esta plantilla soporta dos tipos de layouts,
+
+* `page` para contenidos no fechados como información general sobre el instituto
+sus programas académicos, directorio de personal, servicios de extensión, etc.
+Estos se enlazan en la barra lateral de navegación de la página.  
+* `post` para contenidos fechados, como noticias, comunicados, convocatorias, 
+contenido de cursos, y en general contenidos que no se modificarán una vez
+publicados. 
+
+=== title ===
+
+Título de la página. Esto es requerido por "Jekyll" : "https://jekyllrb.com" para un adecuado 
+renderizado del título en la plantilla del sitio.
+
+=== permalink ===
+
+Se utiliza para cambiar la ruta por defecto de `http://fisica.udea.edu.co/post/:year/:month/:day/:title` 
+a `http://fisica.udea.edu.co/permalink_ingresado`. La ruta del permalink debe 
+ser de la forma `campo1/campo2/...`, por ejemplo `resultados/convocatoria123`
+enlazará el contenido a `http://fisica.udea.edu.co/resultados/convocatoria123`
+
+=== date ===
+
+Fecha de la publicación. El formato de la fecha es `AAAA-MM-DD HH:MM:SS`. El 
+sitio esta configurado para utilizar la zona horaria "America/Bogota" así 
+que se especifica la hora y fecha Colombianas.
+
+=== categories ===
+
+Se asigna una categoría a publicaciones de layout `page`, la cual puede ser 
+cualquiera de las siguientes categorías, o combinaciones de ellas,
+
+* `pregrado`
+* `posgrado`
+* `personal`
+* `curso`
+* `servicio`
+
+Estas categorías permiten acceder a los contenidos desde la barra de navegación
+a la izquierda.  
+
+
+======= Forma de la cabecera YAML =======
+
+Una cabecera YAML para una convocatoria puede tener la forma,
+
+!bc
+---
+layout: post
+title: Convocatoria 123
+date: 2018-01-15 06:00:00
+categories:
+-posgrado
+---
+!ec
+
+Por su parte, es posible tener una página para un curso de alto desempeño
+mediante el YAML,
+
+!bc
+---
+title: Computo alto desempeño
+permalink: "/curso/computo-alto-desempeno"
+layout: page
+categories:
+- curso
+---
+!ec
+

@@ -1,0 +1,118 @@
+========= Ejemplo de contenidos =========
+label{sec:ejemplos}
+
+======= Creando Posts con `layout: post` =======
+
+Los posts son publicaciones que contienen información como comunicados, noticias,
+o información de interés para la comunidad. Para la creación de estas piezas 
+informativas es necesario seguir los siguientes pasos:  
+
+* Crear un archivo en la carpeta `_pages` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
+
+* El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de páginas estáticas el nombre (`title`), fecha de publicación(`date`), la categoria (`categories`) a la cual pertenece la publicación, así como la plantilla (`layout`) que será utilizada para construir la página. El autor se define en `author` y puede llevar el nombre `admin` o `PostgradosFisicaUdeA`.  
+ 
+* Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección ref{sec:markdown}.   
+
+===== Ejemplo `layout: post` =====
+Una de las páginas de ejemplo está construída de la siguiente manera,
+
+!bc
+---
+title: Ejemplo
+date: 2017-09-09 17:07:00 
+layout: post
+author: PosgradosFisicaUdeA
+categories:
+- post
+---
+
+Esta es una publicación de ejemplo para ilustrar las características del sitio
+[Postgrados Física](https://fisica.udea.edu.co).  
+Descargue la guía [aquí](/files/guia.pdf)
+
+<!-- more -->
+
+**Markdown Basico**  
+
+El siguiente texto,  
+
+```
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.
+
+ * lorem
+ * ipsum
+
+1. dolor
+2. sit
+
+```
+
+Se renderiza como,  
+
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.  
+
+ * lorem  
+ * ipsum  
+
+1. dolor  
+2. sit  
+
+**Citación o _Blockquote_**
+
+Como dijo Benjamin Franklin, 
+
+> "They who can give up essential liberty to obtain a little temporary safety,
+>  deserve neither liberty nor safety."
+> 
+> _Benjamin Franklin_
+
+!ec
+
+Con el permalink por defecto, esta publicación estará enlazada a la ruta
+"URL":"http://fisica.udea.edu.co/post/2017/09/09/Ejemplo".
+
+
+======= Creando Pages reflejadas en el sidebar con `layout: page` =======
+
+En la barra lateral se listan las publicaciones tipo `pages`, que se
+caracterizan por encontrase en una categoria como `pregrado`, `posgrado`,
+`personal`, `curso` o `servicio`, y tener un link de fácil acceso como
+"URL" : "http://fisica.udea.edu.co/pregado/fisica". Para realizar una
+publicación de este tipo es necesario seguir los siguientes pasos,  
+
+ * Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
+ * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
+ * Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección ref{sec:markdown}.  
+
+===== Ejemplo con `layout: page` =====
+
+Con el layout page podemos enlazar un permalink a la ruta
+"URL":"http://fisica.udea.edu.co/posgrado/fisica-doctorado"
+
+!bc
+---
+title: Doctorado
+permalink: "/posgrado/fisica-doctorado"
+layout: page
+categories:
+- posgrado
+---
+
+## Datos Generales
+
+El programa de doctorado en física...
+!ec
+
+
+======= Modificar barra superior =======
+
+En la barra superior derecha se encuentran links que permiten rápido acceso 
+información de interés. La modificación del contenido de esos enlaces se 
+realiza en los archivos bajo el directorio `_pages` que tienen como prefijo 
+la palabra `cabecera_`. Estos links son estáticos, es decir no se pueden agregar o remover.
+Las demás reglas de edición de contenidos con markdown aplican para ellos.
+
+
+

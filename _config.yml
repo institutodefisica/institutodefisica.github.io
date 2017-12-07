@@ -1,6 +1,6 @@
 ---
 title: Posgrados Instituto de Física
-timezone: UTC
+timezone: America/Bogota
 collections:
   posts:
     title: Posts
@@ -10,11 +10,11 @@ collections:
     output: true
 description: Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
-baseurl: ""
+baseurl: "http://fisica.udea.edu.co"
 admision: "/admision"
 indicador: "/indicador"
 contacto: "/contacto"
-url: ""
+url: "http://fisica.udea.edu.co"
 exclude:
 - config.ru
 - Gemfile
@@ -40,5 +40,5 @@ authors:
   Posgrados Instituto de Física:
     display_name: Facultad de Ciencias Exactas y Naturales
     email: posgrados@gfif.udea.edu.co
-    fb: PosgradosUdeAntioquia
+    fb: PosgradosFisicaUdeA
     twitter: PosgradosUdeA

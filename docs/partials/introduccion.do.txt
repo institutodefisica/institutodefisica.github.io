@@ -20,5 +20,17 @@ En el presente documento se describen elementos básicos de sintáxis en
 `Markdown`, un lenguaje de marcado minimalista el cual puede ser procesado
 por el generador de sitios estáticos "Jekyll": "https://jekyllrb.com" para
 generar
-"la página web del Instituto de Física de la Universidad de Antioquia" : "https://fisica.udea.edu.co".
+"la página web del Instituto de Física de la Universidad de Antioquia" : "http://fisica.udea.edu.co".
+Recomendamos que la guía sea leída en su totalidad antes de añadir contenidos.
+
+======= Estructura de este documento =======
+La primera sección ref{sec:markdown}, presenta los elementos de sintaxis
+markdown necesarios para añadir contenidos de manera eficaz.
+La sección ref{sec:estructura}, introduce "Jekyll": "https://jekyllrb.com"
+y la estructura básica del árbol de directorios de un sitio estático, haciendo
+énfasis en los directorios de interés. La sección ref{sec:yaml}, ilustra 
+el uso de la cabecera YAML, la cual que debe emplearse en todos los contenidos
+que se pretenden incluir en el sitio. Finalmente, la sección ref{sec:ejemplos},
+ ofrece algunos ejemplos de cómo se introduce contenido en el sitio
+"URL":"http://fisica.udea.edu.co"
 

@@ -1,5 +1,5 @@
 % Guía para añadir contenidos
-% **[Instituto de Física](https://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co)**;  **[MaldicionChina](https://github.com/MaldicionChina)**;  **[Daniel-M](https://github.com/Daniel-M)**
+% **[Instituto de Física](http://fisica.udea.edu.co) - [Universidad de Antioquia](https://www.udea.edu.co)**;  **[MaldicionChina](https://github.com/MaldicionChina)**;  **[Daniel-M](https://github.com/Daniel-M)**
 % November, 2017
 
 <!-- Table of contents: Run pandoc with --toc option -->
@@ -29,7 +29,13 @@ En el presente documento se describen elementos básicos de sintáxis en
 `Markdown`, un lenguaje de marcado minimalista el cual puede ser procesado
 por el generador de sitios estáticos [Jekyll](https://jekyllrb.com) para
 generar
-[la página web del Instituto de Física de la Universidad de Antioquia](https://fisica.udea.edu.co).
+[la página web del Instituto de Física de la Universidad de Antioquia](http://fisica.udea.edu.co).
+Recomendamos que la guía sea leída en su totalidad antes de añadir contenidos.
+
+## Estructura de este documento
+La primera sección [Markdown](#sec:markdown), presenta los elementos de sintaxis
+markdown necesarios para añadir contenidos de manera eficaz.
+La sección [Cabecera YAML](#sec:yaml), ilustra la cabecera que debe emplearse en los contenidos
 
 # Markdown
 <div id="sec:markdown"></div>
@@ -239,7 +245,7 @@ plano con un formato especial llamado `Markdown`.
 Los contenidos que van a ser convertidos deben estar almacenados bajo una
 jerarquía de directorios predefinida, y cada vez que se introduce un cambio en
 la estructura de directorios mediante la adición o edición de contenidos, el
-sitio debe ser construido de nuevo.
+sitio debe ser construido de nuevo.  
 
 ## Árbol de directorios
 
@@ -268,7 +274,71 @@ sitemap.xml
 
 De interés para la actualización de contenidos son los directorios `_pages` y
 `_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
-contenidos que serán servidos en la página, a saber, imágenes y archivos.
+contenidos que serán servidos en la página, a saber, imágenes y archivos.  
+
+### Creado Posts
+
+Los posts son publicaciones que contienen información como comunicados, noticias,
+1. información de interés para la comunidad. Para la creación de estas piezas 
+
+informativas es necesario seguir los siguientes pasos:  
+
+* Crear un archivo en la carpeta `_pages` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
+* El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de páginas estáticas el nombre (`title`), fecha de publicación(`date`), la categoria (`categories`) a la cual pertenece la publicación, así como la plantilla (`layout`) que será utilizada para construir la página. El autor se define en `author` y puede llevar el nombre `admin` o `PostgradosFisicaUdeA`.  
+* Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).   
+
+Un ejemplo de cabecera YAML para una publicación tipo `post`, en la categoría
+`posgrado`, con fecha y hora `2015-09-09 17:07:00`, título `Posgrado` editada
+por `PosgradosFisicaUdeA`.  
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+title: Posgrado
+date: 2015-09-09 17:07:00
+layout: post
+author: PostgradosFisicaUdeA
+categories:
+- posgrado  
+---
+
+# Posgrado
+
+## Motivación
+El postgrado...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### Creando Pages / Sidebar
+
+En la barra lateral se listan las publicaciones tipo `pages`, que se
+caracterizan por encontrase en una categoria como `pregrado`, `posgrado`,
+`personal`, `curso` o `servicio`, y tener un link de fácil acceso como
+<http://fisica.udea.edu.co/pregado/fisica>. Para realizar una
+publicación de este tipo es necesario seguir los siguientes pasos,  
+
+ * Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
+ * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
+ * Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).  
+
+Por ejemplo, una página (`page`) tendría una cabecera YAML de la forma,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+title: Física
+permalink: "/pregado/fisica"
+layout: page
+categories:
+- pregrado
+---
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### Modificar barra superior
+
+En la barra superior derecha se encuentran links que permiten rápido acceso 
+información de interés. La modificación del contenido de esos accesos se 
+realiza en los archivos que tienen como prefijo la palabra cabecera_. 
+Estos links son estáticos, es decir no se pueden agregar o quitar.... TODO
 
 ### Sirviendo imágenes
 Para colocar imágenes en las páginas, debe seguirse las instrucciones de la
@@ -294,7 +364,7 @@ se provea la URL al archivo en la forma `![nombre del enlace](url_a_archivo)`.
 Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
 como Google Drive u Dropbox.
 En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
-un enlace a una imagen desde un enlace externo.
+un enlace a una imagen desde un enlace externo.  
 
 
 ### Sirviendo archivos
@@ -303,7 +373,7 @@ Para servir archivos como enlaces de descarga en las páginas, debe seguirse las
 instrucciones de la sección [Markdown](#sec:markdown) sobre markdown y enlaces a URLs.
 Los archivos que se desean servir deben ir almacenados bajo el directorio
 `files/`. También es posible disponer de subdirectorios anidados siempre y
-cuando cada archivo se enlace de forma adecuada, por ejemplo,
+cuando cada archivo se enlace de forma adecuada, por ejemplo,  
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -316,11 +386,183 @@ archivos comprimidos).
 También es posible servir archivos desde enlaces externos siempre y cuando 
 se provea la URL al archivo en la forma `[nombre del enlace](url_a_archivo)`.
 Así pueden servirse contenidos desde sistemas de almacenamiento en la nube
-como Google Drive u Dropbox.
+como Google Drive u Dropbox.  
 
 En el archivo de ejemplo `_posts/2017-09-09-example.md` se muestra como incluir
-un enlace a un archivo desde el directorio `files`.
+un enlace a un archivo desde el directorio `files`.  
 
+
+# Cabecera YAML
+<div id="sec:yaml"></div>
+
+La sección [Markdown](#sec:markdown) presentó elementos de sintaxis básico para añadir 
+contenidos a las páginas, sin embargo, para que un archivo markdown sea incluído
+por [Jekyll](https://jekyllrb.com) en el sitio web estático final, éste debe
+iniciar con una cabecera especial que indique a jekyll la forma en que este 
+archivo debe ser procesado. La ausencia de esta cabecera en el archivo markdown
+hará que [Jekyll](https://jekyllrb.com) lo ignore de forma automática
+
+## Variables YAML
+
+#### layout
+
+El layout determina la apariencia y relevancia que tendrán los contenidos.
+Esta plantilla soporta dos tipos de layouts,
+
+* `page` para contenidos no fechados como información general sobre el instituto
+
+sus programas académicos, directorio de personal, servicios de extensión, etc.
+Estos se enlazan en la barra lateral de navegación de la página.  
+* `post` para contenidos fechados, como noticias, comunicados, convocatorias, 
+
+contenido de cursos, y en general contenidos que no se modificarán una vez
+publicados. 
+
+#### title
+
+Título de la página. Esto es requerido por [Jekyll](https://jekyllrb.com) para un adecuado 
+renderizado del título en la plantilla del sitio.
+
+#### permalink
+
+Se utiliza para cambiar la ruta por defecto de `http://fisica.udea.edu.co/post/:year/:month/:day/:title` 
+a `http://fisica.udea.edu.co/permalink_ingresado`. La ruta del permalink debe 
+ser de la forma `campo1/campo2/...`, por ejemplo `resultados/convocatoria123`
+enlazará el contenido a `http://fisica.udea.edu.co/resultados/convocatoria123`
+
+#### date
+
+Fecha de la publicación. El formato de la fecha es `AAAA-MM-DD HH:MM:SS`. El 
+sitio esta configurado para utilizar la zona horaria "America/Bogota" así 
+que se especifica la hora y fecha Colombianas.
+
+#### categories
+
+Se asigna una categoría a publicaciones de layout `page`, la cual puede ser 
+cualquiera de las siguientes categorías, o combinaciones de ellas,
+
+* `pregrado`
+* `posgrado`
+* `personal`
+* `curso`
+* `servicio`
+
+Estas categorías permiten acceder a los contenidos desde la barra de navegación
+a la izquierda.  
+
+
+## Forma de la cabecera YAML
+
+Una cabecera YAML para una convocatoria puede tener la forma,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+layout: post
+title: Convocatoria 123
+date: 2018-01-15 06:00:00
+categories:
+-posgrado
+---
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Por su parte, es posible tener una página para un curso de alto desempeño
+mediante el YAML,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+title: Computo alto desempeño
+permalink: "/curso/computo-alto-desempeno"
+layout: page
+categories:
+- curso
+---
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Ejemplo de contenidos
+
+## Con `layout: post`
+Una de las páginas de ejemplo está construída de la siguiente manera,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+title: Ejemplo
+date: 2017-09-09 17:07:00 
+layout: post
+author: PosgradosFisicaUdeA
+categories:
+- post
+---
+
+Esta es una publicación de ejemplo para ilustrar las características del sitio
+[Postgrados Física](https://fisica.udea.edu.co).  
+Descargue la guía [aquí](/files/guia.pdf)
+
+<!-- more -->
+
+**Markdown Basico**  
+
+El siguiente texto,  
+
+```
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.
+
+ * lorem
+ * ipsum
+
+1. dolor
+2. sit
+
+```
+
+Se renderiza como,  
+
+Neque porro *quisquam* est, qui **dolorem** ipsum, quia ***dolor*** sit, amet,
+[consectetur](http://cjdns.info/), adipisci velit.  
+
+ * lorem  
+ * ipsum  
+
+1. dolor  
+2. sit  
+
+**Citación o _Blockquote_**
+
+Como dijo Benjamin Franklin, 
+
+> "They who can give up essential liberty to obtain a little temporary safety,
+>  deserve neither liberty nor safety."
+> 
+> _Benjamin Franklin_
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Con el permalink por defecto, esta publicación estará enlazada a la ruta
+<http://fisica.udea.edu.co/post/2017/09/09/Ejemplo>.
+
+
+## Con `layout: page`
+
+Con el layout page podemos enlazar un permalink a la ruta
+<http://fisica.udea.edu.co/posgrado/fisica-doctorado>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+title: Doctorado
+permalink: "/posgrado/fisica-doctorado"
+layout: page
+categories:
+- posgrado
+---
+
+## Datos Generales
+
+El programa de doctorado en física...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

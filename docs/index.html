@@ -59,25 +59,28 @@ div { text-align: justify; text-justify: inter-word; }
               ('Bloques (block quotes)', 2, None, '___sec10'),
               ('Código fuente', 2, None, '___sec11'),
               ('Para saber más...', 1, None, '___sec12'),
-              ('Estructura del sitio', 0, None, '___sec13'),
+              ('Estructura del sitio', 0, 'sec:estructura', 'sec:estructura'),
               ('Jekyll', 1, 'sec:jekyll', 'sec:jekyll'),
               ('Árbol de directorios', 1, None, '___sec15'),
-              ('Creado Posts', 2, None, '___sec16'),
-              ('Creando Pages / Sidebar', 2, None, '___sec17'),
-              ('Modificar barra superior', 2, None, '___sec18'),
-              ('Sirviendo imágenes', 2, None, '___sec19'),
-              ('Sirviendo archivos', 2, None, '___sec20'),
+              ('Sirviendo imágenes', 2, None, '___sec16'),
+              ('Sirviendo archivos', 2, None, '___sec17'),
               ('Cabecera YAML', 0, 'sec:yaml', 'sec:yaml'),
-              ('Variables YAML', 1, None, '___sec22'),
-              ('layout', 3, None, '___sec23'),
-              ('title', 3, None, '___sec24'),
-              ('permalink', 3, None, '___sec25'),
-              ('date', 3, None, '___sec26'),
-              ('categories', 3, None, '___sec27'),
-              ('Forma de la cabecera YAML', 1, None, '___sec28'),
-              ('Ejemplo de contenidos', 0, None, '___sec29'),
-              ('Con `layout: post`', 1, None, '___sec30'),
-              ('Con `layout: page`', 1, None, '___sec31')]}
+              ('Variables YAML', 1, None, '___sec19'),
+              ('layout', 3, None, '___sec20'),
+              ('title', 3, None, '___sec21'),
+              ('permalink', 3, None, '___sec22'),
+              ('date', 3, None, '___sec23'),
+              ('categories', 3, None, '___sec24'),
+              ('Forma de la cabecera YAML', 1, None, '___sec25'),
+              ('Ejemplo de contenidos', 0, 'sec:ejemplos', 'sec:ejemplos'),
+              ('Creando Posts con `layout: post`', 1, None, '___sec27'),
+              ('Ejemplo `layout: post`', 2, None, '___sec28'),
+              ('Creando Pages reflejadas en el sidebar con `layout: page`',
+               1,
+               None,
+               '___sec29'),
+              ('Ejemplo con `layout: page`', 2, None, '___sec30'),
+              ('Modificar barra superior', 1, None, '___sec31')]}
 end of tocinfo -->
 
 <body>
@@ -128,20 +131,20 @@ end of tocinfo -->
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec10"> Bloques (block quotes) </a><br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec11"> C&#243;digo fuente </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#___sec12"> Para saber m&#225;s... </a><br>
-<a href="#___sec13"> Estructura del sitio </a><br>
+<a href="#sec:estructura"> Estructura del sitio </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#sec:jekyll"> Jekyll </a><br>
 &nbsp; &nbsp; &nbsp; <a href="#___sec15"> &#193;rbol de directorios </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec16"> Creado Posts </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec17"> Creando Pages / Sidebar </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec18"> Modificar barra superior </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec19"> Sirviendo im&#225;genes </a><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec20"> Sirviendo archivos </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec16"> Sirviendo im&#225;genes </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec17"> Sirviendo archivos </a><br>
 <a href="#sec:yaml"> Cabecera YAML </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec22"> Variables YAML </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec28"> Forma de la cabecera YAML </a><br>
-<a href="#___sec29"> Ejemplo de contenidos </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec30"> Con <code>layout: post</code> </a><br>
-&nbsp; &nbsp; &nbsp; <a href="#___sec31"> Con <code>layout: page</code> </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec19"> Variables YAML </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec25"> Forma de la cabecera YAML </a><br>
+<a href="#sec:ejemplos"> Ejemplo de contenidos </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec27"> Creando Posts con <code>layout: post</code> </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec28"> Ejemplo <code>layout: post</code> </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec29"> Creando Pages reflejadas en el sidebar con <code>layout: page</code> </a><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#___sec30"> Ejemplo con <code>layout: page</code> </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec31"> Modificar barra superior </a><br>
 </p>
 <p>
 <!-- Adding chapters from external fields -->
@@ -176,7 +179,13 @@ Recomendamos que la gu&#237;a sea le&#237;da en su totalidad antes de a&#241;adi
 <h1 id="___sec1">Estructura de este documento </h1>
 La primera secci&#243;n <a href="#sec:markdown">Markdown</a>, presenta los elementos de sintaxis
 markdown necesarios para a&#241;adir contenidos de manera eficaz.
-La secci&#243;n <a href="#sec:yaml">Cabecera YAML</a>, ilustra la cabecera que debe emplearse en los contenidos
+La secci&#243;n <a href="#sec:estructura">Estructura del sitio</a>, introduce <a href="https://jekyllrb.com" target="_self">Jekyll</a>
+y la estructura b&#225;sica del &#225;rbol de directorios de un sitio est&#225;tico, haciendo
+&#233;nfasis en los directorios de inter&#233;s. La secci&#243;n <a href="#sec:yaml">Cabecera YAML</a>, ilustra 
+el uso de la cabecera YAML, la cual que debe emplearse en todos los contenidos
+que se pretenden incluir en el sitio. Finalmente, la secci&#243;n <a href="#sec:ejemplos">Ejemplo de contenidos</a>,
+ ofrece algunos ejemplos de c&#243;mo se introduce contenido en el sitio
+<a href="http://fisica.udea.edu.co" target="_self"><tt>http://fisica.udea.edu.co</tt></a>
 
 <p>
 
@@ -402,7 +411,7 @@ de las m&#225;rgenes de la p&#225;gina.
 </ul>
 
 
-<center><h1 id="___sec13">Estructura del sitio </h1></center> <hr>
+<center><h1 id="sec:estructura">Estructura del sitio</h1></center> <hr>
 
 <h1 id="sec:jekyll">Jekyll</h1>
 
@@ -446,83 +455,7 @@ De inter&#233;s para la actualizaci&#243;n de contenidos son los directorios <co
 <code>_posts</code>. Adicionalmente los directorios <code>images</code> y <code>files</code> sirven para disponer
 contenidos que ser&#225;n servidos en la p&#225;gina, a saber, im&#225;genes y archivos.
 
-<h2 id="___sec16">Creado Posts </h2>
-
-<p>
-Los posts son publicaciones que contienen informaci&#243;n como comunicados, noticias,
-
-<ol>
-<li> informaci&#243;n de inter&#233;s para la comunidad. Para la creaci&#243;n de estas piezas</li> 
-</ol>
-
-informativas es necesario seguir los siguientes pasos:  
-
-<ul>
-<li> Crear un archivo en la carpeta <code>_pages</code> y nombrarlo con la siguiente convenci&#243;n A&#209;O-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, adem&#225;s de garantizar la organizaci&#243;n cronol&#243;gica de las publicaciones.</li>   
-<li> El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (<code>title</code>), fecha de publicaci&#243;n(<code>date</code>), la categoria (<code>categories</code>) a la cual pertenece la publicaci&#243;n, as&#237; como la plantilla (<code>layout</code>) que ser&#225; utilizada para construir la p&#225;gina. El autor se define en <code>author</code> y puede llevar el nombre <code>admin</code> o <code>PostgradosFisicaUdeA</code>.</li>  
-<li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>   
-</ul>
-
-Un ejemplo de cabecera YAML para una publicaci&#243;n tipo <code>post</code>, en la categor&#237;a
-<code>posgrado</code>, con fecha y hora <code>2015-09-09 17:07:00</code>, t&#237;tulo <code>Posgrado</code> editada
-por <code>PosgradosFisicaUdeA</code>.
-
-<p>
-
-<!-- code=text typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
-title: Posgrado
-date: 2015-09-09 17:07:00
-layout: post
-author: PostgradosFisicaUdeA
-categories:
-- posgrado  
----
-
-# Posgrado
-
-## Motivación
-El postgrado...
-</pre></div>
-
-<h2 id="___sec17">Creando Pages / Sidebar </h2>
-
-<p>
-En la barra lateral se listan las publicaciones tipo <code>pages</code>, que se
-caracterizan por encontrase en una categoria como <code>pregrado</code>, <code>posgrado</code>,
-<code>personal</code>, <code>curso</code> o <code>servicio</code>, y tener un link de f&#225;cil acceso como
-<a href="http://fisica.udea.edu.co/pregado/fisica" target="_self"><tt>http://fisica.udea.edu.co/pregado/fisica</tt></a>. Para realizar una
-publicaci&#243;n de este tipo es necesario seguir los siguientes pasos,  
-
-<ul>
- <li> Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convenci&#243;n CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages</li>
- <li> En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicaci&#243;n (permalink), y la plantilla que va usar la publicaci&#243;n (layout).</li>
- <li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>  
-</ul>
-
-Por ejemplo, una p&#225;gina (<code>page</code>) tendr&#237;a una cabecera YAML de la forma,
-
-<p>
-
-<!-- code=text typeset with pygments style "default" -->
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>---
-title: Física
-permalink: &quot;/pregado/fisica&quot;
-layout: page
-categories:
-- pregrado
----
-</pre></div>
-
-<h2 id="___sec18">Modificar barra superior </h2>
-
-<p>
-En la barra superior derecha se encuentran links que permiten r&#225;pido acceso 
-informaci&#243;n de inter&#233;s. La modificaci&#243;n del contenido de esos accesos se 
-realiza en los archivos que tienen como prefijo la palabra cabecera_. 
-Estos links son est&#225;ticos, es decir no se pueden agregar o quitar.... TODO
-
-<h2 id="___sec19">Sirviendo im&#225;genes </h2>
+<h2 id="___sec16">Sirviendo im&#225;genes </h2>
 Para colocar im&#225;genes en las p&#225;ginas, debe seguirse las instrucciones de la
 secci&#243;n <a href="#sec:markdown">Markdown</a> sobre markdown. Las im&#225;genes que se deseen mostrar
 como contenido en alguna debe estar almacenada bajo el directorio <code>images/</code>
@@ -550,7 +483,7 @@ como Google Drive u Dropbox.
 En el archivo de ejemplo <code>_posts/2017-09-09-example.md</code> se muestra como incluir
 un enlace a una imagen desde un enlace externo.
 
-<h2 id="___sec20">Sirviendo archivos </h2>
+<h2 id="___sec17">Sirviendo archivos </h2>
 
 <p>
 Para servir archivos como enlaces de descarga en las p&#225;ginas, debe seguirse las
@@ -589,9 +522,9 @@ iniciar con una cabecera especial que indique a jekyll la forma en que este
 archivo debe ser procesado. La ausencia de esta cabecera en el archivo markdown
 har&#225; que <a href="https://jekyllrb.com" target="_self">Jekyll</a> lo ignore de forma autom&#225;tica
 
-<h1 id="___sec22">Variables YAML </h1>
+<h1 id="___sec19">Variables YAML </h1>
 
-<h3 id="___sec23">layout </h3>
+<h3 id="___sec20">layout </h3>
 
 <p>
 El layout determina la apariencia y relevancia que tendr&#225;n los contenidos.
@@ -611,13 +544,13 @@ Estos se enlazan en la barra lateral de navegaci&#243;n de la p&#225;gina.
 contenido de cursos, y en general contenidos que no se modificar&#225;n una vez
 publicados.
 
-<h3 id="___sec24">title </h3>
+<h3 id="___sec21">title </h3>
 
 <p>
 T&#237;tulo de la p&#225;gina. Esto es requerido por <a href="https://jekyllrb.com" target="_self">Jekyll</a> para un adecuado 
 renderizado del t&#237;tulo en la plantilla del sitio.
 
-<h3 id="___sec25">permalink </h3>
+<h3 id="___sec22">permalink </h3>
 
 <p>
 Se utiliza para cambiar la ruta por defecto de <code>http://fisica.udea.edu.co/post/:year/:month/:day/:title</code> 
@@ -625,14 +558,14 @@ a <code>http://fisica.udea.edu.co/permalink_ingresado</code>. La ruta del permal
 ser de la forma <code>campo1/campo2/...</code>, por ejemplo <code>resultados/convocatoria123</code>
 enlazar&#225; el contenido a <code>http://fisica.udea.edu.co/resultados/convocatoria123</code>
 
-<h3 id="___sec26">date </h3>
+<h3 id="___sec23">date </h3>
 
 <p>
 Fecha de la publicaci&#243;n. El formato de la fecha es <code>AAAA-MM-DD HH:MM:SS</code>. El 
 sitio esta configurado para utilizar la zona horaria "America/Bogota" as&#237; 
 que se especifica la hora y fecha Colombianas.
 
-<h3 id="___sec27">categories </h3>
+<h3 id="___sec24">categories </h3>
 
 <p>
 Se asigna una categor&#237;a a publicaciones de layout <code>page</code>, la cual puede ser 
@@ -649,7 +582,7 @@ cualquiera de las siguientes categor&#237;as, o combinaciones de ellas,
 Estas categor&#237;as permiten acceder a los contenidos desde la barra de navegaci&#243;n
 a la izquierda.
 
-<h1 id="___sec28">Forma de la cabecera YAML </h1>
+<h1 id="___sec25">Forma de la cabecera YAML </h1>
 
 <p>
 Una cabecera YAML para una convocatoria puede tener la forma,
@@ -682,9 +615,26 @@ categories:
 </pre></div>
 <p>
 
-<center><h1 id="___sec29">Ejemplo de contenidos </h1></center> <hr>
+<center><h1 id="sec:ejemplos">Ejemplo de contenidos</h1></center> <hr>
 
-<h1 id="___sec30">Con <code>layout: post</code> </h1>
+<h1 id="___sec27">Creando Posts con <code>layout: post</code> </h1>
+
+<p>
+Los posts son publicaciones que contienen informaci&#243;n como comunicados, noticias,
+
+<ol>
+<li> informaci&#243;n de inter&#233;s para la comunidad. Para la creaci&#243;n de estas piezas</li> 
+</ol>
+
+informativas es necesario seguir los siguientes pasos:  
+
+<ul>
+<li> Crear un archivo en la carpeta <code>_posts</code> y nombrarlo con la siguiente convenci&#243;n A&#209;O-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, adem&#225;s de garantizar la organizaci&#243;n cronol&#243;gica de las publicaciones.</li>   
+<li> El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (<code>title</code>), fecha de publicaci&#243;n(<code>date</code>), la categoria (<code>categories</code>) a la cual pertenece la publicaci&#243;n, as&#237; como la plantilla (<code>layout</code>) que ser&#225; utilizada para construir la p&#225;gina. El autor se define en <code>author</code> y puede llevar el nombre <code>admin</code> o <code>PostgradosFisicaUdeA</code>.</li>  
+<li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>   
+</ul>
+
+<h2 id="___sec28">Ejemplo <code>layout: post</code> </h2>
 Una de las p&#225;ginas de ejemplo est&#225; constru&#237;da de la siguiente manera,
 
 <p>
@@ -745,7 +695,22 @@ Como dijo Benjamin Franklin,
 Con el permalink por defecto, esta publicaci&#243;n estar&#225; enlazada a la ruta
 <a href="http://fisica.udea.edu.co/post/2017/09/09/Ejemplo" target="_self"><tt>http://fisica.udea.edu.co/post/2017/09/09/Ejemplo</tt></a>.
 
-<h1 id="___sec31">Con <code>layout: page</code> </h1>
+<h1 id="___sec29">Creando Pages reflejadas en el sidebar con <code>layout: page</code> </h1>
+
+<p>
+En la barra lateral se listan las publicaciones tipo <code>pages</code>, que se
+caracterizan por encontrase en una categoria como <code>pregrado</code>, <code>posgrado</code>,
+<code>personal</code>, <code>curso</code> o <code>servicio</code>, y tener un link de f&#225;cil acceso como
+<a href="http://fisica.udea.edu.co/pregado/fisica" target="_self"><tt>http://fisica.udea.edu.co/pregado/fisica</tt></a>. Para realizar una
+publicaci&#243;n de este tipo es necesario seguir los siguientes pasos,  
+
+<ul>
+ <li> Crear un archivo en la carpeta _pages y nombrarlo con la siguiente convenci&#243;n CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages</li>
+ <li> En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de p&#225;ginas est&#225;ticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicaci&#243;n (permalink), y la plantilla que va usar la publicaci&#243;n (layout).</li>
+ <li> Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la secci&#243;n <a href="#sec:markdown">Markdown</a>.</li>  
+</ul>
+
+<h2 id="___sec30">Ejemplo con <code>layout: page</code> </h2>
 
 <p>
 Con el layout page podemos enlazar un permalink a la ruta
@@ -766,6 +731,16 @@ categories:
 
 El programa de doctorado en física...
 </pre></div>
+
+<h1 id="___sec31">Modificar barra superior </h1>
+
+<p>
+En la barra superior derecha se encuentran links que permiten r&#225;pido acceso 
+informaci&#243;n de inter&#233;s. La modificaci&#243;n del contenido de esos enlaces se 
+realiza en los archivos bajo el directorio <code>_pages</code> que tienen como prefijo 
+la palabra <code>cabecera_</code>. Estos links son est&#225;ticos, es decir no se pueden agregar o remover.
+Las dem&#225;s reglas de edici&#243;n de contenidos con markdown aplican para ellos.
+
 <p>
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

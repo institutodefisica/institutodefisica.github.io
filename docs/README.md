@@ -35,7 +35,13 @@ Recomendamos que la guía sea leída en su totalidad antes de añadir contenidos
 ## Estructura de este documento
 La primera sección [Markdown](#sec:markdown), presenta los elementos de sintaxis
 markdown necesarios para añadir contenidos de manera eficaz.
-La sección [Cabecera YAML](#sec:yaml), ilustra la cabecera que debe emplearse en los contenidos
+La sección [Estructura del sitio](#sec:estructura), introduce [Jekyll](https://jekyllrb.com)
+y la estructura básica del árbol de directorios de un sitio estático, haciendo
+énfasis en los directorios de interés. La sección [Cabecera YAML](#sec:yaml), ilustra 
+el uso de la cabecera YAML, la cual que debe emplearse en todos los contenidos
+que se pretenden incluir en el sitio. Finalmente, la sección [Ejemplo de contenidos](#sec:ejemplos),
+ ofrece algunos ejemplos de cómo se introduce contenido en el sitio
+<http://fisica.udea.edu.co>
 
 # Markdown
 <div id="sec:markdown"></div>
@@ -235,6 +241,7 @@ de las márgenes de la página.
 * <https://guides.github.com/features/mastering-markdown/>  
 
 # Estructura del sitio
+<div id="sec:estructura"></div>
 
 ## Jekyll
 <div id="sec:jekyll"></div>
@@ -275,70 +282,6 @@ sitemap.xml
 De interés para la actualización de contenidos son los directorios `_pages` y
 `_posts`. Adicionalmente los directorios `images` y `files` sirven para disponer
 contenidos que serán servidos en la página, a saber, imágenes y archivos.  
-
-### Creado Posts
-
-Los posts son publicaciones que contienen información como comunicados, noticias,
-1. información de interés para la comunidad. Para la creación de estas piezas 
-
-informativas es necesario seguir los siguientes pasos:  
-
-* Crear un archivo en la carpeta `_pages` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
-* El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de páginas estáticas el nombre (`title`), fecha de publicación(`date`), la categoria (`categories`) a la cual pertenece la publicación, así como la plantilla (`layout`) que será utilizada para construir la página. El autor se define en `author` y puede llevar el nombre `admin` o `PostgradosFisicaUdeA`.  
-* Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).   
-
-Un ejemplo de cabecera YAML para una publicación tipo `post`, en la categoría
-`posgrado`, con fecha y hora `2015-09-09 17:07:00`, título `Posgrado` editada
-por `PosgradosFisicaUdeA`.  
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
----
-title: Posgrado
-date: 2015-09-09 17:07:00
-layout: post
-author: PostgradosFisicaUdeA
-categories:
-- posgrado  
----
-
-# Posgrado
-
-## Motivación
-El postgrado...
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-### Creando Pages / Sidebar
-
-En la barra lateral se listan las publicaciones tipo `pages`, que se
-caracterizan por encontrase en una categoria como `pregrado`, `posgrado`,
-`personal`, `curso` o `servicio`, y tener un link de fácil acceso como
-<http://fisica.udea.edu.co/pregado/fisica>. Para realizar una
-publicación de este tipo es necesario seguir los siguientes pasos,  
-
- * Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
- * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
- * Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).  
-
-Por ejemplo, una página (`page`) tendría una cabecera YAML de la forma,
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
----
-title: Física
-permalink: "/pregado/fisica"
-layout: page
-categories:
-- pregrado
----
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-### Modificar barra superior
-
-En la barra superior derecha se encuentran links que permiten rápido acceso 
-información de interés. La modificación del contenido de esos accesos se 
-realiza en los archivos que tienen como prefijo la palabra cabecera_. 
-Estos links son estáticos, es decir no se pueden agregar o quitar.... TODO
 
 ### Sirviendo imágenes
 Para colocar imágenes en las páginas, debe seguirse las instrucciones de la
@@ -481,8 +424,20 @@ categories:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Ejemplo de contenidos
+<div id="sec:ejemplos"></div>
 
-## Con `layout: post`
+## Creando Posts con `layout: post`
+
+Los posts son publicaciones que contienen información como comunicados, noticias,
+1. información de interés para la comunidad. Para la creación de estas piezas 
+
+informativas es necesario seguir los siguientes pasos:  
+
+* Crear un archivo en la carpeta `_posts` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
+* El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de páginas estáticas el nombre (`title`), fecha de publicación(`date`), la categoria (`categories`) a la cual pertenece la publicación, así como la plantilla (`layout`) que será utilizada para construir la página. El autor se define en `author` y puede llevar el nombre `admin` o `PostgradosFisicaUdeA`.  
+* Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).   
+
+### Ejemplo `layout: post`
 Una de las páginas de ejemplo está construída de la siguiente manera,
 
 
@@ -544,7 +499,19 @@ Con el permalink por defecto, esta publicación estará enlazada a la ruta
 <http://fisica.udea.edu.co/post/2017/09/09/Ejemplo>.
 
 
-## Con `layout: page`
+## Creando Pages reflejadas en el sidebar con `layout: page`
+
+En la barra lateral se listan las publicaciones tipo `pages`, que se
+caracterizan por encontrase en una categoria como `pregrado`, `posgrado`,
+`personal`, `curso` o `servicio`, y tener un link de fácil acceso como
+<http://fisica.udea.edu.co/pregado/fisica>. Para realizar una
+publicación de este tipo es necesario seguir los siguientes pasos,  
+
+ * Crear un archivo en la carpeta _pages y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
+ * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
+ * Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección [Markdown](#sec:markdown).  
+
+### Ejemplo con `layout: page`
 
 Con el layout page podemos enlazar un permalink a la ruta
 <http://fisica.udea.edu.co/posgrado/fisica-doctorado>
@@ -563,6 +530,16 @@ categories:
 
 El programa de doctorado en física...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## Modificar barra superior
+
+En la barra superior derecha se encuentran links que permiten rápido acceso 
+información de interés. La modificación del contenido de esos enlaces se 
+realiza en los archivos bajo el directorio `_pages` que tienen como prefijo 
+la palabra `cabecera_`. Estos links son estáticos, es decir no se pueden agregar o remover.
+Las demás reglas de edición de contenidos con markdown aplican para ellos.
+
+
 
 <!-- [https://jekyllrb.com](https://jekyllrb.com) -->
 

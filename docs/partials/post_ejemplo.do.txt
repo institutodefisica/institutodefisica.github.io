@@ -7,7 +7,7 @@ Los posts son publicaciones que contienen información como comunicados, noticia
 o información de interés para la comunidad. Para la creación de estas piezas 
 informativas es necesario seguir los siguientes pasos:  
 
-* Crear un archivo en la carpeta `_pages` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
+* Crear un archivo en la carpeta `_posts` y nombrarlo con la siguiente convención AÑO-MES-DIA-NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los posts, además de garantizar la organización cronológica de las publicaciones.   
 
 * El archivo creado debe iniciar por la cabecera YAML adecuada, la cual le indica al administrador de páginas estáticas el nombre (`title`), fecha de publicación(`date`), la categoria (`categories`) a la cual pertenece la publicación, así como la plantilla (`layout`) que será utilizada para construir la página. El autor se define en `author` y puede llevar el nombre `admin` o `PostgradosFisicaUdeA`.  
  
@@ -82,7 +82,7 @@ caracterizan por encontrase en una categoria como `pregrado`, `posgrado`,
 "URL" : "http://fisica.udea.edu.co/pregado/fisica". Para realizar una
 publicación de este tipo es necesario seguir los siguientes pasos,  
 
- * Crear un archivo en la carpeta _posts y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
+ * Crear un archivo en la carpeta _pages y nombrarlo con la siguiente convención CATEGORIA_NOMBRE-POST.md. Esto se realiza con el fin de mantener organizada la carpeta donde se encuentran los Pages
  * En el archivo creado poner la siguiente cabecera, la cual le indica al administrador de páginas estáticas el nombre (tittle), la categoria (categories), el link desde donde se va a acceder la publicación (permalink), y la plantilla que va usar la publicación (layout).
  * Una vez definida la cabecera se procede a insertar el contenido de acuerdo a al formateo markdown presentandos en la sección ref{sec:markdown}.  
 

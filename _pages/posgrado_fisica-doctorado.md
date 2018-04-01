@@ -1,11 +1,11 @@
 ---
-title: Doctorado
+title: Doctorado en Física
 permalink: "/posgrado/fisica-doctorado"
 layout: page
 categories:
 - posgrado
 ---
 
-## Datos Generales
+## Instituto de Física, Universidad de Antioquia
 
-<strong>NB:</strong> Page is under construction and i'll be adding more details soon.
+Acreditación de alta calidad por ocho (8) años, _resolución número_: 6020 del 1 de junio de 2012, del __Ministerio de Educación Nacional__

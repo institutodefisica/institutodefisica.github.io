@@ -6,4 +6,4 @@ categories:
 - posgrado
 ---
 
-_Codigo Colciencias_:
+__Codigo Colciencias__:

@@ -1,9 +1,9 @@
 ---
-title: Grupo de Fenomenología de Interacciones Fundamentales
-permalink: "/posgrado/grupos-gfif"
+title: GFIF
+permalink: "/grupos/grupos-gfif"
 layout: page
 categories:
-- posgrado
+- grupos
 ---
 
-__Codigo Colciencias__:
+_Codigo Colciencias_:

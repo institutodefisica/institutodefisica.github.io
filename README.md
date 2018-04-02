@@ -17,5 +17,4 @@ Este repositorio contiene el código fuente para el sitio [http://fisica.udea.ed
 * PDF
 
 ### Guía rápida
-
-## 
+See this [presentation](https://bit.ly/InstitutoDeFisica)

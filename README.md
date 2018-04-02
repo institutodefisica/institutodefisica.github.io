@@ -18,3 +18,10 @@ Este repositorio contiene el código fuente para el sitio [http://fisica.udea.ed
 
 ### Guía rápida
 See this [presentation](https://bit.ly/InstitutoDeFisica)
+
+### Update web server
+```bash
+cd $WEB_SERVER_PATH/institutodefisica.github.io
+git pull origin master
+jekyll build
+```

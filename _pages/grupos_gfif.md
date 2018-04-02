@@ -6,4 +6,7 @@ categories:
 - grupos
 ---
 
-_Codigo Colciencias_:
+### Grupo de Fenomenología de Interacciones Fundamentales 
+* __Codigo Colciencias__: COL0008423
+* __Coordinador__: Diego Restrepo
+* __Sitio web__: http://gfif.udea.edu.co

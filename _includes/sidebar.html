@@ -100,6 +100,22 @@
               </div>     
             </div>
           
+            <!-- Grupos -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Grupos de Investigación</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "grupos" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
+
             <!-- Servicios -->
             <div class="panel panel-primary">
               <div class="panel-heading">
@@ -115,5 +131,6 @@
                 {% endfor %}
               </div>     
             </div>
+
 
             <!-- End Sidebar -->

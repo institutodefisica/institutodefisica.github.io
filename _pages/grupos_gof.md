@@ -1,6 +1,6 @@
 ---
 title: GOF
-permalink: "/grupos/grupos-gfif"
+permalink: "/grupos/grupos-gof"
 layout: page
 categories:
 - grupos

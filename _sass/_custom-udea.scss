@@ -7,3 +7,38 @@ $btn-hover-border-color: $navbar-color;
 .list-footer {
   list-style: none;
 }
+
+table {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: justify !important;
+  font-size: 14.43px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+
+th {
+    // padding-top: 12px;
+    // padding-bottom: 12px;
+    padding: 10px 15px;
+    text-align: center !important;
+    background-color: $category-color;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}

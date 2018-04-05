@@ -14,7 +14,7 @@ email: posgrados@gfif.udea.edu.co
 admision: "/admision"
 indicador: "/indicador"
 contacto: "/contacto"
-url: "http://fisica.udea.edu.co"
+#url: "http://fisica.udea.edu.co"
 exclude:
 - config.ru
 - Gemfile

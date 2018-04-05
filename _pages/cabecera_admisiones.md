@@ -15,6 +15,7 @@ Tables are very easy to write in markdown. Please check the following example (t
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+|col4           |   mmmmmm      | bbb   |
 
 Check the result is the web page: https://institutodefisica.github.io/admision
 

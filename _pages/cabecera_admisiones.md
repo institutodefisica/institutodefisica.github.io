@@ -13,10 +13,6 @@ Tables are very easy to write in markdown. Please check the following example (t
 | Grupo | Linea         | Profesor           | maestria  | doctorado |
 | ----------- |------------- |:-------------:| -----:|------:|
 | COSMOGRAV      | Cosmologia y gravitacion | Antonio Enea |  1     |     1    |
-| col 2 is      | centered      |   $12 |        |        |
-| zebra stripes | are neat      |    $1 |       |         |
-|col4           |   mmmmmm      | bbb   |       |         |
-| col 2 is      | centered      |   $12 |        |        |
 |Grupo de Estado Sólido GES|	Estructura Electrónica y Fonónica - Propiedades Ópticas y Termodinámicas de Sólidos|	Jorge Mario Osorio Guillén|	1	|1|
 |GFAM	|Sistemas Finitos y Fundamentos Mec. Cuantica	|Boris Anghelo Rodríguez Rey|	1|	1|
 |Grupo de Estado Sólido GES|	Prop. multifuncionales de materiales cerámicos|	Fernando Andrés Londoño B.|	2	|1|

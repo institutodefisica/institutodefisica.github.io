@@ -37,7 +37,7 @@ Tables are very easy to write in markdown. Please check the following example (t
 |Grupo de Materia Condensada|	Espintrónica|	Alvaro Morales, Carlos Duque|	1|	1|
 |Grupo de Física Teórica y Matemática Aplicada|	Inteligencia Artificial	|Leonardo A. Pachon	|1|	0|
 |Grupo Teórico de Ciencias de los Materiales|	Estructura Electrónica de moléculas y sólidos|	Jorge M. Osorio Guillén|	1|	0|
-|Grupos de Estado Sólido y de Instrumentación Científica y Microelectrónica|		Cesar Augusto Barrero|	0|	1|
+|Grupos de Estado Sólido y de Instrumentación Científica y Microelectrónica|Instrumentación Científica y Microelectrónica|		Cesar Augusto Barrero|	0|	1|
 |Grupo de Estado Sólido GES|	Nanoparticulas y magnetismo	|Cesar Augusto Barrero|	1	|0|
 |Grupo de Óptica y Fotónica GOF|	Procesamiento óptico-digital/Propiedades ópticas no lineales|	Rodrigo Henao	|1	|0|
 |Grupo de Estado Sólido GES|	Síntesis y caracterizacion de ceramicas electro-electrónicas|	Fernando Andres Londoño|	2|	1|

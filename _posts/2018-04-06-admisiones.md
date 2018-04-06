@@ -8,3 +8,6 @@ author: PosgradosFisicaUdeA
 ---
 
 See: [Admisiones 2018-2](admision)
+
+<!-- more -->
+Link UdeA

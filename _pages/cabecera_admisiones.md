@@ -6,9 +6,9 @@ categories:
 - header
 ---
 
-### cupos cohorte 2018-2
+### Cupos cohorte 2018-2
 
-Tables are very easy to write in markdown. Please check the following example (the extra : are for alignment of the columns)
+
 
 | Grupo | Linea         | Profesor           | maestria  | doctorado |
 | ----------- |------------- |:-------------:| -----:|------:|
@@ -41,6 +41,4 @@ Tables are very easy to write in markdown. Please check the following example (t
 |Grupo de Estado Sólido GES	|ciencia de materiales|	Olga Lucia Lopez Acevedo|	1|	1|
 |GFIF	|altas energías experimental| 	David Martinez Caicedo|	1	|1|
 
-
-Check the result is the web page: https://institutodefisica.github.io/admision
 

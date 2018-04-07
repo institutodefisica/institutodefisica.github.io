@@ -8,4 +8,4 @@ author: PosgradosFisicaUdeA
 See: [Admisiones 2018-2](http://fisica.udea.edu.co/admision)
 
 <!-- more -->
-Link UdeA
+[Inscripciones Posgrado Universidad de Antioquia](http://bit.ly/posgrado2018-2)

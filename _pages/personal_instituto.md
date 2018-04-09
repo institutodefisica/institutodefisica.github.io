@@ -1,5 +1,5 @@
 ---
-title: Personal
+title: Personal Instituto de Física
 permalink: "/personal/personal"
 layout: page
 categories:

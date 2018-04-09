@@ -1,6 +1,6 @@
 ---
 title: Organización Administrativa
-permalink: "/files/estudiantes-doctorado"
+permalink: "/files/admin"
 layout: page
 ---
 

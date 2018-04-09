@@ -1,5 +1,5 @@
 ---
-title: Estudiantes de doctorado
+title: Información General
 permalink: "/files/general-info"
 layout: page
 ---

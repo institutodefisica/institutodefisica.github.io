@@ -6,4 +6,6 @@ categories:
 - pregrado
 ---
 
-<strong>NB:</strong> Page is under construction and i'll be adding more details soon.
+[Pegrado de Física](http://bit.ly/fisicaudea)<br/>
+[Facultad de Ciencias Exáctas y Naturales](http://bit.ly/fcen)<br/>
+[Universidad de Antioquia](http://www.udea.edu.co)<br/>

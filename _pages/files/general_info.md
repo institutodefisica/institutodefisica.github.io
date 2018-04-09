@@ -4,10 +4,9 @@ permalink: "/files/general-info"
 layout: page
 ---
 
-## [FACULTAD CIENCIAS EXACTAS Y NATURALES](http://bit.ly/fcen)
+### [FACULTAD CIENCIAS EXACTAS Y NATURALES](http://bit.ly/fcen)
 
-### [INSTITUTO DE FISICA](http://bit.ly/instituto-de-fisica)
-
+#### [INSTITUTO DE FISICA](http://bit.ly/instituto-de-fisica)
 
 * [Documentos del Posgrado](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 * [Indicadores](indicador) (Google Scholar, etc)

@@ -1,6 +1,6 @@
 ---
 title: Organización Administrativa
-permalink: "/files/admin"
+permalink: "/personal/files/admin"
 layout: page
 ---
 

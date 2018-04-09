@@ -5,5 +5,5 @@ layout: page
 categories:
 - personal
 ---
-### [Organización Adminsitrativa](fisica/admin)
+### [Organización Adminsitrativa](files/admin)
 ### Profesores

@@ -6,4 +6,6 @@ categories:
 - pregrado
 ---
 
-[http://astronomia-udea.co/principal/](http://astronomia-udea.co/principal/)
+[Pregrado Astronomía](http://astronomia-udea.co/principal/)
+[Facultad de Ciencias Exáctas y Naturales](http://bit.ly/fcen)<br/>
+[Universidad de Antioquia](http://www.udea.edu.co)<br/>

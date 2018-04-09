@@ -1,6 +1,6 @@
 ---
 title: Cursos Instituto de Física
-permalink: "/curso/a_fisica"
+permalink: "/curso/fisica"
 layout: page
 categories:
 - curso

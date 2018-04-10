@@ -40,6 +40,7 @@ audio:not([controls]) {
 
 a {
   background: transparent;
+  font-weight: bold;
   &:active, &:hover {
     outline: 0;
   }

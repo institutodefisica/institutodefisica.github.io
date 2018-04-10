@@ -24,6 +24,7 @@ layout: page
 * [Clara Isabel Martinez Martinez](mailto:clara.martinez@udea.edu.co)
 
 ### Consejo de Institito
+
 ### Comités
 * Comité de pregrado
 * Comité de posgrado

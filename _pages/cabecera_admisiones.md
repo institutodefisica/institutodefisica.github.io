@@ -7,12 +7,12 @@ categories:
 ---
 
 ### Cupos cohorte 2018-2
-Resolucion de admision_:
-Doctorado_: 
-Sitio web_:[http://sikuani.udea.edu.co/webmaster/resoluciones-posgrados/R1629]
+Resolucion de admision;
+Doctorado:; 
+Sitio web: [http://sikuani.udea.edu.co/webmaster/resoluciones-posgrados/R1629];
 
-Maestria_:
-Sitio web_:[http://sikuani.udea.edu.co/webmaster/resoluciones-posgrados/R1628]
+Maestria:;
+Sitio web:[http://sikuani.udea.edu.co/webmaster/resoluciones-posgrados/R1628];
 
 | Grupo | Linea         | Profesor           | maestria  | doctorado |
 | ----------- |------------- |:-------------:| -----:|------:|

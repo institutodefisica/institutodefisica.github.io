@@ -14,10 +14,11 @@ layout: page
 * Trámites
   * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): Sistema de Solicitudes
   * [Solicitud de Comisiones](http://bit.ly/fcen-comisiones)
-  * [Ocupación aulas](https://docs.google.com/spreadsheets/d/1jElyPXlaMzhO_APkg9_9KXdRhuY5HffwOk6JmyosU6k/edit#gid=152198788)
-  * [Envío a evauación](http://fisica.udea.edu.co/journal): Trabajos de Investigación y Tesis de Doctorado
+  * [Envío a evauación](http://fisica.udea.edu.co/journal): Trabajos de Investigación y Tesis de Doctorado
   * [Microcurrículos Instituto de Física]()
   * [Formulario reserva auditorios edificio de extensión](https://docs.google.com/a/fundacionudea.com/forms/d/1CFR0UwAMJSQZ3C9RhryI9xQpPrJ-OvlyMhHIZrGfn10/edit)
+  * [Ocupación aulas](https://docs.google.com/spreadsheets/d/1jElyPXlaMzhO_APkg9_9KXdRhuY5HffwOk6JmyosU6k/edit#gid=152198788)
+
 
 * Centro de Investigaciones Facultad de Ciencias Exactas y Nauturales, [CIEN](http://bit.ly/cien-udea)
   * [Trámites CIEN](https://infocien.wordpress.com)

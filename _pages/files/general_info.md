@@ -12,7 +12,7 @@ layout: page
 * [Cursos](curso/fisica)
 * [Documentos del Posgrado](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 * Trámites
-  * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): 
+  * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): Sistema de Solicitudes
   * [Solicitud de Comisiones](http://bit.ly/fcen-comisiones)
   * [Ocupación aulas](https://docs.google.com/spreadsheets/d/1jElyPXlaMzhO_APkg9_9KXdRhuY5HffwOk6JmyosU6k/edit#gid=152198788)
   * [Envío a evauación](http://fisica.udea.edu.co/journal): Trabajos de Investigación y Tesis de Doctorado

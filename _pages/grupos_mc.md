@@ -1,5 +1,5 @@
 ---
-title: Materia Condensada
+title: GMC
 permalink: "/grupos/grupos-mc"
 layout: page
 categories:
@@ -9,4 +9,4 @@ categories:
 ### Grupo de Materia Condensada-UDEA 
 * __Codigo Colciencias__: COL0033319
 * __Coordinador__: Carlos Alberto Duque Echeverri
-* __Sitio web__: [http://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-naturales-exactas/materia-condensada]
+* __Sitio web__: [http://www.udea.edu.co/...](http://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-naturales-exactas/materia-condensada)

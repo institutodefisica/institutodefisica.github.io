@@ -7,8 +7,8 @@ categories:
 ---
 
 ### Cupos cohorte 2018-2
-Resolucion de admision
-Doctorado: 
+*Resolucion de admision
+*Doctorado: 
 *_Sitio web_:[	http://sikuani.udea.edu.co/webmaster/resoluciones-posgrados/R1629]
 
 

@@ -13,8 +13,8 @@ layout: page
 * [Documentos del Posgrado](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 * Trámites
   * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): Sistema de Solicitudes
-  * [Solicitud de Comisiones](http://bit.ly/fcen-comisiones)
   * [Envío a evauación](http://fisica.udea.edu.co/journal): Trabajos de Investigación y Tesis de Doctorado
+  * [Solicitud de Comisiones](http://bit.ly/fcen-comisiones)
   * [Microcurrículos Instituto de Física]()
   * [Formulario reserva auditorios edificio de extensión](https://docs.google.com/a/fundacionudea.com/forms/d/1CFR0UwAMJSQZ3C9RhryI9xQpPrJ-OvlyMhHIZrGfn10/edit)
   * [Ocupación aulas](https://docs.google.com/spreadsheets/d/1jElyPXlaMzhO_APkg9_9KXdRhuY5HffwOk6JmyosU6k/edit#gid=152198788)

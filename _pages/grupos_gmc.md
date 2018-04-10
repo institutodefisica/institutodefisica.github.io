@@ -1,6 +1,6 @@
 ---
 title: GMC
-permalink: "/grupos/grupos-mc"
+permalink: "/grupos/grupos-gmc"
 layout: page
 categories:
 - grupos

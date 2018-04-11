@@ -23,3 +23,4 @@ layout: page
 * Centro de Investigaciones Facultad de Ciencias Exactas y Nauturales, [CIEN](http://bit.ly/cien-udea)
   * [Trámites CIEN](https://infocien.wordpress.com)
   * [Manejo de proyectos](http://cien.udea.edu.co)
+  * [Soluciones UdeA](https://soluciones.udea.edu.co)

@@ -8,7 +8,9 @@ categories:
 
 ### Instituto de Física, Universidad de Antioquia
 
-Acreditación de alta calidad por ocho (8) años, _resolución número_: 6020 del 1 de junio de 2012, del __Ministerio de Educación Nacional__
+* __Registro SNIES__ en el Sistema Nacional de Informaciön de la Educaciön Superior con el __código 5330__.
+* __Registro Calificado__, otorgado mediante Resoluciön 10428 del 30 de agosto de 2012 del __Ministerio de Educaciön Nacional__.
+* __Acreditación de alta calidad__ por ocho (8) años, _resolución número_: 6020 del 1 de junio de 2012, del __Ministerio de Educación Nacional__
 
 <!-- in repository: _pages/files/estudiantes.md-->
 

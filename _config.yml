@@ -11,6 +11,7 @@ collections:
 description: Universidad de Antioquia
 email: posgrados@gfif.udea.edu.co
 #baseurl: "http://fisica.udea.edu.co"
+instituto: "/instituto"
 admision: "/admision"
 indicador: "/indicador"
 contacto: "/contacto"

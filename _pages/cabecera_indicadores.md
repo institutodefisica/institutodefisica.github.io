@@ -16,10 +16,7 @@ categories:
   * Research Gate
     * [UdeA](https://www.researchgate.net/institution/University_of_Antioquia)
 
-<script> (function() { var st = document.createElement('script'); st.type = 'text/javascript'; st.async = true; st.src = 'https://www.researchgate.net/javascript/plugin/plugin-api-min.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(st, s); })(); </script>
-
-
-
+<iframe src="https://www.researchgate.net/plugins/department?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=department&installationId=5acf7d1cb0366d750302c746" />
 
 
 

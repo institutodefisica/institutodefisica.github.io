@@ -6,7 +6,7 @@ categories:
 - header
 ---
 ### Datos generales
-<embed src=https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5 />
+<embed src="https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5" />
 
 * [Organización Administrativa](personal/files/admin)
 * [Información General](files/general-info)

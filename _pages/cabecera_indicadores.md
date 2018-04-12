@@ -7,7 +7,9 @@ categories:
 ---
 
 ### [Indicadores bibliométricos](https://sites.google.com/a/fisica.udea.edu.co/fisica/)
+
 ### Información en plataformas académicas
+
 * Perfil Google Scholar 
   * [Instituto de Física (IF)](https://scholar.google.com/citations?sortby=pubdate&hl=en&user=mxSOjTYAAAAJ&view_op=list_works)
   * [Profesores IF](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=physics%7Cfisica%7Castronomy%7Castronomia+antioquia)

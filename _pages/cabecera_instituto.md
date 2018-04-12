@@ -8,10 +8,7 @@ categories:
 ### Datos generales
 * [Información General](files/general-info)
 
-### [Organización Administrativa](personal/files/admin)
+### [Personal](personal)
 
-### Profesores
-* Tiempo completo
-* Cátedra
 
 

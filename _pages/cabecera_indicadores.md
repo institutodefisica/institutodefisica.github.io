@@ -13,11 +13,7 @@ categories:
   * Perfil Google Scholar [Instituto de Física (IF)](https://scholar.google.com/citations?sortby=pubdate&hl=en&user=mxSOjTYAAAAJ&view_op=list_works) [Profesores IF](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=physics%7Cfisica%7Castronomy%7Castronomia+antioquia)
   * Research Gate
 
-<embed src="https://www.researchgate.net/plugins/department?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=department&installationId=5acf7d1cb0366d750302c746" /> 
-
-<embed src="https://www.researchgate.net/plugins/department?stats=true&faces=true&publications=true&theme=light&type=department&installationId=5acf7d1cb0366d750302c746" style="width:300%; height: 600px;"/> 
-
-<enbed src="https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5" />
+<embed src="https://www.researchgate.net/plugins/department?stats=true&faces=true&publications=true&height=1000&width=300&theme=light&type=department&installationId=5acf7d1cb0366d750302c746" />  <enbed src="https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5" />
 
 
 

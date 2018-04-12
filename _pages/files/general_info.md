@@ -8,8 +8,8 @@ layout: page
 
 #### [INSTITUTO DE FISICA](http://bit.ly/instituto-de-fisica)
 
-* [Indicadores](indicador) (Google Scholar, etc)
-* [Cursos](curso/fisica)
+* [Indicadores](../indicador) (Google Scholar, etc)
+* [Cursos](../curso/fisica)
 * [Documentos del Posgrado](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 * Trámites
   * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): Sistema de Solicitudes

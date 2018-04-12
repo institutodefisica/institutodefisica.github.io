@@ -8,7 +8,7 @@ categories:
 ### Datos generales
 * [Información General](files/general-info)
 
-### [Personal](personal)
+### [Personal](personal/personal)
 
 
 

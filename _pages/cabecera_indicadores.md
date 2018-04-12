@@ -15,7 +15,8 @@ categories:
     * [Profesores IF](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=physics%7Cfisica%7Castronomy%7Castronomia+antioquia)
   * Research Gate
     * [UdeA](https://www.researchgate.net/institution/University_of_Antioquia)
-    * <enbed src="https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5" />
+
+<enbed src="https://www.researchgate.net/plugins/institution?stats=true&faces=true&publications=true&height=600&width=300&theme=light&type=institution&installationId=5898897a615e2702c256f5c5" />
 
 
 

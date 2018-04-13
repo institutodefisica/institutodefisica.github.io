@@ -1,5 +1,5 @@
 ---
-title: Admisiones
+title: Admisiones posgrado Instituto de Física
 permalink: "/admision"
 layout: page
 categories:

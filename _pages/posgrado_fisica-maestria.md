@@ -1,5 +1,5 @@
 ---
-title: Maestría
+title: Maestría en Física
 permalink: "/posgrado/fisica-maestria"
 layout: page
 categories:

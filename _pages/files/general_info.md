@@ -25,3 +25,6 @@ layout: page
   * [Trámites CIEN](https://infocien.wordpress.com)
   * [Manejo de proyectos](http://cien.udea.edu.co)
   * [Soluciones UdeA](https://soluciones.udea.edu.co)
+  
+* [Mirror de la Revista Colombiana de Física](http://fisica.udea.edu.co/rcf)
+

@@ -26,7 +26,9 @@ layout: page
   * [Manejo de proyectos](http://cien.udea.edu.co)
   * [Soluciones UdeA](https://soluciones.udea.edu.co)
   
-* [Directorio teléfonico Facultad](http://bit.ly/TeléfonosFCEN)
+* [Directorio teléfonico Facultad](http://bit.ly/TeléfonosFCEN) y correos electrónicos
+
+* [Búsqueda de correso institucionales](http://bit.ly/correoUdeA)
   
 * [Mirror de la Revista Colombiana de Física](http://fisica.udea.edu.co/rcf)
 

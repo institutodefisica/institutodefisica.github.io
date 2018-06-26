@@ -28,7 +28,7 @@ layout: page
   
 * [Directorio teléfonico Facultad](http://bit.ly/TeléfonosFCEN) y correos electrónicos
 
-* [Búsqueda de correso institucionales](http://bit.ly/correoUdeA)
+* [Búsqueda de correos institucionales](http://bit.ly/correoUdeA) Universidad de Antioquia
   
 * [Mirror de la Revista Colombiana de Física](http://fisica.udea.edu.co/rcf)
 

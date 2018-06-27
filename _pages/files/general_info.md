@@ -19,6 +19,7 @@ layout: page
   * [Formulario reserva auditorios edificio de extensión](https://docs.google.com/a/fundacionudea.com/forms/d/1CFR0UwAMJSQZ3C9RhryI9xQpPrJ-OvlyMhHIZrGfn10/edit)
   * [Ocupación aulas](https://docs.google.com/spreadsheets/d/1jElyPXlaMzhO_APkg9_9KXdRhuY5HffwOk6JmyosU6k/edit#gid=152198788)
   * [Formularios Administrativos y Académicos del Instituto de Física](http://astronomia-udea.co/principal/es/content/formularios-administrativos-y-acad%C3%A9micos-del-instituto-de-f%C3%ADsica)
+  * Solicitud de asignación de puntaje por producción. Después de ingresar al porta ir [aquí](http://asone.udea.edu.co/puntajeDocente/#/consultarSolicitudesDocentes)
 
 
 * Centro de Investigaciones Facultad de Ciencias Exactas y Nauturales, [CIEN](http://bit.ly/cien-udea)

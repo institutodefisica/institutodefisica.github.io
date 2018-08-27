@@ -8,9 +8,9 @@ categories:
 
 ### Resoluciones cohorte 2019-1
 
-[Resolucion de admisión para doctorado](https://drive.google.com/open?id=0B6uM1aBlvxWrRWpSTzdYdnJLT0dxaHBrVFFXQUFFRWdrazFv)
+[Resolucion de admisión para doctorado](https://drive.google.com/file/d/1uqDLLqpDzvtAX_FyafS4AmdLOvIq6_hz/view)
 
-[Resolucion de admisión para maestría](https://drive.google.com/open?id=0B6uM1aBlvxWrRkZaRllRTnYxaTZoZkFtN1dUaHIzVVQ5SHpz)
+[Resolucion de admisión para maestría](https://drive.google.com/file/d/1LiiXHaf9ttc2QY0PCC4i_m7-f-ojybZ6/view)
 
 ### Cupos cohorte 2019-1
 

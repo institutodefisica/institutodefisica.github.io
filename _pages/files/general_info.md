@@ -33,3 +33,5 @@ layout: page
   
 * [Mirror de la Revista Colombiana de Física](http://fisica.udea.edu.co/rcf)
 
+* [Bienestar universitario](http://www.udea.edu.co/wps/portal/udea/web/inicio/bienestar)
+

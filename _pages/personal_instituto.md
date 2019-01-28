@@ -6,28 +6,81 @@ categories:
 - personal
 ---
 
-### Director del Insitituto
-[Daniel Esteban Jaramillo Arango](mailto:daniel.jaramillo@udea.edu.co)
+## Director del Insitituto
+#### [Daniel Esteban Jaramillo Arango](mailto:daniel.jaramillo@udea.edu.co)
+* Correo: direccionfisica@udea.edu.co 
+* Teléfono: 219 5630
+* Oficina: 6-105
 
-### Coordinador de Pregrado
-[John Jairo Zuluaga Quintero](mailto:john.zuluaga@udea.edu.co)
+## Coordinador de Pregrado
+#### [John Jairo Zuluaga Quintero](mailto:john.zuluaga@udea.edu.co)
+* Correo: pregradofisica@udea.edu.co 
+* Teléfono: 219 5632
+* Oficina: 6-103
 
-### Coordinador de Posgrado
-[Alvaro Morales Aramburo](mailto:alvaro.morales@udea.edu.co)
+## Coordinador de Posgrado
+#### [Alvaro Morales Aramburo](mailto:alvaro.morales@udea.edu.co)
+* Correo: alvaro.morales@udea.edu.co 
+* Teléfono: 219 5636
+* Oficina: 6-318
 
-### Coordinador de Cursos de Servicio
-[Patricia Morales](mailto:pmorales@fisica.udea.edu.co)
+## Coordinador de Cursos de Servicio
+#### [Patricia Morales](mailto:pmorales@fisica.udea.edu.co)
+* Correo: patricia.morales@udea.edu.co
+* Teléfono: 219 5636
+* Oficina: 6-337
 
-### Coordinador de Extension
-[Germán Ricaurte Avalla](mailto:german.ricaurte@udea.edu.co)
+## Coordinador de Extension
+#### [Germán Ricaurte Avalla](mailto:german.ricaurte@udea.edu.co)
+* Correo: german.ricaurte@udea.edu.co
+* Teléfono: 219 5636
+* Oficina: 6-431
 
-### Personal administrativo
-* [Diana Marcela Herrera Alzate](mailto:marcela.herrera@udea.edu.co)
-* [Clara Isabel Martinez Martinez](mailto:clara.martinez@udea.edu.co)
+## Personal administrativo
 
-### Consejo de Institito
+### Secretarias
 
-### Comités
+[Diana Marcela Herrera Alzate](mailto:marcela.herrera@udea.edu.co)
+
+* Correo: clara.martinez@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-105
+
+[Clara Isabel Martinez Martinez](mailto:clara.martinez@udea.edu.co)
+
+* Correo: clara.martinez@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-105
+
+### Almacén 
+[Oscar Restrepo](mailto:almacenfisica@udea.edu.co)
+
+* Correo: almacenfisica@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-204
+
+[Vidal Alvarez](mailto:almacenfisica@udea.edu.co)
+
+* Correo: almacenfisica@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-204
+
+[Carlos Mario Varela](mailto:almacenfisica@udea.edu.co)
+
+* Correo: almacenfisica@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-204
+
+### Cómputo
+[Jhon Alejandro Jaramillo](mailto:jhon.jaramilloe@udea.edu.co)
+
+* Correo: jhon.jaramilloe@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-305
+
+## Consejo de Institito
+
+## Comités
 * Comité de pregrado
 * Comité de posgrado
 

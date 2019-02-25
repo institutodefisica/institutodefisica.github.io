@@ -10,6 +10,7 @@ layout: page
 
 * [Indicadores](../indicador) (Google Scholar, etc)
 * [Cursos](../curso/fisica)
+* [Normativa Universidad de Antioquia](https://normativa.udea.edu.co/Documentos/Consultar)
 * [Documentos del Posgrado](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 * Trámites
   * [SSOFI](http://ssofi.udea.edu.co:8080/ssoficienat/index.jsp): Sistema de Solicitudes

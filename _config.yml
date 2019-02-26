@@ -35,7 +35,7 @@ categories:
 favicon: "/images/favicon.png"
 twitter_username: PosgradosUdeA
 fb_username: PosgradosUdeAntioquia
-permalink: post/:year/:month/:day/:title
+permalink: post/:year/:month/:day/:title/
 markdown: kramdown
 authors:
   Posgrados Instituto de Física:

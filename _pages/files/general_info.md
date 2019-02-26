@@ -1,6 +1,6 @@
 ---
 title: Información General
-permalink: "/files/general-info.html"
+permalink: "/files/general-info"
 layout: page
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Indicadores Instituto de Física
-permalink: "/indicador.html"
+permalink: "/indicador/indicador.html"
 layout: page
 categories:
 - header

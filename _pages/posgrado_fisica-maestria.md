@@ -1,6 +1,6 @@
 ---
 title: Maestría en Física
-permalink: "/posgrado/fisica-maestria"
+permalink: "/posgrado/fisica-maestria.html"
 layout: page
 categories:
 - posgrado

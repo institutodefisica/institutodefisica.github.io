@@ -1,6 +1,6 @@
 ---
 title: Astronomía
-permalink: "/pregado/astronomia"
+permalink: "/pregado/astronomia.html"
 layout: page
 categories:
 - pregrado

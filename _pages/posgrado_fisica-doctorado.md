@@ -1,6 +1,6 @@
 ---
 title: Doctorado en Física
-permalink: "/posgrado/fisica-doctorado"
+permalink: "/posgrado/fisica-doctorado.html"
 layout: page
 categories:
 - posgrado

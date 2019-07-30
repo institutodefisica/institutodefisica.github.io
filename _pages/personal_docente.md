@@ -1,6 +1,6 @@
 ---
 title: Docente
-permalink: "/personal/personal_docente"
+permalink: "/personal/personal_docente.html"
 layout: page
 categories:
 - personal

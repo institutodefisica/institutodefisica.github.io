@@ -1,6 +1,6 @@
 ---
 title: Admisiones posgrado Instituto de Física
-permalink: "/admision"
+permalink: "/admision.html"
 layout: page
 categories:
 - header

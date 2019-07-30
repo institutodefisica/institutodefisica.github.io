@@ -1,6 +1,6 @@
 ---
 title: Física
-permalink: "/pregado/fisica"
+permalink: "/pregado/fisica.html"
 layout: page
 categories:
 - pregrado

@@ -15,3 +15,4 @@ categories:
 ##### [6. Manual de procedimiento sobre la evaluación comprensiva del doctorado](https://drive.google.com/file/d/0B6uM1aBlvxWrZzAtbU0zcTFlZXp0TThkUGRIZHBnSFhwSy0w/view)
 ##### [7. Reglamento específico](https://drive.google.com/file/d/0B6uM1aBlvxWrY1Z2aFdoQnZHNDNVVlJ3bUV6UEhJVTFfTUVj/view)
 ##### [8. Reglamento 432](https://drive.google.com/file/d/0B6uM1aBlvxWrVnVjakVpNkxEVGFGMUVwanlRQ2p5aDFmdDEw/view)
+##### [9. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)

@@ -1,6 +1,6 @@
 ---
 title: Computo de alto desempeño
-permalink: "/servicio/computo-alto-desempeno"
+permalink: "/servicio/computo-alto-desempeno.html"
 layout: page
 categories:
 - servicio

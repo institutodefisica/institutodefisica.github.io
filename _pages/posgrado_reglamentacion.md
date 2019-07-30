@@ -1,6 +1,6 @@
 ---
 title: Reglamentación actual
-permalink: "/posgrado/reglamentacion"
+permalink: "/posgrado/reglamentacion.html"
 layout: page
 categories:
 - posgrado

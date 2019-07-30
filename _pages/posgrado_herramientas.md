@@ -1,6 +1,6 @@
 ---
 title: Herraminetas
-permalink: "/posgrado/herramientas"
+permalink: "/posgrado/herramientas.html"
 layout: page
 categories:
 - posgrado

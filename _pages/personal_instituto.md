@@ -1,6 +1,6 @@
 ---
 title: Administrativo
-permalink: "/personal/personal"
+permalink: "/personal/personal.html"
 layout: page
 categories:
 - personal

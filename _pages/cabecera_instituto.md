@@ -7,9 +7,9 @@ categories:
 ---
 ### [Página oficial](http://bit.ly/instituto-de-fisica)
 
-### [Información General](files/general-info)
+### [Información General](files/general-info.html)
 
-### [Personal Instituto de Física](personal/personal)
+### [Personal Instituto de Física](personal/personal.html)
 
 
 

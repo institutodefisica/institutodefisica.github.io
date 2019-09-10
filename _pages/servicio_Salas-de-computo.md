@@ -1,6 +1,6 @@
 ---
 title: " Salas de Computo"
-permalink: "/servicio/salascomputo"
+permalink: "/servicio/salascomputo.html"
 layout: page
 categories:
 - servicio

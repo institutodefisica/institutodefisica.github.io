@@ -1,5 +1,5 @@
 ---
-title: Herraminetas
+title: Herramientas
 permalink: "/posgrado/herramientas.html"
 layout: page
 categories:

@@ -5,7 +5,7 @@ layout: page
 categories:
 - header
 ---
-### [Página oficial](http://bit.ly/instituto-de-fisica)
+### [Página oficial](http://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-exactas-naturales/acerca-facultad/institutos/instituto-fisica)
 
 ### [Información General](files/general-info.html)
 

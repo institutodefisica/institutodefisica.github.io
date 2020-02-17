@@ -7,7 +7,7 @@ categories:
 ---
 
 ## Director del Insitituto
-#### [Daniel Esteban Jaramillo Arango](mailto:daniel.jaramillo@udea.edu.co)
+#### [Alvaro Morales Aramburo ](mailto:direccionfisica@udea.edu.co)
 * Correo: direccionfisica@udea.edu.co 
 * Teléfono: 219 5630
 * Oficina: 6-105
@@ -19,10 +19,10 @@ categories:
 * Oficina: 6-103
 
 ## Coordinador de Posgrado
-#### [Alvaro Morales Aramburo](mailto:alvaro.morales@udea.edu.co)
-* Correo: alvaro.morales@udea.edu.co 
-* Teléfono: 219 5636
-* Oficina: 6-318
+#### [Juan Carlos Muñoz Cuartas](mailto:juan.munozc@udea.edu.co)
+* Correo: juan.munozc@udea.edu.co 
+* Teléfono: 219 5638
+* Oficina: 6-105
 
 ## Coordinador de Cursos de Servicio
 #### [Patricia Morales](mailto:pmorales@fisica.udea.edu.co)
@@ -42,7 +42,7 @@ categories:
 
 [Diana Marcela Herrera Alzate](mailto:marcela.herrera@udea.edu.co)
 
-* Correo: clara.martinez@udea.edu.co
+* Correo: marcela.herrera@udea.edu.co
 * Teléfono: 219 5630
 * Oficina: 6-105
 

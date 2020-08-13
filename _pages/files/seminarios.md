@@ -26,6 +26,8 @@ Los seminarios se transmiten por el canal de Youtube de Astronomía UdeA:
 
 https://www.youtube.com/channel/UCF4l7x-m4VSQv4bhCuLTRSQ
 
+Programación: https://twitter.com/zuluagajorge/status/1293731096341946369
+
 ### Grupo de Física Atómica
 
 Horario: Miércoles de 8:30 a 10:00. 

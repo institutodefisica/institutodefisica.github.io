@@ -116,7 +116,7 @@ categories:
 * Universidad de Cergy-Pontois
 * Oficina: 5-338
 * Grupo de Investigación: Física Atómica
-* Correo electrónico: olga.lopez@udea.edu.co
+* Correo electrónico: olga.lopeza@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000094038)
  
 ### JORGE EDUARDO MAHECHA GOMEZ

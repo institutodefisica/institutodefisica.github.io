@@ -12,7 +12,7 @@ categories:
 * __Registro SNIES__ en el Sistema Nacional de Informaciön de la Educaciön Superior con el __código 517__.
 * __Registro Calificado__, otorgado mediante _Resolución número_: 15516 del 30 de noviebre de 2012 del __Ministerio de Educación Nacional__.
 * __Acreditación de alta calidad__ por ocho (8) años, _resolución número_: 13484 del 23 de octubre de 2012, del __Ministerio de Educación Nacional__
-* [Plan de estudios Maestría en Física](https://drive.google.com/file/d/1C-9ORVKvZO88jRTOgiZJZPxQo53-eNKi/view?usp=sharing)
+* [Plan de estudios Maestría en Física](https://drive.google.com/file/d/1C-9ORVKvZO88jRTOgiZJZP)
 
 <!-- in repository: _pages/files/estudiantes_maestria.md-->
 

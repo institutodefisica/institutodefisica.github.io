@@ -13,6 +13,6 @@ categories:
 ##### [4. Manual de procedimiento para defensa de trabajo de investigación](https://drive.google.com/file/d/0B6uM1aBlvxWrSFROaDRMdERHSERNZEF4dVpyaXNUSEI2Nmo4/view)
 ##### [5. Manual de procedimiento para la propuesta de maestría](https://drive.google.com/file/d/0B6uM1aBlvxWrVmE4ZW1ZT3NPd3pKYmVNYkM0bWhySnZaSFRJ/view)
 ##### [6. Manual de procedimiento sobre la evaluación comprensiva del doctorado](https://drive.google.com/file/d/0B6uM1aBlvxWrZzAtbU0zcTFlZXp0TThkUGRIZHBnSFhwSy0w/view)
-##### [7. Reglamento específico](https://drive.google.com/file/d/1hm4V6XZoXV6qFYmzk9mW-SGHK6iByoHp/view?usp=sharing)
+##### [7. Reglamento específico](https://drive.google.com/file/d/1HJQdFjVFSTJ3EWH1N-SQJKk0wPtclH5C/view?usp=sharing)
 ##### [8. Reglamento 432](https://drive.google.com/file/d/0B6uM1aBlvxWrVnVjakVpNkxEVGFGMUVwanlRQ2p5aDFmdDEw/view)
 ##### [9. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)

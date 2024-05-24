@@ -7,34 +7,40 @@ categories:
 ---
 
 ## Director del Insitituto
-#### [Alvaro Morales Aramburo ](mailto:direccionfisica@udea.edu.co)
+#### [Diego Alejandro Restrepo Quintero ](mailto:direccionfisica@udea.edu.co)
 * Correo: direccionfisica@udea.edu.co 
 * Teléfono: 219 5630
 * Oficina: 6-105
 
 ## Coordinador de Pregrado
-#### [John Jairo Zuluaga Quintero](mailto:john.zuluaga@udea.edu.co)
+#### [John Jairo Zuluaga Quintero](mailto:pregradofisica@udea.edu.co)
 * Correo: pregradofisica@udea.edu.co 
-* Teléfono: 219 5632
+* Teléfono: 219 5630
 * Oficina: 6-103
 
 ## Coordinador de Posgrado
-#### [Juan Carlos Muñoz Cuartas](mailto:juan.munozc@udea.edu.co)
+#### [Jaime Alberto Osorio Vélez](mailto:posgradosfisica@udea.edu.co)
 * Correo: juan.munozc@udea.edu.co 
-* Teléfono: 219 5638
+* Teléfono: 219 5630
 * Oficina: 6-105
 
 ## Coordinador de Cursos de Servicio
-#### [Patricia Morales](mailto:pmorales@fisica.udea.edu.co)
+#### [Andrés Felipe Rivera](mailto:afelipe.rivera@udea.edu.co)
 * Correo: patricia.morales@udea.edu.co
-* Teléfono: 219 5636
-* Oficina: 6-337
+* Teléfono: 219 5630
+* Oficina: 6-105
 
 ## Coordinador de Extension
-#### [Germán Ricaurte Avalla](mailto:german.ricaurte@udea.edu.co)
+#### [José Luis Sanz Vicario](mailto:jose.sanz@udea.edu.co)
 * Correo: german.ricaurte@udea.edu.co
-* Teléfono: 219 5636
-* Oficina: 6-431
+* Teléfono: 219 5630
+* Oficina: 6-107
+
+## Coordinador de Práticas
+#### [Marco Antonio Giraldo](mailto:mantonio.giraldo@udea.edu.co)
+* Correo: german.ricaurte@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-107
 
 ## Personal administrativo
 
@@ -84,3 +90,5 @@ categories:
 * Comité de pregrado
 * Comité de posgrado
 
+jose.sanz@udea.edu.co @udea.edu.co)
+* Correo: german.ricaurte@udea.edu.co

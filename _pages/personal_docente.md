@@ -6,7 +6,7 @@ categories:
 - personal
 ---
 
- ### OSCAR LUIS ARNACHE OLMOS
+### OSCAR LUIS ARNACHE OLMOS
 * Doctorado en Física
 * Universidad de Antioquia
 * Oficina: 6-315

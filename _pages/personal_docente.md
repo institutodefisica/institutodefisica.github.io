@@ -6,13 +6,7 @@ categories:
 - personal
 ---
 
-### BERNARDO DE JESUS ARENAS GAVIRIA
-* Maestría en Física
-* Universidad de Antioquia
-* Oficina: 6-235
-* Correo electrónico: bernardo.arenas@udea.edu.co
- 
-### OSCAR LUIS ARNACHE OLMOS
+ ### OSCAR LUIS ARNACHE OLMOS
 * Doctorado en Física
 * Universidad de Antioquia
 * Oficina: 6-315
@@ -59,13 +53,6 @@ categories:
 * Correo electrónico: carlos.duque1@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000036790)
  
-### IGNACIO RAMONI FERRIN VAZQUEZ
-* Doctorado en Física
-* Universidad de Colorado
-* Oficina: 6-414
-* Grupo de Investigación: Facom
-* Correo electrónico: ignacio.ferrin@udea.edu.co
-
 ### MARCO ANTONIO GIRALDO CADAVID
 * Doctorado en Física
 * Universidad de Groningen
@@ -211,14 +198,6 @@ categories:
 * Correo electrónico: guillermo.pineda@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000346187)
  
-### WILLIAM PONCE GUTIÉRREZ
-* Doctorado en Física
-* Universidad de Massachusetts
-* Oficina: 6-415
-* Grupo de Investigación: GFIF
-* Correo electrónico: william.ponce@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000346780)
- 
 ### GLADYS ADRIANA QUINTERO ROJAS
 * Doctorado en Física
 * Pontificia Universidad Católica de Río de Janeiro
@@ -226,23 +205,7 @@ categories:
 * Grupo de Investigación: Optica y Fotónica
 * Correo electrónico: gladys.quintero@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000785911)
- 
-### NICOLAS FERNANDO RAIGOZA BOHORQUEZ
-* Doctorado en Física
-* Universidad de Antioquia
-* Oficina: 5-339
-* Grupo de Investigación: Física Atómica
-* Correo electrónico: nicolas.raigoza@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000166413)
- 
-### LUIS FELIPE RAMIREZ GARCÍA
-* Maestría en Física
-* Universidad de Antioquia
-* Oficina: 6-325
-* Grupo de Investigación: Estado Sólido
-* Correo electrónico: felipe.ramirez@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001317911)
- 
+  
 ### JOHANS RESTREPO CARDENAS
 * Doctorado en Ciencias Físicas
 * Universidad del Valle
@@ -274,14 +237,6 @@ categories:
 * Correo electrónico: amador.reyes@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000645427)
  
-### GERMAN RICAURTE AVELLA
-* Doctorado en Ingeniería
-* Universidad de Antioquia
-* Oficina: 6-431
-* Grupo de Investigación: Biofísica
-* Correo electrónico: german.ricaurte@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000320714)
- 
 ### RODRIGUEZ REY BORIS ANGHELO
 * Doctorado en Física
 * Universidad de Antioquia
@@ -289,15 +244,7 @@ categories:
 * Grupo de Investigación: Física Atómica
 * Correo electrónico: boris.rodriguez@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000057681)
- 
-### EDUARDO ROJAS PEÑA
-* Doctorado en Física
-* Universidad de Antioquia
-* Oficina: 6-415
-* Grupo de Investigación: GFIF
-* Correo electrónico: eduardo.rojasp@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001557239)
- 
+  
 ### ENEA ROMANO ANTONIO
 * Doctor
 * Oficina: 6-415

@@ -66,6 +66,8 @@ categories:
 * Oficina: 6-204
 
 [Vidal Alvarez](mailto:almacenfisica@udea.edu.co)
+jose.sanz@udea.edu.co @udea.edu.co)
+* Correo: german.ricaurte@udea.edu.co
 
 * Correo: almacenfisica@udea.edu.co
 * Teléfono: 219 5630
@@ -89,6 +91,3 @@ categories:
 ## Comités
 * Comité de pregrado
 * Comité de posgrado
-
-jose.sanz@udea.edu.co @udea.edu.co)
-* Correo: german.ricaurte@udea.edu.co

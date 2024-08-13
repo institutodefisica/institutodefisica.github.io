@@ -1,8 +1,17 @@
 ---
-title: Seminarios del Instituto de Física
+title: Coloquios del Instituto de Física
 permalink: "/files/seminarios.html"
 layout: page
 ---
+<!-- Adjuntar lista aquí -->
+## Semestre 2024-2
+
+## Semestre 2024-1
+
+## Semestre 2023-2
+
+
+# Seminarios
 ## Semestre 2020-2
 ### Grupo de Materia Condensada
 Horario: Lunes y viernes a las 5:00 pm.

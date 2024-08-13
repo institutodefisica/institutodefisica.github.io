@@ -20,25 +20,25 @@ categories:
 
 ## Coordinador de Posgrado
 #### [Jaime Alberto Osorio Vélez](mailto:posgradosfisica@udea.edu.co)
-* Correo: juan.munozc@udea.edu.co 
+* Correo: posgradosfisica@udea.edu.co  
 * Teléfono: 219 5630
 * Oficina: 6-105
 
 ## Coordinador de Cursos de Servicio
 #### [Andrés Felipe Rivera](mailto:afelipe.rivera@udea.edu.co)
-* Correo: patricia.morales@udea.edu.co
+* Correo: afelipe.rivera@udea.edu.co 
 * Teléfono: 219 5630
 * Oficina: 6-105
 
 ## Coordinador de Extension
 #### [José Luis Sanz Vicario](mailto:jose.sanz@udea.edu.co)
-* Correo: german.ricaurte@udea.edu.co
+* Correo: jose.sanz@udea.edu.co 
 * Teléfono: 219 5630
 * Oficina: 6-107
 
 ## Coordinador de Práticas
-#### [Marco Antonio Giraldo](mailto:mantonio.giraldo@udea.edu.co)
-* Correo: german.ricaurte@udea.edu.co
+#### [Leonardo Pachón Contreras](mailto:leonardo.pachon@udea.edu.co )
+* Correo: leonardo.pachon@udea.edu.co 
 * Teléfono: 219 5630
 * Oficina: 6-107
 
@@ -66,8 +66,6 @@ categories:
 * Oficina: 6-204
 
 [Vidal Alvarez](mailto:almacenfisica@udea.edu.co)
-jose.sanz@udea.edu.co @udea.edu.co)
-* Correo: german.ricaurte@udea.edu.co
 
 * Correo: almacenfisica@udea.edu.co
 * Teléfono: 219 5630
@@ -85,6 +83,12 @@ jose.sanz@udea.edu.co @udea.edu.co)
 * Correo: jhon.jaramilloe@udea.edu.co
 * Teléfono: 219 5630
 * Oficina: 6-305
+
+### Taller
+[Hector Lopera Vergara](hector.loperav@udea.edu.co)
+* Correo: hector.loperav@udea.edu.co
+* Teléfono: 219 5630
+* Oficina: 6-128
 
 ## Consejo de Institito
 

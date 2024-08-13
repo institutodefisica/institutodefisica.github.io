@@ -136,15 +136,7 @@ categories:
 * Oficina: 6-218
 * Correo electrónico: jesus.mira@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000037249)
- 
-### ALEJANDRO MIRA AGUDELO
-* Doctorado en Física
-* Universidad de Murcia
-* Oficina: 5-335
-* Grupo de Investigación: Óptica y Fotónica
-* Correo electrónico: alejandro.mira@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000033189)
- 
+  
 ### ALVARO LUIS MORALES ARAMBURO
 * Doctorado en Física
 * Universidad de Lund
@@ -152,12 +144,6 @@ categories:
 * Grupo de Investigación: Estado Sólido
 * Correo electrónico: alvaro.morales@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000971146)
- 
-### PATRICIA DE JESUS MORALES VEGA
-* Magíster en Física
-* Universidad de Antioquia
-* Oficina: 6-337
-* Correo electrónico: patricia.morales@udea.edu.co
  
 ### JUAN CARLOS MUÑOZ CUARTAS
 * Doctorado en Astrofísica
@@ -190,14 +176,7 @@ categories:
 * Grupo de Investigación: Física Atómica
 * Correo electrónico: leonardo.pachon@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000343331)
- 
-### GUILLERMO PINEDA GAVIRIA
-* Maestría en Física
-* Universidad de Antioquia
-* Oficina: 6-335
-* Correo electrónico: guillermo.pineda@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000346187)
- 
+  
 ### GLADYS ADRIANA QUINTERO ROJAS
 * Doctorado en Física
 * Pontificia Universidad Católica de Río de Janeiro
@@ -213,14 +192,7 @@ categories:
 * Grupo de Investigación: Magnetismo y Simulación
 * Correo electrónico: johans.restrepo@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000036900)
- 
-### OSCAR ANTONIO RESTREPO GUTIÉRREZ
-* Doctorado en Física
-* Universidad Católica de Lovaina
-* Oficina: 6-433
-* Correo electrónico: oantonio.restrepo@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000199800)
-  
+   
 ### DIEGO ALEJANDRO RESTREPO QUINTERO
 * Doctorado en Física
 * Universidad de Valencia
@@ -326,3 +298,29 @@ categories:
 * Grupo de Investigación: Física Industrial y de la Radiación
 * Correo electrónico: john.zuluaga@udea.edu.co
 
+### PATRICIA DE JESUS MORALES VEGA
+* Doctora en Física
+* Universidad de Antioquia
+* Oficina: 6-337
+* Correo electrónico: patricia.morales@udea.edu.co
+
+### OSCAR ANTONIO RESTREPO GUTIÉRREZ
+* Doctorado en Física
+* Universidad Católica de Lovaina
+* Oficina: 6-433
+* Correo electrónico: oantonio.restrepo@udea.edu.co
+* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000199800)
+
+### ANDRES FELIPE RIVERA ROMERO
+* Doctorado en Física
+* Universidad de Antioquia
+* Oficina: 6-103
+* Correo electrónico: afelipe.rivera@udea.edu.co 
+* [CvLAC](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001201360)
+
+### FABIAN ANDRES CASTANO USUGA
+* Doctorado en Física
+* Universidad de Antioquia
+* Oficina: 6-315
+* Correo electrónico: fabian.castano@udea.edu.co
+* [CvLAC](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001565061)

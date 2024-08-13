@@ -11,7 +11,7 @@ categories:
 
 ### [Personal Instituto de Física](personal/personal.html)
 
-### [Seminarios](files/coloquios.html)
+### [Coloquios](files/coloquios.html)
 
 
 

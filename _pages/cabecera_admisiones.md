@@ -13,7 +13,8 @@ categories:
 [Resolucion de admisión para maestría](https://drive.google.com/file/d/1kqytnkcZUxzNgpbQG9tlgbA89bZHYAOY/view?usp=sharing)
 
 ### Cupos cohorte 2024-2
-| Linea de Investigación | Cupos Maestria | Cupos Doctorado |
+
+| Linea de Investigación | Cupos Maestria    | Cupos Doctorado |
 | ----------- |------------- |:-------------:| -----:|------:|
 | Astrofísica y Cosmología | 5 | 4 |
 | Física Atómica, Molecular | 8 | 6 |
@@ -21,4 +22,5 @@ categories:
 | Ciencia de los materiales, Materia Condensada, Estado Sólido | 7 | 7 |
 | Óptica, Biofísica y otras áreas de la física | 9 | 6 |
 | TOTAL | 37 | 28 |
+|
 

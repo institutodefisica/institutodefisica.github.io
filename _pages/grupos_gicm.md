@@ -1,6 +1,6 @@
 ---
 title: GICM
-permalink: "/grupos/grupos-GICM.html"
+permalink: "/grupos/grupos-gicm.html"
 layout: page
 categories:
 - grupos

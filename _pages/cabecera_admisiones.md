@@ -15,7 +15,6 @@ categories:
 ### Cupos cohorte 2024-2
 | Linea de Investigación | Cupos Maestria | Cupos Doctorado |
 | ----------- |------------- |:-------------:| -----:|------:|
-
 | Astrofísica y Cosmología | 5 | 4 |
 | Física Atómica, Molecular | 8 | 6 |
 | Física de partículas elementales, Física Nuclear |8 | 5 |

@@ -21,7 +21,7 @@ categories:
 ## Coordinador de Posgrado
 #### [Jaime Alberto Osorio Vélez](mailto:posgradosfisica@udea.edu.co)
 * Correo: posgradosfisica@udea.edu.co  
-* Teléfono: 219 5630
+* Teléfono: 219 5638
 * Oficina: 6-105
 
 ## Coordinador de Cursos de Servicio
@@ -49,7 +49,7 @@ categories:
 [Diana Marcela Herrera Alzate](mailto:marcela.herrera@udea.edu.co)
 
 * Correo: marcela.herrera@udea.edu.co
-* Teléfono: 219 5630
+* Teléfono: 219 5638
 * Oficina: 6-105
 
 [Clara Isabel Martinez Martinez](mailto:clara.martinez@udea.edu.co)

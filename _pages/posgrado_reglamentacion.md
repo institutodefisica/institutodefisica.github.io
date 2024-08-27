@@ -14,5 +14,5 @@ categories:
 ##### [5. Manual de procedimiento para la propuesta de maestría](https://drive.google.com/file/d/0B6uM1aBlvxWrVmE4ZW1ZT3NPd3pKYmVNYkM0bWhySnZaSFRJ/view)
 ##### [6. Manual de procedimiento sobre la evaluación comprensiva del doctorado](https://drive.google.com/file/d/0B6uM1aBlvxWrZzAtbU0zcTFlZXp0TThkUGRIZHBnSFhwSy0w/view)
 ##### [7. Reglamento específico](https://drive.google.com/file/d/1HJQdFjVFSTJ3EWH1N-SQJKk0wPtclH5C/view?usp=sharing)
-##### [8. Reglamento 432](https://drive.google.com/file/d/0B6uM1aBlvxWrVnVjakVpNkxEVGFGMUVwanlRQ2p5aDFmdDEw/view)
+##### [8. Reglamento 432](https://drive.google.com/file/d/1AC88MzTDAmktVQDsKLqwkPtg-GiE8fue/view?usp=sharing)
 ##### [9. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)

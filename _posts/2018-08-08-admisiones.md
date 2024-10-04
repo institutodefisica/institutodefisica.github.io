@@ -5,7 +5,11 @@ layout: post
 author: PosgradosFisicaUdeA
 ---
 
-Ver: [Admisiones posgrado 2025-1](../../../../../admision)
+Ver: [Admisiones doctorado 2025-1](https://drive.google.com/file/d/1GLse22SYF7xgsjVvczfxNGfXaY5DuKrZ/view?usp=drive_link)
+Ver: [Admisiones maestria 2025-1](https://drive.google.com/file/d/1RwXjMirS1sjXW4BtUe7ykgGQw19b1OHb/view?usp=sharing)
+
+
+
 
 <!-- more -->
 [Inscripciones posgrado Universidad de Antioquia](http://bit.ly/posgrado2018-2)

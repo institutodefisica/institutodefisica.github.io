@@ -5,8 +5,8 @@ layout: post
 author: PosgradosFisicaUdeA
 ---
 
-Ver: [Admisiones doctorado 2025-1](https://drive.google.com/file/d/1GLse22SYF7xgsjVvczfxNGfXaY5DuKrZ/view?usp=drive_link)
-__Ver: [Admisiones maestria 2025-1](https://drive.google.com/file/d/1RwXjMirS1sjXW4BtUe7ykgGQw19b1OHb/view?usp=sharing)__
+* Ver: [Admisiones doctorado 2025-1](https://drive.google.com/file/d/1GLse22SYF7xgsjVvczfxNGfXaY5DuKrZ/view?usp=drive_link)
+* Ver: [Admisiones maestria 2025-1](https://drive.google.com/file/d/1RwXjMirS1sjXW4BtUe7ykgGQw19b1OHb/view?usp=sharing)
 
 
 

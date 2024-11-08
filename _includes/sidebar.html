@@ -132,5 +132,20 @@
               </div>     
             </div>
 
+            <!-- Egresados -->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Egresados</h3>
+              </div>
+              <div class="panel-body sidebar-text list-unstyled">
+                {% for page in site.pages %}
+                  {% if page.title %}
+                    {% if page.categories contains "egresados" %}              
+                      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}} </a></li>                  
+                    {% endif %}   
+                  {% endif %}
+                {% endfor %}
+              </div>     
+            </div>
 
             <!-- End Sidebar -->

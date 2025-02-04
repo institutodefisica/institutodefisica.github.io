@@ -16,3 +16,4 @@ categories:
 ##### [7. Reglamento específico](https://drive.google.com/file/d/1HJQdFjVFSTJ3EWH1N-SQJKk0wPtclH5C/view?usp=sharing)
 ##### [8. Reglamento 432](https://drive.google.com/file/d/1AC88MzTDAmktVQDsKLqwkPtg-GiE8fue/view?usp=sharing)
 ##### [9. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
+##### [10. Acuerdo de Facultad 171](https://drive.google.com/file/d/1WY5qkP7TUcISNyzBDXd1WrcHIugRuz3I/view?usp=sharing)

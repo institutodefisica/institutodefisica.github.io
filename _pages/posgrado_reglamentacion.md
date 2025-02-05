@@ -18,4 +18,4 @@ categories:
 ##### [9. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)
 ##### [10. Acuerdo de Facultad 171](https://drive.google.com/file/d/1WY5qkP7TUcISNyzBDXd1WrcHIugRuz3I/view?usp=sharing)
 ##### [11. Recargo por Matrícula Extemporanea](https://drive.google.com/file/d/1U9SyGIBLwi3L9ghl9EvQ59Ai5DLS3JIw/view?usp=sharing)
-##### [12. Acuerdo Académico 493 Competencia en Lengua Extranjera y Segunda Lengua]([https://drive.google.com/file/d/1U9SyGIBLwi3L9ghl9EvQ59Ai5DLS3JIw/view?usp=sharing](https://drive.google.com/file/d/1bpx4Z-9DGDq4rD9JQO7eMj2d3okeWw4F/view?usp=sharing)
+##### [12. Acuerdo Académico 493 Competencia en Lengua Extranjera y Segunda Lengua](https://drive.google.com/file/d/1bpx4Z-9DGDq4rD9JQO7eMj2d3okeWw4F/view?usp=sharing)

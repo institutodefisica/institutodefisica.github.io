@@ -12,3 +12,4 @@ categories:
 ##### [4. Manual de procedimiento para defensa de trabajo de investigación](https://drive.google.com/file/d/0B6uM1aBlvxWrSFROaDRMdERHSERNZEF4dVpyaXNUSEI2Nmo4/view)
 ##### [5. Manual de procedimiento para la propuesta de maestría](https://drive.google.com/file/d/0B6uM1aBlvxWrVmE4ZW1ZT3NPd3pKYmVNYkM0bWhySnZaSFRJ/view)
 ##### [6. Manual de procedimiento sobre la evaluación comprensiva del doctorado](https://drive.google.com/file/d/0B6uM1aBlvxWrZzAtbU0zcTFlZXp0TThkUGRIZHBnSFhwSy0w/view)
+##### [7. Ruta de Comites Resolutorios](https://drive.google.com/file/d/1wm3aqxxsK0E3Ya7UTlYkSxrSf0gQ8UA3/view?usp=sharing)

@@ -19,7 +19,7 @@ categories:
 * Oficina: 6-103
 
 ## Coordinador de Posgrado
-#### [Jaime Alberto Osorio Vélez](mailto:posgradosfisica@udea.edu.co)
+#### [Boris Anghelo Rodriguez Rey](mailto:posgradosfisica@udea.edu.co)
 * Correo: posgradosfisica@udea.edu.co  
 * Teléfono: 219 5638
 * Oficina: 6-105

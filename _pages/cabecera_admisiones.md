@@ -6,13 +6,13 @@ categories:
 - header
 ---
 
-### Resoluciones cohorte 2024-2
+### Resoluciones cohorte 2025-1
 
 [Resolucion de admisión para doctorado](https://drive.google.com/file/d/13DwGJTK5uIgVi4yrjJV6SXLIUOE5_r66/view?usp=sharing)
 
 [Resolucion de admisión para maestría](https://drive.google.com/file/d/1kqytnkcZUxzNgpbQG9tlgbA89bZHYAOY/view?usp=sharing)
 
-### Cupos cohorte 2024-2
+### Cupos cohorte 2025-1
 
 | Linea de Investigación | Cupos Maestria | Cupos Doctorado |
 | ---------------------- | -------------- | --------------- |

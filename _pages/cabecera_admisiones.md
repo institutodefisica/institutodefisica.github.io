@@ -12,6 +12,9 @@ categories:
 
 [Resolucion de admisión para maestría](https://drive.google.com/file/d/1kqytnkcZUxzNgpbQG9tlgbA89bZHYAOY/view?usp=sharing)
 
+[Calendario](https://drive.google.com/file/d/1ykawgCZG-HzELDh_U7_esgN4Bh3r6-Ft/view?usp=sharing)
+
+
 ### Cupos cohorte 2025-1
 
 | Linea de Investigación | Cupos Maestria | Cupos Doctorado |

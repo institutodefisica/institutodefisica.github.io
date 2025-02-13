@@ -1,6 +1,6 @@
 ---
 title: Coloquios Instituto de Física
-permalink: "/curso/fisica.html"
+permalink: "/coloquios/fisica.html"
 layout: page
 categories:
 - coloquios

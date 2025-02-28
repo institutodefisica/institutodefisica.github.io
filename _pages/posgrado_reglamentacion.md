@@ -6,6 +6,7 @@ categories:
 - posgrado
 ---
 
+##### [0. Buscador normativa](https://normativa.udea.edu.co/Documentos/Consultar)
 ##### [1. Reglamento específico](https://drive.google.com/file/d/1HJQdFjVFSTJ3EWH1N-SQJKk0wPtclH5C/view?usp=sharing)
 ##### [2. Reglamento 432](https://drive.google.com/file/d/1AC88MzTDAmktVQDsKLqwkPtg-GiE8fue/view?usp=sharing)
 ##### [3. Información general](https://sites.google.com/a/fisica.udea.edu.co/posgrado/)

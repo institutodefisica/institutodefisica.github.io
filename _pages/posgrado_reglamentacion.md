@@ -13,4 +13,5 @@ categories:
 ##### [4. Acuerdo de Facultad 171 Competencia en Lengua Extranjera y Segunda Lengua](https://drive.google.com/file/d/1WY5qkP7TUcISNyzBDXd1WrcHIugRuz3I/view?usp=sharing)
 ##### [5. Recargo por Matrícula Extemporanea](https://drive.google.com/file/d/1U9SyGIBLwi3L9ghl9EvQ59Ai5DLS3JIw/view?usp=sharing)
 ##### [6. Acuerdo Académico 493 Competencia en Lengua Extranjera y Segunda Lengua](https://drive.google.com/file/d/1bpx4Z-9DGDq4rD9JQO7eMj2d3okeWw4F/view?usp=sharing)
+##### [7. Estatuto de Propiedad Intelectual UdeA Resolución Rectoral 49544 de 25 de Noviembre de 2022](https://drive.google.com/file/d/1-bgPQuZB4tYtEyKHvRcP48PuPft8CIPk/view?usp=sharing)
 

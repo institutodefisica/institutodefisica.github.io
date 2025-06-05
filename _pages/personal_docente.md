@@ -341,3 +341,10 @@ categories:
 * Oficina: 6-315
 * Correo electrónico: fabian.castano@udea.edu.co
 * [CvLAC](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001565061)
+
+### ALEJANDRO VELEZ ZEA
+* Doctorado en Ciencias Exactas y Naturales, Area Física
+* Universidad Nacional De La Plata
+* Oficina: 6-XXX
+* Correo electrónico: alejandro.velezz@udea.edu.co 
+* [CvLAC](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001412829)

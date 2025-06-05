@@ -68,6 +68,14 @@ categories:
 * Grupo de Investigación: Biofísica
 * Correo electrónico: cristiano.giordani@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001499555)
+
+### Álvaro Herrera Carillo
+* Doctorado en Física
+* Universidad Federal de Rio Grande Do Sul
+* Oficina: 6-XXX
+* Grupo de Investigación: Estado Sólido
+* Correo electrónico: alvaro.herrerac@udea.edu.co 
+* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000348090)
  
 ### RODRIGO DE JESUS HENAO HENAO
 * Doctorado en Física
@@ -75,13 +83,6 @@ categories:
 * Grupo de Investigación: Óptica y Fotónica
 * Correo electrónico: rodrigo.henao@udea.edu.co
  
-### DANIEL ESTEBAN JARAMILLO ARANGO
-* Doctorado en Ciencias
-* Instituto Politécnico Nacional
-* Oficina: 6-214
-* Correo electrónico: daniel.jaramillo@udea.edu.co
-* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000037192)
-
 ### JOHNY ALEXANDER JARAMILLO GALLEGO
 * Doctorado en Física
 * Universidad de Antioquia
@@ -113,6 +114,13 @@ categories:
 * Grupo de Investigación: Física Atómica
 * Correo electrónico: jorge.mahecha@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000057649)
+
+### BIBIANA MARCELA MARÍN OCHOA
+* Doctorado en Ciencias
+* CINVESTAV
+* Oficina: 6-218
+* Correo electrónico: bmarcela.marin@udea.edu.co
+* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0002107054)
 
 ### JOHANN MAZO ZULUAGA
 * Doctorado en Física
@@ -231,6 +239,15 @@ categories:
 * Grupo de Investigación: Óptica y Fotónica
 * Correo electrónico: edgar.rueda@udea.edu.co
 * [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000247871)
+
+### José David Ruíz Álvarez
+* Doctorado
+* Université Claude Bernard Lyon I
+* Oficina: 6-415
+* Grupo de Investigación: GFIF
+* Correo electrónico: josed.ruiz@udea.edu.co  
+* [CvLAC](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001376231)
+
  
 ### JOSÉ LUIS SANZ VICARIO
 * Doctorado

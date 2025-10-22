@@ -1,5 +1,5 @@
 ---
-title: Admisiones posgrado 2025-2
+title: Admisiones posgrado 2026-1
 date: 2025-02-10 10:57:00 Z
 layout: post
 author: PosgradosFisicaUdeA

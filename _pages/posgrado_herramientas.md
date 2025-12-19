@@ -12,3 +12,4 @@ categories:
 * [SSOFI (FCEN)](https://ssofi.udea.edu.co/fcen/)
 * [CURSUM](https://arquimedes.udea.edu.co/cursum/fcen/#/publico/materias): Planes de asignatura
 * [SIGA UdeA](https://siga-fcen.com/home): Sistema Integrado de Gestión Administrativa
+* [Preguntas Frecuentes Posgrados](https://drive.google.com/file/d/1M8-S6ap6iPRpU4__R1vdamojQ5KKzxc4/view?usp=sharing)

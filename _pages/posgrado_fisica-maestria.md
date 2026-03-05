@@ -13,6 +13,7 @@ categories:
 * __Registro Calificado__, por ocho (8) años, _resolución número_: 013036 del 31 julio de 2023, del __Ministerio de Educación Nacional__.
 * __Acreditación de alta calidad__ por ocho (8) años, _resolución número_: 013036 del 31 julio de 2023, del __Ministerio de Educación Nacional__ [[PDF]](https://drive.google.com/file/d/1kFSE8BEOwJwRlPhXHpL4q3u_xBIapMgY/view?usp=sharing)
 * [Plan de estudios Maestría en Física](https://drive.google.com/file/d/1C-9ORVKvZO88jRTOgiZJZPxQo53-eNKi/view?usp=sharing)
+* [Proyecto Educativo de Programa (PEP)](https://drive.google.com/file/d/1cG2K19jGxy78bk3mb22fr5eSYipe2-Zm/view?usp=sharing)
 
 <!-- in repository: _pages/files/estudiantes_maestria.md-->
 

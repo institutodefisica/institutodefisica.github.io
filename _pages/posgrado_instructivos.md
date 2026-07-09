@@ -14,3 +14,4 @@ categories:
 ##### [6. Manual de procedimiento para la propuesta de maestría](https://drive.google.com/file/d/0B6uM1aBlvxWrVmE4ZW1ZT3NPd3pKYmVNYkM0bWhySnZaSFRJ/view)
 ##### [7. Manual de procedimiento sobre la evaluación comprensiva del doctorado](https://drive.google.com/file/d/0B6uM1aBlvxWrZzAtbU0zcTFlZXp0TThkUGRIZHBnSFhwSy0w/view)
 ##### [8. Ruta de Comites Resolutorios](https://drive.google.com/file/d/1wm3aqxxsK0E3Ya7UTlYkSxrSf0gQ8UA3/view?usp=sharing)
+##### [9. Reuniones Comité de Posgrado](https://drive.google.com/file/d/1kSVg6FWu6IIA9xqRYFl0EvQHHOVcxAqX/view?usp=sharing)

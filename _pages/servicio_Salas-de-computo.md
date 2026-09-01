@@ -1,5 +1,5 @@
 ---
-title: " Salas de Computo"
+title: " Salas de Cómputo"
 permalink: "/servicio/salascomputo.html"
 layout: page
 categories:

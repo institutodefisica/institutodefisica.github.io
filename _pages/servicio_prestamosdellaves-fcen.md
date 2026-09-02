@@ -7,4 +7,4 @@ categories:
 autor: Jhon Alejandro Jaramillo Echeverri
 ---
 
-##### [1. Prestamos de llaves FCEN](https://prestamosfcen.udea.edu.co)
+##### [1. Prestamo de llaves FCEN](https://prestamosfcen.udea.edu.co)

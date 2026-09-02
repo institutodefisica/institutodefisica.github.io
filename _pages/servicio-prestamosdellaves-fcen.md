@@ -1,6 +1,6 @@
 ---
 title: "Prestamo de llaves FCEN"
-permalink: "/servicio/prestamosllavesfcen.html"
+permalink: "/servicio/prestamosllavesfcen/"
 layout: page
 categories:
 - servicio

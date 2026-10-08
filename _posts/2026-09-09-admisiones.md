@@ -10,11 +10,7 @@ author: PosgradosFisicaUdeA
 * Ver: [Calendario 2027-1](https://drive.google.com/file/d/1Q2rqfs8_AiIvEFAubwbs4lUpKkFQoRnD/view?usp=drive_link)
 * Ver: [Formato de Inscripción Posgrado 2027-1](https://docs.google.com/document/d/1rGuzeMvsLkH1D_tO1JWRIuolDFq2iCP4/edit?usp=drive_link&ouid=117251652090274026964&rtpof=true&sd=true)
 * Ver: [Proceso de pago e inscripción](https://www.udea.edu.co/wps/portal/udea/web/inicio/estudiar-udea/quiero-estudiar-udea/posgrado/proceso-pago-inscripcion)
-* Ver: [Becas doctorales](https://www.udea.edu.co/wps/portal/udea/web/inicio/estudiar-udea/quiero-estudiar-udea/posgrado/becas-financiacion)
-* Ver: [Convocatoria de “Becas para El Cambio” Formación en Maestrías y Doctorados](https://minciencias.gov.co/convocatorias/convocatoria-becas-para-el-cambio-formacion-en-maestrias-y-doctorados)
-
-
-
+* Ver: [Becas y Financiación](https://www.udea.edu.co/wps/portal/udea/web/inicio/estudiar-udea/quiero-estudiar-udea/posgrado/becas-financiacion)
 
 <!-- more -->
 [Inscripciones posgrado Universidad de Antioquia](http://bit.ly/posgrado2018-2)

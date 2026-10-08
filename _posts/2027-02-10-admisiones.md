@@ -1,6 +1,6 @@
 ---
 title: Admisiones posgrado 2027-1
-date: 2026-12-12 10:57:00 Z
+date: 2027-01-01 10:57:00 Z
 layout: post
 author: PosgradosFisicaUdeA
 ---
